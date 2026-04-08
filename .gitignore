@@ -1,3 +1,7 @@
+# Large exercisedb GIF dataset — too big for GitHub (~1.7GB)
+scripts/exercisedb-data/gifs_360x360/
+scripts/exercisedb-data/gifs_720x720/
+
 node_modules/
 .env
 .env.local
@@ -7,3 +11,8 @@ build/
 *.log
 .vscode/
 .idea/
+
+# Service account keys — never commit
+serviceAccountKey.json
+scripts/serviceAccountKey.json
+**/serviceAccountKey*.json

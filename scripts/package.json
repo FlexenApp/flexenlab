@@ -1,0 +1,12 @@
+{
+  "name": "flexen-scripts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Firebase seed scripts for Flexen App",
+  "scripts": {
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.0.0"
+  }
+}
