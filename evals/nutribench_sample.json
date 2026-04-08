@@ -1,0 +1,902 @@
+[
+  {
+    "meal_description": "For a snack, I’m drinking 360 grams of bottled water.",
+    "carb": 0,
+    "fat": 0,
+    "energy": 0,
+    "protein": 0,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For lunch, I'm having 240 grams of bottled unsweetened water, a slice of school lunch thin crust pepperoni pizza weighing 142 grams, and 248 grams of reduced sugar chocolate milk.",
+    "carb": 63.41,
+    "fat": 14.82,
+    "energy": 502.04,
+    "protein": 26.66,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For a snack, I have a chocolate-coated vanilla ice cream bar weighing 75 grams.",
+    "carb": 18.38,
+    "fat": 18.08,
+    "energy": 248.25,
+    "protein": 3.08,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I have a breakfast spread of a 135g egg and cheese omelet made with oil, 20g of pork sausage, 60g of frozen French toast, and 15g of light pancake syrup.",
+    "carb": 26.39,
+    "fat": 30.7,
+    "energy": 485.75,
+    "protein": 25.38,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For my snack, I have a 200-gram apple and 28 grams of popcorn that’s flavored with cheese.",
+    "carb": 42.07,
+    "fat": 9.64,
+    "energy": 251.28,
+    "protein": 3.12,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I'm having a fruit juice drink with high vitamin C for a snack, and it's 186 grams.",
+    "carb": 21.11,
+    "fat": 0.2,
+    "energy": 85.56,
+    "protein": 0.24,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For lunch, I'm having a peanut butter and jelly sandwich made with 112.0g of regular peanut butter and jelly on white bread, along with a glass of 248.0g of whole strawberry milk.",
+    "carb": 79.96,
+    "fat": 25.880000000000003,
+    "energy": 617.36,
+    "protein": 20.43,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I’m having a 524g soft drink cola for a snack.",
+    "carb": 54.29,
+    "fat": 1.31,
+    "energy": 220.08,
+    "protein": 0,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I’m having a lunch that includes 35 grams of sautéed chicken wings, 250 grams of creamy mashed potatoes with milk, 17 grams of ketchup on the side, and a 60-gram sautéed chicken drumstick with its skin.",
+    "carb": 48.66,
+    "fat": 23.72,
+    "energy": 514.22,
+    "protein": 27.28,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I’ve got a sugar-topped Pan Dulce weighing 70 grams and a cup of instant coffee at 240 grams for breakfast.",
+    "carb": 40.95,
+    "fat": 8.97,
+    "energy": 269,
+    "protein": 6.3500000000000005,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I have a 165 gram raw apple and 240 grams of unsweetened bottled water for my snack.",
+    "carb": 22.79,
+    "fat": 0.28,
+    "energy": 85.8,
+    "protein": 0.43,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I'm snacking on a raw apple, and it's 200 grams.",
+    "carb": 27.62,
+    "fat": 0.34,
+    "energy": 104,
+    "protein": 0.52,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I ate a dinner that included an 85g fried chicken drumstick, 160g of cooked broccoli, and a 55g fried chicken wing.",
+    "carb": 20.4,
+    "fat": 32.07,
+    "energy": 484.9,
+    "protein": 30.21,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I enjoyed a chocolate doughnut weighing 75g, along with 240g of bottled water and 245g of fruit-flavored low-fat Greek yogurt for dinner.",
+    "carb": 69.07,
+    "fat": 23.13,
+    "energy": 570,
+    "protein": 23.92,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For lunch, I'm having a serving of my homemade chicken or turkey vegetable soup, measuring 239 grams.",
+    "carb": 9.89,
+    "fat": 4.06,
+    "energy": 114.72,
+    "protein": 10.8,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For breakfast, I'm having a 130g chocolate muffin and 124g of 100% apple juice.",
+    "carb": 79.83,
+    "fat": 24.21,
+    "energy": 565.34,
+    "protein": 8.43,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I have a 150-gram low-fat yogurt parfait with fruit for lunch, plus 240 grams of unsweetened bottled water.",
+    "carb": 23.79,
+    "fat": 1.52,
+    "energy": 126,
+    "protein": 5.04,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I had 244 grams of milk for breakfast.",
+    "carb": 11.88,
+    "fat": 4.86,
+    "energy": 124.44,
+    "protein": 8.15,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For lunch, I had a piece of medium crust pepperoni pizza from school, weighing 147 grams.",
+    "carb": 43.76,
+    "fat": 13.55,
+    "energy": 376.32,
+    "protein": 19.93,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For breakfast, I'm having a raw banana (126.0g), a glass of tap water (720.0g), and an egg, cheese, and sausage sandwich on a biscuit (128.0g).",
+    "carb": 56.39,
+    "fat": 28.75,
+    "energy": 526.86,
+    "protein": 13.580000000000002,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For breakfast, I've got a 54g Breakfast Tart.",
+    "carb": 38.79,
+    "fat": 4.87,
+    "energy": 207.9,
+    "protein": 2.17,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I’ve got a 115-gram hamburger with a small patty on a white bun and 17 grams of ketchup.",
+    "carb": 30.21,
+    "fat": 15.92,
+    "energy": 347.22,
+    "protein": 19.85,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I'm enjoying 372 grams of ginger ale for a quick snack.",
+    "carb": 32.59,
+    "fat": 0,
+    "energy": 126.48,
+    "protein": 0,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For my snack, I'm drinking 244 grams of 2% milk.",
+    "carb": 11.98,
+    "fat": 4.64,
+    "energy": 122,
+    "protein": 8.17,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For my snack, I'm eating 215 grams of Easy Mac and 70 grams of broiled chicken thigh.",
+    "carb": 43.22,
+    "fat": 9.67,
+    "energy": 361.1,
+    "protein": 24.24,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For lunch, I'm having 244 grams of reduced fat milk, a 105-gram baked chicken breast, 240 grams of tap water, and 250 grams of mashed potatoes from school lunch.",
+    "carb": 44.98,
+    "fat": 13.11,
+    "energy": 465.7,
+    "protein": 42.96,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For my morning meal, I have a 40-gram chocolate waffle drizzled with 20 grams of syrup.",
+    "carb": 33.5,
+    "fat": 4.22,
+    "energy": 181,
+    "protein": 2.97,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For lunch, I'm having 250 grams of regular applesauce and a peanut butter and jelly sandwich made with regular peanut butter and jelly on wheat bread that weighs 56 grams.",
+    "carb": 67.91,
+    "fat": 9.79,
+    "energy": 371.04,
+    "protein": 7.430000000000001,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I’m refreshing myself with 240 grams of tap water for a snack.",
+    "carb": 0,
+    "fat": 0,
+    "energy": 0,
+    "protein": 0,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For a snack, I'm having 150 grams of raw grapes and a 50-gram freezer pop.",
+    "carb": 36.77,
+    "fat": 0.36,
+    "energy": 143,
+    "protein": 1.08,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For breakfast, I'm enjoying a serving of 57 grams of plain ruffled potato chips.",
+    "carb": 30.68,
+    "fat": 19.37,
+    "energy": 303.24,
+    "protein": 3.64,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I have a snack of 200 grams of raw apple paired with a 496-gram fruit juice drink.",
+    "carb": 40.02,
+    "fat": 0.34,
+    "energy": 153.6,
+    "protein": 0.52,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I'm having a 524-gram serving of fruit-flavored soft drink with caffeine for a snack.",
+    "carb": 67.23,
+    "fat": 0,
+    "energy": 256.76,
+    "protein": 0,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For my snack, I have 360 grams of water in a bottle and a Clif Bar that weighs 68 grams.",
+    "carb": 44.5,
+    "fat": 4,
+    "energy": 235.28,
+    "protein": 10,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I grabbed 28 grams of baked potato chips, plain, for a quick snack.",
+    "carb": 19.99,
+    "fat": 5.1,
+    "energy": 131.32,
+    "protein": 1.4,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For a snack, I have a 154-gram orange.",
+    "carb": 18.1,
+    "fat": 0.18,
+    "energy": 72.38,
+    "protein": 1.45,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I'm snacking on 28 grams of plain potato chips.",
+    "carb": 15.07,
+    "fat": 9.51,
+    "energy": 148.96,
+    "protein": 1.79,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For my snack, I'm going with an 80g frozen fruit juice bar.",
+    "carb": 20.32,
+    "fat": 0.05,
+    "energy": 84,
+    "protein": 0.65,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I'm having a dinner of 240 grams of tap water and a 134-gram serving of beef steak that’s baked or fried.",
+    "carb": 16.29,
+    "fat": 18.06,
+    "energy": 359.12,
+    "protein": 32.68,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I have a croissant that weighs 73 grams and a cup of brewed coffee that’s 240 grams for breakfast.",
+    "carb": 33.43,
+    "fat": 15.38,
+    "energy": 298.78,
+    "protein": 6.28,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "Lunch today is 240 grams of tap water and a hearty 370 grams of mostly noodle soup.",
+    "carb": 33.93,
+    "fat": 9.92,
+    "energy": 247.9,
+    "protein": 5.74,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For my snack, I’m enjoying a bowl of noodle soup that’s 370 grams.",
+    "carb": 33.93,
+    "fat": 9.92,
+    "energy": 247.9,
+    "protein": 5.74,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For my snack, I’m having some bottled baby water, which is 240 grams.",
+    "carb": 0,
+    "fat": 0,
+    "energy": 0,
+    "protein": 0,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For lunch, I'm having a peanut butter sandwich (92.0g) made with regular peanut butter on white bread, along with a glass of whole milk (244.0g).",
+    "carb": 48.04,
+    "fat": 26.31,
+    "energy": 499.68,
+    "protein": 20.86,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I'm enjoying a 50-gram freezer pop and 26 grams of fruit snacks as a quick snack.",
+    "carb": 31.54,
+    "fat": 0.86,
+    "energy": 134.4,
+    "protein": 0.14,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For breakfast, I made myself a 78-gram Kashi Chewy granola bar and brewed 360 grams of coffee.",
+    "carb": 49.47,
+    "fat": 6.07,
+    "energy": 307.8,
+    "protein": 13.43,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For dinner, I've got 10 grams of beef sausage, a diet cola that weighs 360 grams, and a croissant that weighs 28 grams.",
+    "carb": 14.2,
+    "fat": 8.86,
+    "energy": 153.68,
+    "protein": 4.029999999999999,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For my snack, I prepared 480 grams of brewed coffee and added 30 grams of fat-free flavored coffee creamer.",
+    "carb": 9.52,
+    "fat": 0.91,
+    "energy": 49.8,
+    "protein": 0.76,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I'm having 244 grams of whole milk for a snack.",
+    "carb": 11.39,
+    "fat": 7.81,
+    "energy": 146.4,
+    "protein": 8,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "Just grabbing 57 grams of ruffled potato chips for a snack.",
+    "carb": 31.87,
+    "fat": 17.7,
+    "energy": 277.59,
+    "protein": 3.71,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For a snack, I’m enjoying 120 grams of vanilla ice cream.",
+    "carb": 28.32,
+    "fat": 13.2,
+    "energy": 248.4,
+    "protein": 4.2,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For my breakfast, I've got a 165g apple, some plain Greek yogurt that weighs 245g, and 16g of peanut butter.",
+    "carb": 35.28,
+    "fat": 9.37,
+    "energy": 330.77,
+    "protein": 29.27,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I’m having some Cool Ranch Doritos tortilla chips, about 28 grams for my snack.",
+    "carb": 18.88,
+    "fat": 5.76,
+    "energy": 131.6,
+    "protein": 1.98,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I'm sipping on 507 grams of sweetened carbonated water as a quick snack.",
+    "carb": 0,
+    "fat": 0,
+    "energy": 0,
+    "protein": 0.51,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For breakfast, I'm having a large frozen meal with 468.0g of fried chicken, potatoes, and vegetables, along with a 372.0g soft drink cola.",
+    "carb": 122.97,
+    "fat": 47.36,
+    "energy": 1092.24,
+    "protein": 50.87,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For breakfast, I've got a 126-gram banana, a bottle of unsweetened water that weighs 507 grams, and a 154-gram raw orange.",
+    "carb": 46.88,
+    "fat": 0.6,
+    "energy": 184.52,
+    "protein": 2.8200000000000003,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I’ve got 360 grams of a diet fruit-flavored soft drink for my snack.",
+    "carb": 0,
+    "fat": 0,
+    "energy": 0,
+    "protein": 0.36,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I’m having a quick snack of 30 grams of sugar-free cookie and 244 grams of whole milk.",
+    "carb": 26.55,
+    "fat": 17.12,
+    "energy": 303.3,
+    "protein": 11.1,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For breakfast, I'm having a fruit muffin that weighs 130 grams along with 124 grams of 100% orange juice from a carton.",
+    "carb": 83.21000000000001,
+    "fat": 21.04,
+    "energy": 548.26,
+    "protein": 6.68,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I have a 341g high protein nutritional drink for lunch.",
+    "carb": 58.96,
+    "fat": 18.35,
+    "energy": 470.58,
+    "protein": 18.35,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I made a snack with 240 grams of reconstituted instant coffee.",
+    "carb": 1.51,
+    "fat": 0,
+    "energy": 7.2,
+    "protein": 0.24,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I’ve got 75 grams of raw kiwi fruit for my snack.",
+    "carb": 10.5,
+    "fat": 0.33,
+    "energy": 43.5,
+    "protein": 0.8,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I grabbed 10 grams of candy for a quick snack.",
+    "carb": 9.8,
+    "fat": 0.02,
+    "energy": 39.4,
+    "protein": 0,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "This morning, I'm sipping on 248 grams of sweetened instant coffee and eating 33 grams of toasted whole wheat bread.",
+    "carb": 28.3,
+    "fat": 3.03,
+    "energy": 156.55,
+    "protein": 4.83,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I have a 58-gram English muffin with 14 grams of margarine for my snack.",
+    "carb": 27.75,
+    "fat": 9.41,
+    "energy": 215.56,
+    "protein": 5.42,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For breakfast, I'm having a plain gordita shell (47.0g) with no filling, a raw banana (126.0g), a cooked whole egg (50.0g), and some bottled water (507.0g).",
+    "carb": 46.35000000000001,
+    "fat": 14.75,
+    "energy": 342.05,
+    "protein": 9.33,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I cooked up 163 grams of white rice for my lunch.",
+    "carb": 45.62,
+    "fat": 0.46,
+    "energy": 210.27,
+    "protein": 4.35,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "Dinner tonight is a 57g hot dog made of beef, topped with 17g of ketchup.",
+    "carb": 6.390000000000001,
+    "fat": 16.82,
+    "energy": 205.84,
+    "protein": 7.199999999999999,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I’m snacking on a 30g brownie cookie.",
+    "carb": 19.17,
+    "fat": 4.89,
+    "energy": 121.5,
+    "protein": 1.44,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I’m enjoying a light snack with 31 grams of Gatorade and 240 grams of bottled water.",
+    "carb": 1.99,
+    "fat": 0,
+    "energy": 8.06,
+    "protein": 0,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I prepared 480 grams of brewed coffee and added 15 grams of half-and-half for breakfast.",
+    "carb": 0.64,
+    "fat": 1.82,
+    "energy": 24.45,
+    "protein": 1.0499999999999998,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For dinner, I'm having a double cheeseburger from McDonald's (165.0g) and a soft serve vanilla ice cream cone in a waffle cone (255.0g).",
+    "carb": 112.96,
+    "fat": 38.86,
+    "energy": 957.45,
+    "protein": 39.45,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For breakfast, I'm having 113 grams of nonfat yogurt with some fruit.",
+    "carb": 16.97,
+    "fat": 0.19,
+    "energy": 93.79,
+    "protein": 5.75,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I’m starting my day with a 372-gram cream soda.",
+    "carb": 49.48,
+    "fat": 0,
+    "energy": 189.72,
+    "protein": 0,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I have 244 grams of reduced fat milk and 54 grams of a breakfast tart for breakfast.",
+    "carb": 50.77,
+    "fat": 9.51,
+    "energy": 329.9,
+    "protein": 10.34,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For breakfast, I'm having 244 grams of reduced fat milk, a 130-gram low-fat fruit muffin, and 124 grams of 100% orange juice with added calcium.",
+    "carb": 91.01,
+    "fat": 10.28,
+    "energy": 511.78,
+    "protein": 14.51,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For dinner, I'm having a 102.0g chicken and turkey hot dog on a white bun with 17.0g of ketchup on top, along with a bottle of 360.0g of unsweetened water.",
+    "carb": 29.5,
+    "fat": 12.16,
+    "energy": 276.25,
+    "protein": 11.91,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For my snack, I’ve got 360 grams of unsweetened bottled water and 28 grams of sour cream and onion chips.",
+    "carb": 15.66,
+    "fat": 8.7,
+    "energy": 136.36,
+    "protein": 1.82,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I’ve got 113 grams of unsweetened applesauce for breakfast.",
+    "carb": 12.74,
+    "fat": 0.11,
+    "energy": 47.46,
+    "protein": 0.19,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For lunch, I’ve got a hamburger weighing 90 grams from the school cafeteria.",
+    "carb": 23.55,
+    "fat": 6.63,
+    "energy": 221.4,
+    "protein": 16.17,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For my snack, I'm munching on 28 grams of plain Chex Mix.",
+    "carb": 21.19,
+    "fat": 2.8,
+    "energy": 119.84,
+    "protein": 2.47,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I have a 180-gram raw pear as my snack.",
+    "carb": 27.41,
+    "fat": 0.25,
+    "energy": 102.6,
+    "protein": 0.65,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I’ve got a serving of salted almonds, weighing 28.35 grams, for lunch.",
+    "carb": 5.72,
+    "fat": 15.15,
+    "energy": 170.38,
+    "protein": 5.71,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For my snack, I’m having 110 grams of chocolate pudding, and it’s sugar-free and ready to eat.",
+    "carb": 11.56,
+    "fat": 2.22,
+    "energy": 81.4,
+    "protein": 3.84,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For lunch, I ate a 200g Quarter Pounder with cheese and drank 507g of bottled water.",
+    "carb": 39.44,
+    "fat": 28.8,
+    "energy": 538,
+    "protein": 30.42,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I’ve got a popsicle that weighs 50g, along with 233g of mostly noodle soup and 70g of stewed chicken thigh for dinner.",
+    "carb": 30.99,
+    "fat": 12.35,
+    "energy": 318.11,
+    "protein": 20.66,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "This morning, I had a breakfast that included 124 grams of orange juice and 134 grams of battered beef steak.",
+    "carb": 27.32,
+    "fat": 15.95,
+    "energy": 367.8200000000001,
+    "protein": 29.25,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I enjoyed a 40g Milk 'n Cereal bar as my breakfast.",
+    "carb": 28.82,
+    "fat": 4.39,
+    "energy": 165.2,
+    "protein": 2.59,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For a snack, I had a 50g Popsicle and a 60g yeast doughnut.",
+    "carb": 38.38,
+    "fat": 13.739999999999998,
+    "energy": 292.1,
+    "protein": 3.68,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I have 15 grams of graham crackers to go with 124 grams of apple juice for my snack.",
+    "carb": 25.66,
+    "fat": 1.75,
+    "energy": 121.54,
+    "protein": 1.12,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For breakfast, I'm having a homemade biscuit that weighs about 45 grams along with a cup of hot chai tea with milk, which is around 240 grams.",
+    "carb": 41.510000000000005,
+    "fat": 9.31,
+    "energy": 274.35,
+    "protein": 6.82,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "Lunch today includes a 744-gram cola and 21 grams of Monterey cheese.",
+    "carb": 77.22,
+    "fat": 8.22,
+    "energy": 390.81,
+    "protein": 5.14,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I'm snacking on 90 grams of applesauce right now.",
+    "carb": 15.74,
+    "fat": 0.15,
+    "energy": 61.2,
+    "protein": 0.14,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "Snacking on 165 grams of a raw apple and 146 grams of honey roasted peanuts right now.",
+    "carb": 66.62,
+    "fat": 66.34,
+    "energy": 920.92,
+    "protein": 30.65,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For a snack, I'm having a 66-gram frosted cinnamon bun and a 372-gram pepper soft drink.",
+    "carb": 70.62,
+    "fat": 18.49,
+    "energy": 454.56,
+    "protein": 2.94,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For my snack, I have a 372-gram soft drink, a bit of mozzarella cheese weighing 28.35 grams, and a 200-gram fresh apple.",
+    "carb": 67.42,
+    "fat": 7.05,
+    "energy": 344.72,
+    "protein": 7.24,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I’ve got 28 grams of ready-to-eat plain popcorn as my snack.",
+    "carb": 17.15,
+    "fat": 6.51,
+    "energy": 134.96,
+    "protein": 2.85,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For a snack, I'm drinking 248 grams of orange juice that has calcium added.",
+    "carb": 27.95,
+    "fat": 0.3,
+    "energy": 116.56,
+    "protein": 1.69,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I'm eating a cheeseburger that weighs 165 grams, topped with 17 grams of ketchup for dinner.",
+    "carb": 35.379999999999995,
+    "fat": 26.77,
+    "energy": 507.22,
+    "protein": 29.75,
+    "country": "USA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For my snack, there's an 85g clementine paired with a 90g frosted cinnamon bun.",
+    "carb": 55.08,
+    "fat": 24.21,
+    "energy": 451.85,
+    "protein": 4.69,
+    "country": "USA",
+    "serving_type": "metric"
+  }
+]

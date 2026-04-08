@@ -1,0 +1,798 @@
+[
+  {
+    "dish_id": "dish_1568665935",
+    "image_path": "nutrition5k\\images\\dish_1568665935.png",
+    "kcal": 154.222,
+    "mass_g": 58,
+    "fat_g": 5.452,
+    "carbs_g": 19.43,
+    "protein_g": 6.496,
+    "ingredients": [
+      "cheese pizza"
+    ]
+  },
+  {
+    "dish_id": "dish_1558722780",
+    "image_path": "nutrition5k\\images\\dish_1558722780.png",
+    "kcal": 142.838989,
+    "mass_g": 367,
+    "fat_g": 1.872,
+    "carbs_g": 31.532999,
+    "protein_g": 4.845,
+    "ingredients": [
+      "cauliflower",
+      "carrot",
+      "corn on the cob",
+      "cantaloupe",
+      "cherry tomatoes"
+    ]
+  },
+  {
+    "dish_id": "dish_1561494001",
+    "image_path": "nutrition5k\\images\\dish_1561494001.png",
+    "kcal": 162.687851,
+    "mass_g": 216,
+    "fat_g": 13.844637,
+    "carbs_g": 7.95715,
+    "protein_g": 3.520412,
+    "ingredients": [
+      "walnuts",
+      "salt",
+      "squash",
+      "mustard",
+      "olive oil",
+      "chard",
+      "arugula",
+      "vinegar"
+    ]
+  },
+  {
+    "dish_id": "dish_1562009148",
+    "image_path": "nutrition5k\\images\\dish_1562009148.png",
+    "kcal": 226.547165,
+    "mass_g": 210,
+    "fat_g": 13.086175,
+    "carbs_g": 8.085415,
+    "protein_g": 21.893772,
+    "ingredients": [
+      "carrot",
+      "mayonnaise",
+      "pepper",
+      "tofu",
+      "pork",
+      "wheat berry",
+      "jalapenos",
+      "olive oil"
+    ]
+  },
+  {
+    "dish_id": "dish_1566588066",
+    "image_path": "nutrition5k\\images\\dish_1566588066.png",
+    "kcal": 566.233398,
+    "mass_g": 562,
+    "fat_g": 22.180496,
+    "carbs_g": 48.054741,
+    "protein_g": 43.871033,
+    "ingredients": [
+      "carrot",
+      "pineapple",
+      "salt",
+      "thyme",
+      "olive oil",
+      "arugula",
+      "brown rice",
+      "pepper"
+    ]
+  },
+  {
+    "dish_id": "dish_1566328929",
+    "image_path": "nutrition5k\\images\\dish_1566328929.png",
+    "kcal": 396.607422,
+    "mass_g": 165,
+    "fat_g": 17.54887,
+    "carbs_g": 32.07058,
+    "protein_g": 25.493954,
+    "ingredients": [
+      "olive oil",
+      "vinegar",
+      "millet",
+      "beef",
+      "salt",
+      "bok choy",
+      "shallots",
+      "cheese pizza"
+    ]
+  },
+  {
+    "dish_id": "dish_1564685482",
+    "image_path": "nutrition5k\\images\\dish_1564685482.png",
+    "kcal": 851.396545,
+    "mass_g": 337,
+    "fat_g": 49.484638,
+    "carbs_g": 63.400967,
+    "protein_g": 40.429775,
+    "ingredients": [
+      "millet",
+      "steak",
+      "olive oil",
+      "pizza",
+      "lime",
+      "salt",
+      "mixed greens",
+      "cherry tomatoes"
+    ]
+  },
+  {
+    "dish_id": "dish_1564432094",
+    "image_path": "nutrition5k\\images\\dish_1564432094.png",
+    "kcal": 177.659988,
+    "mass_g": 63,
+    "fat_g": 7.56,
+    "carbs_g": 20.16,
+    "protein_g": 7.56,
+    "ingredients": [
+      "pepperoni pizza"
+    ]
+  },
+  {
+    "dish_id": "dish_1561579902",
+    "image_path": "nutrition5k\\images\\dish_1561579902.png",
+    "kcal": 406.397736,
+    "mass_g": 247,
+    "fat_g": 24.016941,
+    "carbs_g": 9.004458,
+    "protein_g": 37.768024,
+    "ingredients": [
+      "olive oil",
+      "rosemary",
+      "lemon juice",
+      "butter",
+      "pepper",
+      "chard",
+      "spinach (cooked)",
+      "shallots"
+    ]
+  },
+  {
+    "dish_id": "dish_1558549086",
+    "image_path": "nutrition5k\\images\\dish_1558549086.png",
+    "kcal": 73.150002,
+    "mass_g": 95,
+    "fat_g": 0.095,
+    "carbs_g": 16.15,
+    "protein_g": 1.9,
+    "ingredients": [
+      "potatoes"
+    ]
+  },
+  {
+    "dish_id": "dish_1560802048",
+    "image_path": "nutrition5k\\images\\dish_1560802048.png",
+    "kcal": 47.213894,
+    "mass_g": 83,
+    "fat_g": 1.904628,
+    "carbs_g": 4.996577,
+    "protein_g": 3.07406,
+    "ingredients": [
+      "squash",
+      "olive oil",
+      "salt",
+      "parmesan cheese",
+      "croutons",
+      "kale",
+      "caesar dressing"
+    ]
+  },
+  {
+    "dish_id": "dish_1562963033",
+    "image_path": "nutrition5k\\images\\dish_1562963033.png",
+    "kcal": 356.387299,
+    "mass_g": 316,
+    "fat_g": 33.375896,
+    "carbs_g": 22.311859,
+    "protein_g": 33.670643,
+    "ingredients": [
+      "lemon juice",
+      "onions",
+      "salt",
+      "cilantro",
+      "garlic",
+      "pepper",
+      "quinoa",
+      "fish"
+    ]
+  },
+  {
+    "dish_id": "dish_1560798744",
+    "image_path": "nutrition5k\\images\\dish_1560798744.png",
+    "kcal": 357.152008,
+    "mass_g": 220,
+    "fat_g": 14.164,
+    "carbs_g": 39.889,
+    "protein_g": 19.320002,
+    "ingredients": [
+      "broccoli",
+      "cheese pizza",
+      "tofu"
+    ]
+  },
+  {
+    "dish_id": "dish_1567021831",
+    "image_path": "nutrition5k\\images\\dish_1567021831.png",
+    "kcal": 252.435623,
+    "mass_g": 228,
+    "fat_g": 27.216339,
+    "carbs_g": 8.228521,
+    "protein_g": 22.713125,
+    "ingredients": [
+      "cherry tomatoes",
+      "pepper",
+      "chive",
+      "wheat berry",
+      "kale",
+      "mustard",
+      "olive oil",
+      "garlic"
+    ]
+  },
+  {
+    "dish_id": "dish_1562702091",
+    "image_path": "nutrition5k\\images\\dish_1562702091.png",
+    "kcal": 86.534729,
+    "mass_g": 214,
+    "fat_g": 5.066993,
+    "carbs_g": 9.079793,
+    "protein_g": 2.838268,
+    "ingredients": [
+      "cherry tomatoes",
+      "cauliflower",
+      "squash",
+      "vinegar",
+      "parsley",
+      "cucumbers",
+      "olive oil",
+      "garlic"
+    ]
+  },
+  {
+    "dish_id": "dish_1561753238",
+    "image_path": "nutrition5k\\images\\dish_1561753238.png",
+    "kcal": 298.034393,
+    "mass_g": 333,
+    "fat_g": 13.71139,
+    "carbs_g": 14.026631,
+    "protein_g": 28.881098,
+    "ingredients": [
+      "olive oil",
+      "arugula",
+      "brown rice",
+      "pepper",
+      "squash",
+      "kale",
+      "salmon",
+      "parsley"
+    ]
+  },
+  {
+    "dish_id": "dish_1559842409",
+    "image_path": "nutrition5k\\images\\dish_1559842409.png",
+    "kcal": 359.192993,
+    "mass_g": 179,
+    "fat_g": 26.644001,
+    "carbs_g": 24.451,
+    "protein_g": 13.334001,
+    "ingredients": [
+      "strawberries",
+      "mandarin oranges",
+      "broccoli",
+      "almonds"
+    ]
+  },
+  {
+    "dish_id": "dish_1567801748",
+    "image_path": "nutrition5k\\images\\dish_1567801748.png",
+    "kcal": 169.072418,
+    "mass_g": 71,
+    "fat_g": 6.686759,
+    "carbs_g": 16.373152,
+    "protein_g": 10.276019,
+    "ingredients": [
+      "cheese pizza",
+      "sugar",
+      "soy sauce",
+      "garlic",
+      "salt",
+      "white rice",
+      "bok choy",
+      "pepper"
+    ]
+  },
+  {
+    "dish_id": "dish_1564588719",
+    "image_path": "nutrition5k\\images\\dish_1564588719.png",
+    "kcal": 222.278015,
+    "mass_g": 81,
+    "fat_g": 16.299,
+    "carbs_g": 6.366,
+    "protein_g": 11.681,
+    "ingredients": [
+      "chilaquiles",
+      "sausage"
+    ]
+  },
+  {
+    "dish_id": "dish_1565207662",
+    "image_path": "nutrition5k\\images\\dish_1565207662.png",
+    "kcal": 145.937561,
+    "mass_g": 128,
+    "fat_g": 11.480614,
+    "carbs_g": 12.175006,
+    "protein_g": 14.462402,
+    "ingredients": [
+      "onions",
+      "chicken thighs",
+      "kale",
+      "green onions",
+      "pineapple",
+      "white rice",
+      "fish",
+      "salt"
+    ]
+  },
+  {
+    "dish_id": "dish_1566934366",
+    "image_path": "nutrition5k\\images\\dish_1566934366.png",
+    "kcal": 87.746994,
+    "mass_g": 33,
+    "fat_g": 3.102,
+    "carbs_g": 11.055,
+    "protein_g": 3.696,
+    "ingredients": [
+      "cheese pizza"
+    ]
+  },
+  {
+    "dish_id": "dish_1559751458",
+    "image_path": "nutrition5k\\images\\dish_1559751458.png",
+    "kcal": 152.643005,
+    "mass_g": 123,
+    "fat_g": 0.246,
+    "carbs_g": 36.161999,
+    "protein_g": 1.968,
+    "ingredients": [
+      "yam"
+    ]
+  },
+  {
+    "dish_id": "dish_1559751552",
+    "image_path": "nutrition5k\\images\\dish_1559751552.png",
+    "kcal": 227.313004,
+    "mass_g": 254,
+    "fat_g": 0.639,
+    "carbs_g": 54.501999,
+    "protein_g": 2.885,
+    "ingredients": [
+      "yam",
+      "berries"
+    ]
+  },
+  {
+    "dish_id": "dish_1561752680",
+    "image_path": "nutrition5k\\images\\dish_1561752680.png",
+    "kcal": 465.324982,
+    "mass_g": 175,
+    "fat_g": 16.449999,
+    "carbs_g": 58.625,
+    "protein_g": 19.6,
+    "ingredients": [
+      "cheese pizza"
+    ]
+  },
+  {
+    "dish_id": "dish_1565797699",
+    "image_path": "nutrition5k\\images\\dish_1565797699.png",
+    "kcal": 128.928864,
+    "mass_g": 171,
+    "fat_g": 5.043742,
+    "carbs_g": 20.419321,
+    "protein_g": 2.852,
+    "ingredients": [
+      "berries",
+      "vinaigrette",
+      "granola",
+      "blackberries",
+      "mixed greens",
+      "watermelon",
+      "raspberries"
+    ]
+  },
+  {
+    "dish_id": "dish_1568401233",
+    "image_path": "nutrition5k\\images\\dish_1568401233.png",
+    "kcal": 490.393372,
+    "mass_g": 418,
+    "fat_g": 22.600721,
+    "carbs_g": 32.332966,
+    "protein_g": 38.631962,
+    "ingredients": [
+      "salt",
+      "squash",
+      "carrot",
+      "tuna salad",
+      "olive oil"
+    ]
+  },
+  {
+    "dish_id": "dish_1561575274",
+    "image_path": "nutrition5k\\images\\dish_1561575274.png",
+    "kcal": 305.180023,
+    "mass_g": 145,
+    "fat_g": 17.519951,
+    "carbs_g": 4.303404,
+    "protein_g": 29.621891,
+    "ingredients": [
+      "olive oil",
+      "onions",
+      "salt",
+      "shallots",
+      "spinach (cooked)",
+      "millet",
+      "bok choy",
+      "beef"
+    ]
+  },
+  {
+    "dish_id": "dish_1561752563",
+    "image_path": "nutrition5k\\images\\dish_1561752563.png",
+    "kcal": 373.507965,
+    "mass_g": 367,
+    "fat_g": 18.29771,
+    "carbs_g": 24.707659,
+    "protein_g": 29.35907,
+    "ingredients": [
+      "cheese",
+      "turnips",
+      "caesar salad",
+      "pepper",
+      "tatsoi",
+      "onions",
+      "cucumbers",
+      "kale"
+    ]
+  },
+  {
+    "dish_id": "dish_1568649387",
+    "image_path": "nutrition5k\\images\\dish_1568649387.png",
+    "kcal": 163.858185,
+    "mass_g": 192,
+    "fat_g": 5.302399,
+    "carbs_g": 28.488777,
+    "protein_g": 2.512788,
+    "ingredients": [
+      "olive oil",
+      "sweet potato",
+      "broccoli",
+      "berries",
+      "yam"
+    ]
+  },
+  {
+    "dish_id": "dish_1562012076",
+    "image_path": "nutrition5k\\images\\dish_1562012076.png",
+    "kcal": 525.973816,
+    "mass_g": 438,
+    "fat_g": 5.869118,
+    "carbs_g": 100.683945,
+    "protein_g": 15.518004,
+    "ingredients": [
+      "olive oil",
+      "arugula",
+      "quinoa",
+      "white rice",
+      "salt",
+      "garlic",
+      "shallots",
+      "parsley"
+    ]
+  },
+  {
+    "dish_id": "dish_1568314857",
+    "image_path": "nutrition5k\\images\\dish_1568314857.png",
+    "kcal": 295.537689,
+    "mass_g": 162,
+    "fat_g": 22.199564,
+    "carbs_g": 10.236863,
+    "protein_g": 16.508799,
+    "ingredients": [
+      "salt",
+      "beef",
+      "millet",
+      "bok choy",
+      "avocado",
+      "vinegar",
+      "onions",
+      "shallots"
+    ]
+  },
+  {
+    "dish_id": "dish_1567628069",
+    "image_path": "nutrition5k\\images\\dish_1567628069.png",
+    "kcal": 107.433014,
+    "mass_g": 73,
+    "fat_g": 7.180391,
+    "carbs_g": 10.049737,
+    "protein_g": 2.344513,
+    "ingredients": [
+      "garlic",
+      "arugula",
+      "parsley",
+      "mustard greens",
+      "olive oil",
+      "cranberries",
+      "lemon juice",
+      "salt"
+    ]
+  },
+  {
+    "dish_id": "dish_1560787754",
+    "image_path": "nutrition5k\\images\\dish_1560787754.png",
+    "kcal": 72.639999,
+    "mass_g": 68,
+    "fat_g": 3.123,
+    "carbs_g": 8.638,
+    "protein_g": 3.017,
+    "ingredients": [
+      "bacon",
+      "berries"
+    ]
+  },
+  {
+    "dish_id": "dish_1560357427",
+    "image_path": "nutrition5k\\images\\dish_1560357427.png",
+    "kcal": 93.749001,
+    "mass_g": 241,
+    "fat_g": 0.241,
+    "carbs_g": 21.931,
+    "protein_g": 1.205,
+    "ingredients": [
+      "grapefruit juice"
+    ]
+  },
+  {
+    "dish_id": "dish_1559841808",
+    "image_path": "nutrition5k\\images\\dish_1559841808.png",
+    "kcal": 73.110001,
+    "mass_g": 96,
+    "fat_g": 0.57,
+    "carbs_g": 17.379999,
+    "protein_g": 1.29,
+    "ingredients": [
+      "grapes",
+      "mandarin oranges",
+      "cereal"
+    ]
+  },
+  {
+    "dish_id": "dish_1564073677",
+    "image_path": "nutrition5k\\images\\dish_1564073677.png",
+    "kcal": 108.967804,
+    "mass_g": 92,
+    "fat_g": 5.668293,
+    "carbs_g": 9.771708,
+    "protein_g": 4.507317,
+    "ingredients": [
+      "scrambled eggs",
+      "olive oil",
+      "sweet potato"
+    ]
+  },
+  {
+    "dish_id": "dish_1558638216",
+    "image_path": "nutrition5k\\images\\dish_1558638216.png",
+    "kcal": 55.899998,
+    "mass_g": 43,
+    "fat_g": 0.129,
+    "carbs_g": 12.04,
+    "protein_g": 1.161,
+    "ingredients": [
+      "white rice"
+    ]
+  },
+  {
+    "dish_id": "dish_1561737200",
+    "image_path": "nutrition5k\\images\\dish_1561737200.png",
+    "kcal": 478.582001,
+    "mass_g": 262,
+    "fat_g": 32.230999,
+    "carbs_g": 5.929,
+    "protein_g": 37.081001,
+    "ingredients": [
+      "egg whites",
+      "sausage"
+    ]
+  },
+  {
+    "dish_id": "dish_1559849020",
+    "image_path": "nutrition5k\\images\\dish_1559849020.png",
+    "kcal": 46.23,
+    "mass_g": 67,
+    "fat_g": 0.134,
+    "carbs_g": 12.06,
+    "protein_g": 0.469,
+    "ingredients": [
+      "grapes"
+    ]
+  },
+  {
+    "dish_id": "dish_1558031394",
+    "image_path": "nutrition5k\\images\\dish_1558031394.png",
+    "kcal": 237.410004,
+    "mass_g": 318,
+    "fat_g": 0.521,
+    "carbs_g": 55.475998,
+    "protein_g": 4.23,
+    "ingredients": [
+      "cantaloupe",
+      "deprecated",
+      "potatoes",
+      "yam"
+    ]
+  },
+  {
+    "dish_id": "dish_1565811390",
+    "image_path": "nutrition5k\\images\\dish_1565811390.png",
+    "kcal": 205.092285,
+    "mass_g": 266,
+    "fat_g": 7.622345,
+    "carbs_g": 21.70455,
+    "protein_g": 14.384672,
+    "ingredients": [
+      "salmon",
+      "bok choy",
+      "salt",
+      "arugula",
+      "olive oil",
+      "brown rice",
+      "wheat berry",
+      "thyme"
+    ]
+  },
+  {
+    "dish_id": "dish_1560368764",
+    "image_path": "nutrition5k\\images\\dish_1560368764.png",
+    "kcal": 207.098907,
+    "mass_g": 270,
+    "fat_g": 15.165788,
+    "carbs_g": 14.017039,
+    "protein_g": 7.992478,
+    "ingredients": [
+      "olive oil",
+      "mustard",
+      "pumpkin seeds",
+      "carrot",
+      "mixed greens",
+      "lettuce",
+      "salt",
+      "asparagus"
+    ]
+  },
+  {
+    "dish_id": "dish_1565724050",
+    "image_path": "nutrition5k\\images\\dish_1565724050.png",
+    "kcal": 84.722847,
+    "mass_g": 72,
+    "fat_g": 7.981188,
+    "carbs_g": 3.010693,
+    "protein_g": 1.382376,
+    "ingredients": [
+      "salt",
+      "mustard",
+      "onions",
+      "olive oil",
+      "cranberries",
+      "arugula",
+      "vinegar",
+      "celery root"
+    ]
+  },
+  {
+    "dish_id": "dish_1557937079",
+    "image_path": "nutrition5k\\images\\dish_1557937079.png",
+    "kcal": 146.069992,
+    "mass_g": 27,
+    "fat_g": 11.339999,
+    "carbs_g": 0.378,
+    "protein_g": 9.99,
+    "ingredients": [
+      "bacon"
+    ]
+  },
+  {
+    "dish_id": "dish_1563205953",
+    "image_path": "nutrition5k\\images\\dish_1563205953.png",
+    "kcal": 218.769501,
+    "mass_g": 298,
+    "fat_g": 3.85,
+    "carbs_g": 30.851999,
+    "protein_g": 14.952,
+    "ingredients": [
+      "yam",
+      "sweet potato",
+      "egg whites",
+      "pineapple",
+      "chicken apple sausage"
+    ]
+  },
+  {
+    "dish_id": "dish_1558640477",
+    "image_path": "nutrition5k\\images\\dish_1558640477.png",
+    "kcal": 59.416,
+    "mass_g": 56,
+    "fat_g": 1.344,
+    "carbs_g": 12.32,
+    "protein_g": 1.736,
+    "ingredients": [
+      "corn on the cob"
+    ]
+  },
+  {
+    "dish_id": "dish_1561146758",
+    "image_path": "nutrition5k\\images\\dish_1561146758.png",
+    "kcal": 232.5,
+    "mass_g": 93,
+    "fat_g": 1.395,
+    "carbs_g": 45.57,
+    "protein_g": 9.393001,
+    "ingredients": [
+      "bagels"
+    ]
+  },
+  {
+    "dish_id": "dish_1559241099",
+    "image_path": "nutrition5k\\images\\dish_1559241099.png",
+    "kcal": 201.346771,
+    "mass_g": 382,
+    "fat_g": 0.93439,
+    "carbs_g": 51.246647,
+    "protein_g": 2.417124,
+    "ingredients": [
+      "salt",
+      "pepper",
+      "olive oil",
+      "carrot",
+      "orange",
+      "pears"
+    ]
+  },
+  {
+    "dish_id": "dish_1566501594",
+    "image_path": "nutrition5k\\images\\dish_1566501594.png",
+    "kcal": 508.048981,
+    "mass_g": 109,
+    "fat_g": 31.391998,
+    "carbs_g": 54.281998,
+    "protein_g": 6.758,
+    "ingredients": [
+      "brownies"
+    ]
+  },
+  {
+    "dish_id": "dish_1567538263",
+    "image_path": "nutrition5k\\images\\dish_1567538263.png",
+    "kcal": 70.70092,
+    "mass_g": 56,
+    "fat_g": 4.997894,
+    "carbs_g": 5.491088,
+    "protein_g": 1.873404,
+    "ingredients": [
+      "arugula",
+      "parsley",
+      "olive oil",
+      "lemon juice",
+      "salt",
+      "pears",
+      "pepper",
+      "garlic"
+    ]
+  }
+]
