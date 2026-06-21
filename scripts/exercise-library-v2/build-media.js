@@ -24,14 +24,15 @@ async function main() {
   fs.mkdirSync(OUT_THUMB, { recursive: true });
   let exercises = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'exercises.json'), 'utf8'));
   if (LIMIT) exercises = exercises.slice(0, parseInt(LIMIT, 10));
-  let ok = 0, missing = 0;
+  let ok = 0, missing = 0, errored = 0;
   for (const ex of exercises) {
     const gif = ex.gifUrls && ex.gifUrls['720p'];
     if (!gif) { missing++; continue; }
     try { (await buildOne(ex.exerciseId, gif)) === 'ok' ? ok++ : missing++; }
-    catch (e) { console.error(`\n✗ ${ex.exerciseId}: ${e.message}`); }
-    if (ok % 100 === 0) process.stdout.write(`\r  built ${ok}/${exercises.length}`);
+    catch (e) { console.error(`\n✗ ${ex.exerciseId}: ${e.message}`); errored++; }
+    if (ok % 100 === 0 && ok > 0) process.stdout.write(`\r  built ${ok}/${exercises.length}`);
   }
-  console.log(`\n✓ built ${ok}, missing ${missing}`);
+  console.log(`\n✓ built ${ok}, missing ${missing}, errored ${errored}`);
+  if (errored > 0) { console.error(`✗ ${errored} GIF(s) failed conversion — inspect before uploading.`); process.exit(1); }
 }
 main().catch(e => { console.error(e); process.exit(1); });

@@ -12,7 +12,11 @@ async function main() {
     if (!x.thumbUrl) noThumb++;
     if (!x.displayName) noDisplay++;
     if (!x.i18n || !x.i18n.de || !x.i18n.de.name) noDe++;
-    const blob = [x.name, x.displayName, (x.i18n && x.i18n.de && x.i18n.de.name) || ''].join(' ');
+    const de = (x.i18n && x.i18n.de) || {};
+    const blob = [
+      x.name, x.displayName, x.overview || '', (x.instructions || []).join(' '),
+      de.name || '', de.overview || '', (de.instructions || []).join(' '),
+    ].join(' ');
     if (MOJI.test(blob)) moji++;
     if (x.name && x.name !== x.name.trim()) trailing++;
     if ((x.instructions || []).some(s => /^Step:/i.test(s))) stepN++;

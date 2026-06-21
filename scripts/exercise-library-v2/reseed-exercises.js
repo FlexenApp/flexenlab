@@ -30,6 +30,15 @@ async function main() {
     return;
   }
 
+  // Safety: refuse to overwrite without a backup on disk (backups/ is gitignored, no Firestore PITR on Spark).
+  const backupDir = path.join(__dirname, 'backups');
+  const hasBackup = fs.existsSync(backupDir) &&
+    fs.readdirSync(backupDir).some(f => f.endsWith('.json') && fs.statSync(path.join(backupDir, f)).size > 0);
+  if (!hasBackup) {
+    console.error('✗ No backup found in backups/. Run backup-exercises.js first.');
+    process.exit(1);
+  }
+
   for (let i = 0; i < docs.length; i += BATCH) {
     const batch = db.batch();
     for (const d of docs.slice(i, i + BATCH)) batch.set(db.collection('exercises').doc(d.id), d.data);

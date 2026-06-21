@@ -28,6 +28,7 @@ async function main() {
   const todo = exercises.filter(e => !cache[e.exerciseId]);
   console.log(`${todo.length} to translate (${Object.keys(cache).length} cached)`);
 
+  let failedBatches = 0;
   for (let i = 0; i < todo.length; i += BATCH) {
     const slice = todo.slice(i, i + BATCH);
     const items = slice.map(e => ({ id: e.exerciseId, name: toDisplayName(e.name), overview: e.overview || '', instructions: cleanInstructions(e.instructions) }));
@@ -38,9 +39,14 @@ async function main() {
       fs.writeFileSync(CACHE, JSON.stringify(cache, null, 0));
     } catch (err) {
       console.error(`\n✗ batch @${i}: ${err.message}`);
+      failedBatches++;
     }
     process.stdout.write(`\r  ${Math.min(i + BATCH, todo.length)}/${todo.length}`);
   }
   console.log(`\n✓ cached translations: ${Object.keys(cache).length}`);
+  if (failedBatches > 0) {
+    console.error(`✗ ${failedBatches} batch(es) failed — re-run to retry. Do NOT reseed yet.`);
+    process.exit(1);
+  }
 }
 main().catch(e => { console.error(e); process.exit(1); });
