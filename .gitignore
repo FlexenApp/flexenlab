@@ -16,3 +16,9 @@ build/
 serviceAccountKey.json
 scripts/serviceAccountKey.json
 **/serviceAccountKey*.json
+
+# Exercise Library v2 pipeline artifacts
+scripts/exercise-library-v2/webp/
+scripts/exercise-library-v2/media-manifest.json
+scripts/exercise-library-v2/de-cache.json
+scripts/exercise-library-v2/backups/

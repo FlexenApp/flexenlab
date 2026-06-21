@@ -1,0 +1,20 @@
+{
+  "bench press": "Bankdrücken",
+  "squat": "Kniebeuge",
+  "deadlift": "Kreuzheben",
+  "lunge": "Ausfallschritt",
+  "row": "Rudern",
+  "pull-up": "Klimmzug",
+  "push-up": "Liegestütz",
+  "calf raise": "Wadenheben",
+  "lateral raise": "Seitheben",
+  "shoulder press": "Schulterdrücken",
+  "bicep curl": "Bizepscurl",
+  "tricep extension": "Trizepsstrecken",
+  "plank": "Unterarmstütz",
+  "leg press": "Beinpresse",
+  "dumbbell": "Kurzhantel",
+  "barbell": "Langhantel",
+  "cable": "Kabelzug",
+  "body weight": "Körpergewicht"
+}
