@@ -1,5 +1,5 @@
 'use strict';
-const { cleanName, toDisplayName, cleanInstructions } = require('./clean');
+const { cleanName, toDisplayName, cleanInstructions, fixMojibake } = require('./clean');
 
 function buildExerciseDoc(raw, media = {}, de = null) {
   const nameClean = cleanName(raw.name);
@@ -11,8 +11,8 @@ function buildExerciseDoc(raw, media = {}, de = null) {
     target: (raw.targetMuscles || [])[0] || '',
     equipment: (raw.equipments || [])[0] || '',
     secondaryMuscles: raw.secondaryMuscles || [],
-    instructions: cleanInstructions(raw.instructions),
-    overview: raw.overview || '',
+    instructions: cleanInstructions(raw.instructions).map(fixMojibake),
+    overview: fixMojibake(raw.overview || ''),
     difficulty: raw.difficulty || '',
     exerciseTypes: raw.exerciseTypes || [],
     relatedExerciseIds: raw.relatedExerciseIds || [],

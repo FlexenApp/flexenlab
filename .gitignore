@@ -22,3 +22,6 @@ scripts/exercise-library-v2/webp/
 scripts/exercise-library-v2/media-manifest.json
 scripts/exercise-library-v2/de-cache.json
 scripts/exercise-library-v2/backups/
+
+# translation working files (chunks + parts, throwaway)
+scripts/exercise-library-v2/translate-work/
