@@ -1,0 +1,25 @@
+{
+  "flexen": {
+    "n": 25,
+    "all_4": 0.72,
+    "kcal_acc20": 0.88,
+    "mae_kcal": 42.28,
+    "premium": 11,
+    "lite": 14
+  },
+  "nutribench": {
+    "n": 50,
+    "errors": 0,
+    "acc_7_5": 0.5,
+    "kcal_acc20": 0.8,
+    "mae_kcal": 83.59299999999999,
+    "premium": 1,
+    "lite": 49
+  },
+  "cost": {
+    "avg_per_call": 0.0027840000000000013,
+    "pure_premium": 0.0111,
+    "monthly_1m": 2784.0000000000014,
+    "savings_vs_pure": 8315.999999999998
+  }
+}

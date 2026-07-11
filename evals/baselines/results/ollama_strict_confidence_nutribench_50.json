@@ -1,0 +1,408 @@
+{
+  "model": "ollama",
+  "variant": "strict_confidence",
+  "dataset": "nutribench_50",
+  "n": 49,
+  "errors": 1,
+  "acc_7_5": 0.42857142857142855,
+  "kcal_acc_20": 0.5918367346938775,
+  "mae_kcal": 130.55204081632652,
+  "mae_carbs": 24.437755102040807,
+  "mae_protein": 5.304693877551021,
+  "mae_fat": 6.006938775510204,
+  "rows": [
+    {
+      "query": "I'm enjoying a 150g apple, peeled, with 160g of bottled water for lunch.",
+      "country": "ITA",
+      "gt_kcal": 80,
+      "pred_kcal": 78,
+      "err_kcal": 2,
+      "acc7_5": true
+    },
+    {
+      "query": "For a snack, I'm having 100g of raw fennel, along with 100g of raw lettuce and 2g of raw onion. I also included 58.7g of dry pasta and 70.9g of canned peeled tomatoes. I added 0.6g of raw garlic, a hint of 0.5g of red hot chili pepper for some kick, and I'm enjoying 103.9g of raw veal on the side. I’m sipping on some white table wine (0.1g of alcohol) with my meal and 160g of bottled Uliveto water. Lastly, I drizzled in 9.0g of extra-virgin olive oil and 15.3g of regular olive oil for some added flavor.",
+      "country": "ITA",
+      "gt_kcal": 566,
+      "pred_kcal": 632,
+      "err_kcal": 66,
+      "acc7_5": true
+    },
+    {
+      "query": "I had a dinner plate with 128 grams of raw white maize flour, 7 grams of fresh boiled grasshoppers, 98 grams of dried raw groundnuts, and 265 grams of boiled yellow sweet potato still in its skin.",
+      "country": "ZMB",
+      "gt_kcal": 1333,
+      "pred_kcal": 1272,
+      "err_kcal": 61,
+      "acc7_5": false
+    },
+    {
+      "query": "I enjoyed dinner with 19g of boiled okra leaves, 5g of boiled onion, 86g of sorghum flour, 17g of boiled tomato, along with 5g of roasted caterpillar and 83g of boiled goat and lamb offals.",
+      "country": "ZMB",
+      "gt_kcal": 478,
+      "pred_kcal": 449,
+      "err_kcal": 29,
+      "acc7_5": true
+    },
+    {
+      "query": "For my snack, I had 4.7 grams of milk, 174 grams of pomegranate, 219 grams of brewed cinnamon tea, 219 grams of another herbal tea, and 525 grams of water.",
+      "country": "KNA",
+      "gt_kcal": 105,
+      "pred_kcal": 147.3,
+      "err_kcal": 42.30000000000001,
+      "acc7_5": false
+    },
+    {
+      "query": "For breakfast, I'm having 7 grams of butter, 32 grams of briny cow cheese, and 10 grams of Milupa infant formula milk. I also have 7 grams of sugar in my tea made from herbs or fruits, along with 117 grams of white bread from Bulgaria. Oh, and I forgot to mention, I've got 62 grams of the traditional Bulgarian white bread to go with it all.",
+      "country": "BGR",
+      "gt_kcal": 367,
+      "pred_kcal": 642.7,
+      "err_kcal": 275.70000000000005,
+      "acc7_5": false
+    },
+    {
+      "query": "Lunch today includes 90g of white rice, 140g of black beans, 110g of fried chicken, and a glass of 200g water.",
+      "country": "BRA",
+      "gt_kcal": 495,
+      "pred_kcal": 572,
+      "err_kcal": 77,
+      "acc7_5": false
+    },
+    {
+      "query": "For lunch, I had 33.1g of boiled eggs, 20.3g of boiled chicken with skin, and some fried chili peppers (0.4g). I also included 1.6g of steamed chives and 1.0g of fried garlic. To add a little more flavor, I tossed in some peanut paste (4.0g), a dollop of palm oil (3.4g), and a generous bowl of porridge (160.0g). I also snuck in 210.7g of roasted pumpkin seeds and a sprinkle of salt (1.6g). For an extra kick, I added some smoked fish (27.6g), a bit of beef stock (0.9g), and some tomato paste (1.2g) along with fried tomatoes (0.4g).",
+      "country": "COD",
+      "gt_kcal": 1361,
+      "pred_kcal": 1584,
+      "err_kcal": 223,
+      "acc7_5": false
+    },
+    {
+      "query": "Dinner tonight includes 54g of cooked white rice, 51.5g of red beans, and a grilled pork chop weighing 56.8g.",
+      "country": "CRI",
+      "gt_kcal": 268,
+      "pred_kcal": 247,
+      "err_kcal": 21,
+      "acc7_5": true
+    },
+    {
+      "query": "I enjoyed a 65g croissant filled with chocolate along with 78g of fresh watermelon for my snack.",
+      "country": "BGR",
+      "gt_kcal": 314,
+      "pred_kcal": 299,
+      "err_kcal": 15,
+      "acc7_5": true
+    },
+    {
+      "query": "I'm enjoying a snack with 200 grams of semi-skimmed milk and 250 grams of red wine.",
+      "country": "TUN",
+      "gt_kcal": 114,
+      "pred_kcal": 124,
+      "err_kcal": 10,
+      "acc7_5": true
+    },
+    {
+      "query": "For lunch, I have 93.7g of guinea-fowl meat simmered with skin, paired with 17.6g of palm oil, and 28.3g of peanuts that I boiled. I also cooked 216g of ripe plantains, seasoned with 1.2g of salt and 0.4g of beef stock cube.",
+      "country": "COD",
+      "gt_kcal": 549,
+      "pred_kcal": 807,
+      "err_kcal": 258,
+      "acc7_5": true
+    },
+    {
+      "query": "I had a 210g cabbage salad, 75g of coffee, 100.3g of goulash, 298g of mashed potatoes, and 332g of meatballs for lunch.",
+      "country": "ROU",
+      "gt_kcal": 1819,
+      "pred_kcal": 1290,
+      "err_kcal": 529,
+      "acc7_5": false
+    },
+    {
+      "query": "For lunch, I had 109.5 grams of avocado with a pinch of salt (0.2 grams) and 70 grams of white wheat bread.",
+      "country": "MEX",
+      "gt_kcal": 380,
+      "pred_kcal": 360.7,
+      "err_kcal": 19.30000000000001,
+      "acc7_5": false
+    },
+    {
+      "query": "At lunch, I have 4.4g of chives that I steamed, 170g of coffee made from roasted ground coffee and tap water, and 11.8g of red palm oil. I'm also eating 480g of porridge made from maize, seasoned with 1.1g of salt, along with 51.2g of boiled sweet potato leaves and 12.6g of boiled ripe tomatoes.",
+      "country": "COD",
+      "gt_kcal": 767,
+      "pred_kcal": 459,
+      "err_kcal": 308,
+      "acc7_5": false
+    },
+    {
+      "query": "For lunch, I had 140 grams of mixed black, mulatto, purple, and pink beans, along with 70 grams of beef liver cooked in fats. I also had 120 grams of cooked beetroot, 36 grams of raw carrot, and 60 grams of raw kale. To drink, I had 150 grams of water and a side of 126 grams of whole grain rice.",
+      "country": "BRA",
+      "gt_kcal": 452,
+      "pred_kcal": 554,
+      "err_kcal": 102,
+      "acc7_5": false
+    },
+    {
+      "query": "For lunch, I'm having 75g of banana, 17g of black beans, 50g of coxinha, and 300g of juice. I also have 180g of orange, 130g of sun-dried meat, 100g of raw tomato, and 50g of white rice.",
+      "country": "BRA",
+      "gt_kcal": 969,
+      "pred_kcal": 1130,
+      "err_kcal": 161,
+      "acc7_5": false
+    },
+    {
+      "query": "For my snack, I’m eating 40g of raw bone marrow and 150g of raw beef. I added some garlic (0.2g) and onion (48.3g), plus 386.1g of fresh peas. I’m drizzling on 42.5g of olive oil and having 640g of bottled water.",
+      "country": "ITA",
+      "gt_kcal": 1165,
+      "pred_kcal": 1343,
+      "err_kcal": 178,
+      "acc7_5": false
+    },
+    {
+      "query": "For a snack, I have 0 grams of boiled yellow chili peppers, 1 gram of boiled dried fish, 12 grams of boiled dried okra, 2 grams of instant coffee powder, 105 grams of millet flour, 3 grams of salt, 6 grams of liquid potassium, 2 grams of stink beans, and 1 gram of stock cubes. Oh, and I also added 2 grams of common sugar to sweeten things up a bit!",
+      "country": "BFA",
+      "gt_kcal": 435,
+      "pred_kcal": 423,
+      "err_kcal": 12,
+      "acc7_5": true
+    },
+    {
+      "query": "For lunch, I'm having 3.6 grams of scrambled fried chicken eggs mixed with 136.5 grams of full-cream milk powder.",
+      "country": "KEN",
+      "gt_kcal": 683,
+      "pred_kcal": 682.37,
+      "err_kcal": 0.6299999999999955,
+      "acc7_5": true
+    },
+    {
+      "query": "For lunch, I'm having 42.4g of boiled cassava leaves without added salt, 6.1g of steamed chives, 9.1g of roasted peanut paste, 10.7g of red palm oil, 574.0g of ready-to-eat maize porridge, 0.7g of salt, and a pinch of beef stock granule (0.3g).",
+      "country": "COD",
+      "gt_kcal": 947,
+      "pred_kcal": 649,
+      "err_kcal": 298,
+      "acc7_5": false
+    },
+    {
+      "query": "For dinner, I'm having a soft taco with meat (131 grams) and a 372-gram pepper-flavored soft drink.",
+      "country": "USA",
+      "gt_kcal": 447.06,
+      "pred_kcal": 634,
+      "err_kcal": 186.94,
+      "acc7_5": true
+    },
+    {
+      "query": "Lunch today includes 200 grams of brown rice, 15 grams of cabbage, 30 grams of dhal curry, and 45 grams of cooked mushrooms. Plus, I'm drinking 250 grams of water.",
+      "country": "LKA",
+      "gt_kcal": 310,
+      "pred_kcal": 274,
+      "err_kcal": 36,
+      "acc7_5": true
+    },
+    {
+      "query": "For a snack, I'm having 5.1 grams of coconut oil, 30 grams of fried potato, and a 240g Coca-Cola soft drink.",
+      "country": "PHL",
+      "gt_kcal": 174,
+      "pred_kcal": 238,
+      "err_kcal": 64,
+      "acc7_5": true
+    },
+    {
+      "query": "For a quick snack, I have 20g of butter, 29g of Churmary Chuda, 57.6g of milk tea, and 93g of raw oranges.",
+      "country": "IND",
+      "gt_kcal": 403,
+      "pred_kcal": 329,
+      "err_kcal": 74,
+      "acc7_5": false
+    },
+    {
+      "query": "For lunch, I'm having 100g of raw kidney beans that have been boiled, with a sprinkle of 3.2g of iodized salt, and 60.3g of boiled pink-skinned sweet potato.",
+      "country": "KEN",
+      "gt_kcal": 167,
+      "pred_kcal": 363,
+      "err_kcal": 196,
+      "acc7_5": false
+    },
+    {
+      "query": "For my snack, I drank 200 grams of water and ate 50 grams of jujube.",
+      "country": "LAO",
+      "gt_kcal": 44,
+      "pred_kcal": 141,
+      "err_kcal": 97,
+      "acc7_5": false
+    },
+    {
+      "query": "For dinner, I'm having 248.4 grams of pasta and seafood with cream sauce.",
+      "country": "KNA",
+      "gt_kcal": 346,
+      "pred_kcal": 394,
+      "err_kcal": 48,
+      "acc7_5": false
+    },
+    {
+      "query": "I’ve got 48g of turkey that's been fried up, plus 54.9g of fried eggs. I’m also drinking 265g of fruit juice, and I plan to use 8.1g of rape seed oil and 42g of ketchup with a 34g tortilla.",
+      "country": "MEX",
+      "gt_kcal": 440,
+      "pred_kcal": 487,
+      "err_kcal": 47,
+      "acc7_5": true
+    },
+    {
+      "query": "I’ve got 74.2g of apples and 71.4g of apples with the skin on for my snack, plus 136.8g of oranges and a drink of 150g unbottled water.",
+      "country": "PER",
+      "gt_kcal": 122,
+      "pred_kcal": 157.7,
+      "err_kcal": 35.69999999999999,
+      "acc7_5": true
+    },
+    {
+      "query": "For lunch today, I had 10g of boiled horse radish tree leaves, 15g of boiled jackfruit, 5g of cooked Malabar night shade leaves, 15g of boiled milkfish, 15g of boiled papaya, and 112.5g of steamed white rice.",
+      "country": "PHL",
+      "gt_kcal": 193,
+      "pred_kcal": 184.8,
+      "err_kcal": 8.199999999999989,
+      "acc7_5": true
+    },
+    {
+      "query": "For my snack, I’m enjoying 285.6g of sweetened apple juice, a 162g sweet roll, and 240g of spring water.",
+      "country": "KNA",
+      "gt_kcal": 991,
+      "pred_kcal": 704.1,
+      "err_kcal": 286.9,
+      "acc7_5": false
+    },
+    {
+      "query": "I’m starting my day with 140 grams of various beans, a 50g fried egg, and a coffee with milk that includes 50g of coffee and 5g of sugar.",
+      "country": "BRA",
+      "gt_kcal": 265,
+      "pred_kcal": 278,
+      "err_kcal": 13,
+      "acc7_5": true
+    },
+    {
+      "query": "I had 25 grams of infant formula milk, paired with 80 grams of apple and pear puree and 190 grams of tap water for breakfast.",
+      "country": "BGR",
+      "gt_kcal": 199,
+      "pred_kcal": 185,
+      "err_kcal": 14,
+      "acc7_5": false
+    },
+    {
+      "query": "For lunch, I'm having a peanut butter and jelly sandwich made with 112.0g of regular peanut butter and jelly on wheat bread, along with a 126.0g raw banana.",
+      "country": "USA",
+      "gt_kcal": 514.22,
+      "pred_kcal": 720,
+      "err_kcal": 205.77999999999997,
+      "acc7_5": false
+    },
+    {
+      "query": "For dinner, I had 94.2g of stir-fried Chinese kale, 100g of grass jelly, 160g of cooked rice, 120g of fried sea perch, and 500g of soybean milk.",
+      "country": "MYS",
+      "gt_kcal": 820,
+      "pred_kcal": 614,
+      "err_kcal": 206,
+      "acc7_5": false
+    },
+    {
+      "query": "I’m snacking on 4 grams of cheese, 8 grams of ham, and 8 grams of white bread spread with butter.",
+      "country": "ARG",
+      "gt_kcal": 50.400000000000006,
+      "pred_kcal": 63.2,
+      "err_kcal": 12.799999999999997,
+      "acc7_5": true
+    },
+    {
+      "query": "For lunch, I'm having 300g of boiled white rice, along with 36.2g of boiled green mung beans, 3.3g of boiled short-bodied mackerel, and 3.3g of anchovy savings.",
+      "country": "PHL",
+      "gt_kcal": 461,
+      "pred_kcal": 442,
+      "err_kcal": 19,
+      "acc7_5": false
+    },
+    {
+      "query": "For a quick snack, I prepared 375g of lemon drink powder with water and paired it with 78g of marmalade on bread.",
+      "country": "CRI",
+      "gt_kcal": 322,
+      "pred_kcal": 1587,
+      "err_kcal": 1265,
+      "acc7_5": false
+    },
+    {
+      "query": "I made a breakfast with 272.1 grams of a drink made from boiled water, dried coffee leaves, ginger, garlic, and salt, along with 200 grams of fried Ethiopian kale with oil and onion, and 218 grams of injera.",
+      "country": "ETH",
+      "gt_kcal": 767,
+      "pred_kcal": 470,
+      "err_kcal": 297,
+      "acc7_5": false
+    },
+    {
+      "query": "I made a lunch with a 250g orange drink that has vitamin C and a 45g cheese-filled tortilla.",
+      "country": "GTM",
+      "gt_kcal": 217,
+      "pred_kcal": 248,
+      "err_kcal": 31,
+      "acc7_5": true
+    },
+    {
+      "query": "At lunch, I have 140g of assorted beans, 400g of freshwater fish, 150g of orange juice, 90g of rice, 40g of tapioca flour, and some vinaigrette at 22g.",
+      "country": "BRA",
+      "gt_kcal": 1169,
+      "pred_kcal": 969.5,
+      "err_kcal": 199.5,
+      "acc7_5": false
+    },
+    {
+      "query": "I'm enjoying a snack with 106 grams of raw guava and 192 grams of ripe mango.",
+      "country": "KEN",
+      "gt_kcal": 174,
+      "pred_kcal": 187,
+      "err_kcal": 13,
+      "acc7_5": false
+    },
+    {
+      "query": "I’ve got a 16g muffin and 5g of sweetened puffed rice for my snack.",
+      "country": "PHL",
+      "gt_kcal": 75,
+      "pred_kcal": 67,
+      "err_kcal": 8,
+      "acc7_5": true
+    },
+    {
+      "query": "I just served myself a lunch with 30g of fish curry, 45g of green beans, and 15g of Indian pennywort, along with 250g of water and 300g of white rice.",
+      "country": "LKA",
+      "gt_kcal": 431,
+      "pred_kcal": 435,
+      "err_kcal": 4,
+      "acc7_5": true
+    },
+    {
+      "query": "For my snack, I've got 20g of coffee creamer alongside 85g of spaghetti with meatballs and tomato sauce.",
+      "country": "PHL",
+      "gt_kcal": 137,
+      "pred_kcal": 257,
+      "err_kcal": 120,
+      "acc7_5": false
+    },
+    {
+      "query": "For dinner, I am having 20g of boiled black eyed peas, 9g of cotton seed oil, 1g of salt, 1g of liquid potassium salt, and 21g of boiled sorghum grain without the husks.",
+      "country": "BFA",
+      "gt_kcal": 217,
+      "pred_kcal": 129,
+      "err_kcal": 88,
+      "acc7_5": false
+    },
+    {
+      "query": "I’m having a 444.4g serving of a beans, meat, and vegetable dish with maize grain for lunch.",
+      "country": "ARG",
+      "gt_kcal": 737.2999999999998,
+      "pred_kcal": 604,
+      "err_kcal": 133.29999999999984,
+      "acc7_5": false
+    },
+    {
+      "query": "I’m having 300 grams of cow milk and 30 grams of those simple cereals with oat, rice, wheat, maize, and barley flours for breakfast.",
+      "country": "ARG",
+      "gt_kcal": 288,
+      "pred_kcal": 288,
+      "err_kcal": 0,
+      "acc7_5": true
+    }
+  ],
+  "elapsed_sec": 1258
+}

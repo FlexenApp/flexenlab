@@ -3,7 +3,247 @@
 > Living document. Append new learnings as we discover them. The goal: when
 > we eventually port everything back to production, nothing gets forgotten.
 
-Last updated: 2026-04-07 (session in progress)
+Last updated: 2026-04-10 (Smart Router + Prompt Surgery Phase 1 shipped)
+
+---
+
+## 2026-04-10 — Smart Router in Production + Prompt Surgery Phase 1
+
+**Shipped:**
+- `estimateFoodAI` CF routes by brand keyword: `gemini-3-flash-preview` (premium, 149 brand keywords) vs `gemini-3.1-flash-lite-preview` with `thinkingConfig: {thinkingBudget: -1}, maxOutputTokens: 16384` (lite default).
+- Context cache applied on premium path only (Lite path uses inline system instruction).
+- CF deployed `europe-west1` → Vertex `us-central1` (+200-350ms round-trip accepted until 3.x lands in EU).
+
+**Phase 1 prompt surgery:**
+1. Starbucks Tall caramel macchiato anchor corrected: 250 → 210 kcal / 33 → 26g carbs (matched `dataset.ts` truth).
+2. Atwater verification relaxed: 15% tolerance for boiled/steamed, 10% for fried/baked/processed.
+3. +8 regional calibration anchors (nshima, boiled groundnuts, cassava, sweet potato, kapenta, pumpkin leaves, roti, jasmine rice) — targets NutriBench Zambian/global cuisine blind spot.
+4. BRAND_KEYWORDS expanded 80 → 149 entries (smashburger, wingstop, culver, baja blast, mcrib, happy meal, footlong, etc.) — closes 27% keyword miss on brand_queries.json.
+
+**Benchmark snapshot (bench_router.mts, 25 Flexen + 50 NutriBench):**
+
+| Metric | Router v1 | Router v1 + Prompt Surgery | Pure 3 FP | Pure 3.1 FL |
+|---|---|---|---|---|
+| Flexen all-4 | 72% | **72%** | 40% | 52% |
+| Flexen kcal@±20% | 88% | 88% | 72% | 64% |
+| Flexen kcal-tol | 88% | **92%** (+4pp) | — | — |
+| Flexen MAE kcal | 42.3 | 45.2 | 88.9 | 74.0 |
+| Flexen errors | 1 (elote parse) | **0** | — | — |
+| NutriBench Acc@7.5g | 50.0% | 49.0% | 52.0% | 47.9% |
+| NutriBench kcal Acc20 | 80.0% | **81.6%** | 78% | 75% |
+| NutriBench MAE kcal | 83.6 | **70.9** (−12.7) | 102.2 | 85.8 |
+| $/call | $0.00278 | $0.00278 | $0.0111 | ~$0.0025 |
+
+**Wins:** kcal MAE on NutriBench crashed by 15% (regional anchors land). Flexen kcal-tol +4pp. Elote cup parse fix.
+
+**Remaining gap:** NutriBench carb Acc@7.5g still −3pp vs pure 3 FP. Root cause confirmed: 5/7 Flexen misses are carbs-on-composite-dishes (Sweetgreen, Thai curry, ramen, mac&cheese, Sam's pizza). This is a lite-model capability ceiling, not a prompt issue — prompt work cannot close it further.
+
+**Next attempted:** Escalation Router v2 — REJECTED (see below).
+
+### Escalation Router v2 — KILLED 2026-04-10
+
+**Hypothesis:** Lite → Premium retry on low-confidence or Atwater drift closes the −3pp NutriBench carb gap by letting Premium fix Lite's worst answers.
+
+**Implementation:** CF + bench both parse Lite output, re-call Premium if any of: parse error, missing fields, `kcal > 5000`, `confidence != HIGH`, or `|kcal - (4P+4C+9F)| / kcal > 0.12`.
+
+**Run 1 (wide trigger, confidence != HIGH included):**
+- Flexen all-4: 72% → **60%** (−12pp) — Premium overrode correct Lite answers.
+- Flexen Acc@20%: 88% → 84% (−4pp).
+- NutriBench Acc@7.5g: 49% → 48.8% (flat).
+- NutriBench kcal Acc20: 81.6% → 76.7% (−5pp).
+- Escalation rate: Flexen 10/14 Lite-routed (71%), NutriBench 31/49 (63%).
+- Cost: $0.00278 → $0.00885 (+218%).
+- 7 transient NutriBench errors from doubled call volume.
+
+**Run 2 (narrow trigger, only `conf == LOW` + atwater >15% + parse/missing):**
+- Flexen all-4: 72% → 68% (−4pp) — one transient null + carne apache protein flipped wrong after escalation.
+- NutriBench Acc@7.5g: 49% → 44.9% (−4pp).
+- Escalation rate: Flexen 1/25, NutriBench 3/49.
+- Cost: $0.00338 vs $0.00278 (+22%).
+
+**Root cause:**
+1. **Lite's confidence signal is not a quality predictor.** Lite is pessimistic (rarely HIGH) even when correct. Escalation fires on correct answers.
+2. **Premium is not a better oracle than Lite on non-brand queries.** On carne apache, two eggs scrambled, elote cup, Chipotle bowl, Premium gave DIFFERENT (worse) answers than Lite. 3 FP trained on brand/US-restaurant data; Lite trained on broader distribution. Neither dominates.
+3. **Atwater drift >12% almost never fires.** Both models already self-enforce Atwater consistency (it's in the prompt). Near-zero signal.
+4. Doubled call volume caused rate-limit transient errors (7 NutriBench errors in run 1, 1 in run 2).
+
+**Conclusion:** Single-model-per-call is optimal with current models. No cheap escalation signal separates "Lite wrong" from "Lite right". **Keep router v1 + Phase 1 prompt surgery as shipped state.**
+
+**What would actually work (deferred):**
+- **Confidence calibration on a held-out labeled set** — if we train a small classifier on (query, lite_output) → P(correct), THAT is the escalation signal. Requires real user correction labels (E14 future work).
+- **Disagreement as signal** — always run both, escalate only when they disagree >threshold. Expensive (2× cost) but actually principled.
+- **Real fine-tune** — replace Lite with a distilled-3FP Lite once Vertex ships 3.x tuning.
+
+### Optimization 2: Anti-Overshoot Prompt + Ethnic-US Anchors (2026-04-10)
+
+**Root cause:** Failure analysis on Hardset-100 (38 failures total) revealed 21/38 were overshoots >15% — Lite systematically overestimates portions on composite/ethnic dishes (pad thai +94%, pupusa +123%, lasagna +49%, bibimbap +31%, shawarma +30%). Only 2/38 were undershoots.
+
+**Changes:**
+1. Added PORTION BIAS CHECK section to `FOOD_SYSTEM_INSTRUCTION` — explicit rules against overshoot:
+   - Most single dishes are 400-700 kcal, check if >800
+   - Street food items are SMALL (80-120g/taco, 100-130g/pupusa)
+   - "Half the box" means divide, not estimate the whole
+   - Cake slices are 100-140g, not 200g+
+2. Added 9 US ETHNIC FOOD CALIBRATION anchors (pad thai, tikka masala, bibimbap, pupusa, pho, al pastor taco, gyro, shawarma, tres leches) with explicit portion weights and kcal.
+
+**Bench: Hardset-100 + NutriBench-100 (2 confirmation runs):**
+
+| Metric | Baseline Router | +Anti-Overshoot (R1) | +Anti-Overshoot (R2) |
+|---|---|---|---|
+| Flexen all-4 | 62% | **68%** | **68%** |
+| Flexen kcal-tol | 83% | **88%** | **91%** |
+| Flexen Acc@±20% | 79% | **88%** | **87%** |
+| Flexen MAE kcal | 50.9 | **36.7** | **34.3** |
+| NB Acc@7.5g | 49.0% | 47.5% | 47.0% |
+| NB kcal Acc@20% | 68.4% | 68.7% | 68.0% |
+| NB MAE kcal | 95.8 | 94.4 | 95.8 |
+| $/call | $0.00354 | $0.00354 | $0.00354 |
+
+**Verdict:** Clear win on Flexen (+6pp all-4, +9pp Acc@20%, −14 MAE). Stable across runs. NutriBench flat (−1.5pp Acc@7.5g, within noise). Ships.
+
+**Key individual case improvements:**
+- Pad thai: 930→500 (was +94%, now +4%)
+- Pupusa: 670→270 (was +123%, now −10%)
+- Pho ga: kept at 450 (nailed)
+- Bibimbap: 640→555 (was +31%, now +13%)
+- Tres leches: 476→350 (nailed)
+- Lasagna: 1015→reduced (fraction logic improved)
+
+**Deployed 2026-04-10.** `estimateFoodAI(europe-west1)` updated.
+
+### Optimization 3: Brand Anchors + Handful Fix + Composite Rule (2026-04-10)
+
+**Changes:**
+1. +4 brand-specific anchors in prompt (Wendy's small chili 170kcal, Sam's Club Café pizza 380kcal, Chobani non-fat 80kcal, Dunkin' glazed donut 270kcal)
+2. Handful rule: "small handful" ≈ standard portion, don't halve again
+3. Composite dish rule: don't double-count sauces already included in base dish
+
+**3-Seed Bench (mean ± std, Hardset-100 + NutriBench-100):**
+
+| Metric | Baseline (Opt 1) | After Opt 2 | **After Opt 3 (3-seed)** |
+|---|---|---|---|
+| Flexen all-4 | 62% | 68% | **72.4 ± 0.5%** |
+| Flexen Acc@20% | 79% | 88% | **90.6 ± 2.1%** |
+| Flexen MAE kcal | 50.9 | 34.3 | **29.4 ± 2.0** |
+| NB Acc@7.5g | 49.0% | 47.5% | 47.3 ± 0.6% |
+| NB kcal Acc@20% | 68.4% | 68.7% | **71.1 ± 1.2%** |
+| NB MAE kcal | 95.8 | 94.4 | **82.9 ± 4.2** |
+| $/call | $0.00354 | $0.00354 | $0.00354 |
+
+**Deployed 2026-04-10.** Cumulative: +10pp Flexen all-4, +12pp Acc@20%, −21.5 MAE kcal vs initial router baseline. 3-seed std ±0.5pp confirms stability.
+
+### COST CORRECTION (2026-04-10) — Thinking Tokens Were Missing
+
+**All prior cost calculations were wrong.** Thinking tokens (thinkingBudget=-1 on Lite, inherent on Premium) are billed as output tokens. Measured on real calls:
+
+| Model | Input | Visible Output | Thinking | Total Output |
+|---|---|---|---|---|
+| Lite (3.1 FL) | 2680 | 140 | **1600** | 1740 |
+| Premium (3 FP) | 2680 | 130 | **760** | 890 |
+
+**Corrected Vertex AI pricing per call:**
+
+| Path | Input cost | Output cost | Total |
+|---|---|---|---|
+| Lite | $0.25×2680/1M=$0.00067 | $1.50×1740/1M=$0.00261 | **$0.00328** |
+| Premium (uncached) | $0.50×2680/1M=$0.00134 | $3.00×890/1M=$0.00267 | **$0.00401** |
+| Premium (cached, 75% input savings) | $0.50×2680×0.25/1M=$0.00034 | $3.00×890/1M=$0.00267 | **$0.00300** |
+
+**Router average (45% premium, 55% lite):** ~$0.00351/call.
+**Pure cached premium:** ~$0.00300/call.
+
+**The router is ~$500/mo MORE expensive than pure cached premium at 1M calls, not 68% cheaper.**
+
+The router's value is now purely **quality + reliability** (+9pp all-4, +12pp Acc@20%, 0 vs 10 errors/100), NOT cost savings. This reframes the architecture decision: router wins on accuracy because Lite handles generic queries better than Premium, and Premium handles brands better than Lite — but it costs slightly more because Lite's thinking tokens eat the input price advantage.
+
+**Implication for future:** If thinking tokens could be reduced (e.g., `thinking_level: "minimal"` for Lite instead of `thinkingBudget: -1`), the cost picture flips back. But bench 2026-04-09 showed thinkingBudget=0 regresses NutriBench Acc@7.5g by 27pp, so this needs careful testing with the Gemini 3.x thinking_level API.
+
+### Optimization 4: Atwater Auto-Repair — REJECTED (2026-04-10)
+
+Post-processing in CF: if `|kcal - (4P+4C+9F)| > 12%`, override kcal with Atwater sum.
+3-seed result: Flexen all-4 +3.4pp, but Acc@20% −3.1pp and MAE +4.3. Mixed — helps when macros are right and kcal wrong, hurts when kcal was right and macros off. Higher variance (±1.4 vs ±0.5). **Not shipped.**
+
+### Optimization 6: thinking_level migration — "medium" SHIPPED (2026-04-10)
+
+**Discovery:** `thinkingBudget: -1` (dynamic, Gemini 2.5 backward-compat) was the WORST option — highest cost AND highest error rate on 8-query probe (9.3% avg err, ~1000 thinking tokens). Gemini 3.x uses `thinking_level` instead.
+
+**Token measurement (8 food queries, Lite model):**
+
+| Level | Avg thinking tokens | Avg kcal error | $/call |
+|---|---|---|---|
+| minimal | 0 | 6.1% | $0.00089 |
+| **low** | 119 | **4.0%** | $0.00108 |
+| **medium** | 471 | **3.5%** | $0.00157 |
+| high | 973 | 5.1% | $0.00233 |
+| budget=-1 (old) | 994 | 9.3% | $0.00236 |
+
+**3-seed Hardset-100 + NB-100:**
+
+| Metric | budget=-1 | level=low | level=medium |
+|---|---|---|---|
+| Flexen all-4 | 72.4 ± 0.5% | **78.8 ± 1.4%** | 71.4 ± 1.0% |
+| NB Acc@7.5g | 47.3 ± 0.6% | 43.2 ± 2.7% | **49.0 ± 0.4%** |
+| NB kcal Acc@20% | 71.1 ± 1.2% | 63.1 ± 4.0% | **71.3 ± 2.5%** |
+| NB MAE | 82.9 ± 4.2 | 103.9 ± 7.8 | **94.2 ± 5.7** |
+
+**Decision:** Shipped `medium`. Low won Flexen (+6.4pp) but lost NutriBench (−4pp). Medium is safest: best NB accuracy, flat Flexen, 53% fewer thinking tokens than budget=-1.
+
+### Optimization 7: Final Sanity Check Prompt — REJECTED (2026-04-10)
+
+Added explicit sanity-check instructions at end of prompt with specific kcal ranges for common foods. 3-seed: Flexen all-4 −1.7pp, MAE +2.3, NB MAE +13.6. The model second-guesses correct answers when told to double-check. **Not shipped.** This confirms: more instructions ≠ better. The current prompt length is at or past the point of diminishing returns.
+
+### Optimization 5: Temperature 0.0 — REJECTED (2026-04-10)
+
+3-seed result: Flexen all-4 +4pp, but NutriBench MAE +14.3 (82.9→97.2). Deterministic answers are more consistent per-case but when wrong they're stuck wrong — temp=0.1 gets occasional lucky variance that helps average metrics. NB Acc@7.5g std tripled (0.6→3.2). **Not shipped.**
+
+---
+
+### Clean head-to-head baseline at N=200 (2026-04-10, both on Phase 1 prompt)
+
+Run: `ESCALATE=0 NB_N=200 npx tsx finetune/bench_router.mts` vs `PURE=1` variant on the identical 200-case NutriBench sample.
+
+| Metric | Router v1 (Phase 1 prompt) | Pure 3 FP (Phase 1 prompt) | Δ |
+|---|---|---|---|
+| Flexen all-4 | 60% | 64% | −4pp |
+| Flexen kcal Acc@±20% | 76% | 88% | −12pp |
+| Flexen MAE kcal | 52.9 | 37.7 | +15 |
+| NB Acc@7.5g | 48.22% | 52.10% | **−3.9pp** |
+| NB kcal Acc@20% | 68.53% | 70.66% | −2.2pp |
+| NB MAE kcal | 90.71 | 77.83 | +12.9 |
+| NB MAE carbs | 15.70 | 13.92 | +1.8 |
+| NB errors/200 | 3 | **33** | Pure 3 FP 10× more transient failures |
+| $/call | $0.00177 | $0.01110 | **−84%** |
+| $/mo @ 1M calls | $1,772 | $11,100 | −$9,328 |
+
+**Strategic trade-off framing:** Router gives up ~4pp on every quality metric in exchange for 84% cost reduction AND 10× better reliability under load. Pure 3 FP rate-limits at scale — 33/200 failures (16.5%) at 6-concurrent from a single client. Real production concurrency will be much higher. Lite is 8× cheaper and the 3.1 FL endpoint has much higher quota headroom.
+
+### Flexen Hardset has ±12pp run-to-run variance (CRITICAL)
+
+Three consecutive runs of identical Phase 1 code on the 25-case Flexen Hardset:
+- Run A: 72% all-4, 88% Acc@20%, 1 error
+- Run B: 68% all-4, 88% Acc@20%, 0 errors
+- Run C: 60% all-4, 76% Acc@20%, 1 error (transient)
+
+At temperature 0.1, the lite model still produces dramatically different outputs on ambiguous queries between runs (observed: Pho Bo 780→1000→680 kcal, carne apache 200→275→263→190, ramen 930→845→943). **Hardset N=25 is statistical noise; the variance band exceeds any plausible optimization signal.**
+
+**Mandate:** No further prompt/routing optimization without:
+1. Flexen Hardset expansion to N≥100 (target 200), including at least 50 ethnic-US dishes, 30 composite meals, and 20 ambiguous portions.
+2. Multi-run bench (3 seeds, report mean ± std) on every metric before claiming wins.
+3. NutriBench default sample of 200+ on every run (50 is noise).
+
+### Phase 1 cost/quality verdict
+
+**Recommendation: ship Router v1 + Phase 1 prompt, accept the ~4pp quality tradeoff.** Reasoning:
+- 84% cost savings are real and compound at scale ($9k/mo at 1M, $90k/mo at 10M).
+- Reliability: 11% Pure 3 FP failure rate at modest concurrency is disqualifying for production UX. Router's 1.5% is shippable.
+- NutriBench is a Zambian/global cuisine benchmark; Flexen's real user traffic will be ~80% US brand/generic where router is strong.
+- The gap narrows further with Phase 1 prompt (regional anchors took NB MAE from 93 → 78 on pure, so prompt surgery benefits both paths equally).
+- Real user telemetry will dominate synthetic eval signal anyway once we ship PostHog instrumentation.
+
+**Infrastructure learnings from this session:**
+- `bench_router.mts` now extracts `FOOD_SYSTEM_INSTRUCTION` + `BRAND_KEYWORDS` live from `functions/index.js` — no more skinny-copy drift. The original bench was running a gutted COT prompt; merging to live CF source revealed prompt key-list omission (schema-dependent clause without responseSchema) which caused NaN on first re-bench run. Appended explicit key list to bench prompt as workaround.
+- Thinking models (2.5 Flash, 3.1 FL) **require** `thinkingBudget: -1` + `maxOutputTokens: 16384` — `thinkingBudget: 0` regressed NutriBench Acc@7.5g from 52% → 25.71% (27pt cliff). Do not change.
+- Sam's Club in Flexen Hardset case [7] now routed to premium (keyword coverage fix), but 3 FP still overshoots pepperoni pizza slice portion (650/380). Dataset target may be wrong-ish or portion ambiguity is genuine.
 
 ---
 

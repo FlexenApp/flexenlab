@@ -1,0 +1,82 @@
+{
+  "model": "gemini",
+  "variant": "baseline",
+  "dataset": "e12_long_queries",
+  "n": 10,
+  "errors": 0,
+  "within_20pct": 0.9,
+  "mae_kcal": 59.9,
+  "rows": [
+    {
+      "query": "Today for breakfast I had two scrambled eggs with butter and a slice of whole wheat toast with jam",
+      "gt": 350,
+      "pred": 307,
+      "err": 43,
+      "within_20": true
+    },
+    {
+      "query": "For lunch I had a grilled chicken salad with 150g chicken breast, mixed greens, half an avocado, cherry tomatoes, and 2 tbsp olive oil dressing",
+      "gt": 620,
+      "pred": 581,
+      "err": 39,
+      "within_20": true
+    },
+    {
+      "query": "My dinner was 200g salmon baked, 1 cup cooked brown rice, and a cup of steamed broccoli with butter",
+      "gt": 690,
+      "pred": 776,
+      "err": 86,
+      "within_20": true
+    },
+    {
+      "query": "Breakfast: bowl of oatmeal made with milk, topped with banana and honey. Lunch: turkey sandwich with cheese and mayo. Snack: an apple.",
+      "gt": 1050,
+      "pred": 1035,
+      "err": 15,
+      "within_20": true
+    },
+    {
+      "query": "I ate a McDonald's Big Mac meal with medium fries and a medium Coke, plus I added a McChicken on the side",
+      "gt": 1570,
+      "pred": 1520,
+      "err": 50,
+      "within_20": true
+    },
+    {
+      "query": "Two slices of pepperoni pizza, a garlic knot, and a Caesar salad on the side with dressing",
+      "gt": 1020,
+      "pred": 990,
+      "err": 30,
+      "within_20": true
+    },
+    {
+      "query": "Protein shake with whey, a banana, a handful of almonds, and a scoop of peanut butter for a post-workout meal",
+      "gt": 560,
+      "pred": 425,
+      "err": 135,
+      "within_20": false
+    },
+    {
+      "query": "For dinner I had a full Chipotle burrito bowl with chicken, white rice, pinto beans, mild salsa, cheese, and sour cream",
+      "gt": 810,
+      "pred": 746,
+      "err": 64,
+      "within_20": true
+    },
+    {
+      "query": "Breakfast was a bagel with cream cheese and smoked salmon, plus orange juice",
+      "gt": 550,
+      "pred": 523,
+      "err": 27,
+      "within_20": true
+    },
+    {
+      "query": "Dinner: pan-fried ribeye steak about 250g, baked potato with butter and sour cream, side of asparagus",
+      "gt": 950,
+      "pred": 1060,
+      "err": 110,
+      "within_20": true
+    }
+  ],
+  "elapsed_sec": 75
+}

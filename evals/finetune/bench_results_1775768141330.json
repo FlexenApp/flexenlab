@@ -1,0 +1,18 @@
+{
+  "model": "flexen/gpt-oss-120b-flexen-pilot-2026-04-09-8da0f0db",
+  "nutribench": {
+    "n": 0,
+    "errors": 500,
+    "acc_7_5": null,
+    "kcal_acc20": null,
+    "mae_kcal": null,
+    "mae_carbs": null
+  },
+  "flexen_hardset": {
+    "n": 25,
+    "all_4": 0,
+    "kcal_tol": 0,
+    "kcal_acc20": 0,
+    "mae_kcal": 0
+  }
+}

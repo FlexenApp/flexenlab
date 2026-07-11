@@ -1,0 +1,40 @@
+[
+  {
+    "model": "gemini-2.5-flash",
+    "nutribench": {
+      "n": 35,
+      "errors": 15,
+      "acc_7_5": 0.2571428571428571,
+      "kcal_acc20": 0.6857142857142857,
+      "mae_kcal": 127.07571428571427,
+      "mae_carbs": 26.755714285714284
+    },
+    "flexen_hardset": {
+      "n": 25,
+      "errors": 0,
+      "all_4": 0.6,
+      "kcal_tol": 0.88,
+      "kcal_acc20": 0.92,
+      "mae_kcal": 53.2
+    }
+  },
+  {
+    "model": "gemini-2.5-flash-lite",
+    "nutribench": {
+      "n": 46,
+      "errors": 4,
+      "acc_7_5": 0.2391304347826087,
+      "kcal_acc20": 0.391304347826087,
+      "mae_kcal": 150.61847826086955,
+      "mae_carbs": 26.824565217391307
+    },
+    "flexen_hardset": {
+      "n": 25,
+      "errors": 2,
+      "all_4": 0.36,
+      "kcal_tol": 0.56,
+      "kcal_acc20": 0.6,
+      "mae_kcal": 79.8
+    }
+  }
+]

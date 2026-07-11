@@ -1,0 +1,24 @@
+{
+  "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "nutribench": {
+    "n": 50,
+    "errors": 0,
+    "acc_7_5": 0.16,
+    "kcal_acc20": 0.36,
+    "mae_kcal": 202.50359999999998,
+    "mae_carbs": 37.0898
+  },
+  "flexen_hardset": {
+    "n": 25,
+    "errors": 0,
+    "all_4": 0.24,
+    "kcal_tol": 0.6,
+    "kcal_acc20": 0.56,
+    "mae_kcal": 100.8
+  },
+  "gate": {
+    "nb": false,
+    "fx": false,
+    "pass": false
+  }
+}

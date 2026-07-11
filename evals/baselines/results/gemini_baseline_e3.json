@@ -1,0 +1,130 @@
+{
+  "model": "gemini",
+  "variant": "baseline",
+  "dataset": "e3_consistency",
+  "n_groups": 10,
+  "avg_drift_pct": 0.07327236025735881,
+  "per_base": [
+    {
+      "base": "1 banana",
+      "predKcals": [
+        105,
+        105,
+        110,
+        117
+      ],
+      "mean": 109,
+      "maxDrift": 8,
+      "driftPct": "7.1%"
+    },
+    {
+      "base": "2 eggs scrambled",
+      "predKcals": [
+        187,
+        188,
+        180,
+        184
+      ],
+      "mean": 185,
+      "maxDrift": 5,
+      "driftPct": "2.6%"
+    },
+    {
+      "base": "cup of coffee with milk",
+      "predKcals": [
+        23,
+        30,
+        16,
+        31
+      ],
+      "mean": 25,
+      "maxDrift": 9,
+      "driftPct": "36.0%"
+    },
+    {
+      "base": "oat milk latte",
+      "predKcals": [
+        160,
+        180,
+        180,
+        150
+      ],
+      "mean": 168,
+      "maxDrift": 18,
+      "driftPct": "10.4%"
+    },
+    {
+      "base": "200g chicken breast grilled",
+      "predKcals": [
+        313,
+        313,
+        313,
+        320
+      ],
+      "mean": 315,
+      "maxDrift": 5,
+      "driftPct": "1.7%"
+    },
+    {
+      "base": "medium apple",
+      "predKcals": [
+        105,
+        95,
+        105,
+        105
+      ],
+      "mean": 103,
+      "maxDrift": 8,
+      "driftPct": "7.3%"
+    },
+    {
+      "base": "cheese pizza slice",
+      "predKcals": [
+        280,
+        285,
+        285,
+        285
+      ],
+      "mean": 284,
+      "maxDrift": 4,
+      "driftPct": "1.3%"
+    },
+    {
+      "base": "cup of white rice",
+      "predKcals": [
+        242,
+        234,
+        242,
+        234
+      ],
+      "mean": 238,
+      "maxDrift": 4,
+      "driftPct": "1.7%"
+    },
+    {
+      "base": "Big Mac",
+      "predKcals": [
+        590,
+        590,
+        550,
+        590
+      ],
+      "mean": 580,
+      "maxDrift": 30,
+      "driftPct": "5.2%"
+    },
+    {
+      "base": "tall latte",
+      "predKcals": [
+        150,
+        150,
+        150,
+        150
+      ],
+      "mean": 150,
+      "maxDrift": 0,
+      "driftPct": "0.0%"
+    }
+  ],
+  "elapsed_sec": 242
+}

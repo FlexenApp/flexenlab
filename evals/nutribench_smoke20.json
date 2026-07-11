@@ -1,0 +1,182 @@
+[
+  {
+    "meal_description": "I'm enjoying a 150g apple, peeled, with 160g of bottled water for lunch.",
+    "carb": 19.65,
+    "fat": 0.15,
+    "energy": 80,
+    "protein": 0.45,
+    "country": "ITA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "At lunch, I enjoyed 24g of Jowar Roti, a side of 111g Potato Bhaji, 26.5g of Red Gram Dhal, and 55.3g of rice.",
+    "carb": 52.8,
+    "fat": 12.499999999999998,
+    "energy": 348,
+    "protein": 5.9,
+    "country": "IND",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I started my day with 50 grams of coffee, some saltine crackers weighing 15 grams, a bit of sugar at 5 grams, and 120 grams of tapioca couscous.",
+    "carb": 54.28,
+    "fat": 6.9,
+    "energy": 289,
+    "protein": 2.91,
+    "country": "BRA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For lunch, I'm enjoying 75g of banana, 35g of roasting beef, 60g of kale, and 100g of white rice.",
+    "carb": 53.41,
+    "fat": 11.06,
+    "energy": 359,
+    "protein": 14.5,
+    "country": "BRA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "This morning, I ate 74g of unleavened corn bread along with 238g of fermented corn injera and drank 213g of boiled tea with sugar.",
+    "carb": 157.1,
+    "fat": 4.1,
+    "energy": 622,
+    "protein": 13.7,
+    "country": "ETH",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I’ve got a dinner plate with 279.5 grams of chicken meatballs, 198 grams of boiled pasta, and a drizzle of 30.6 grams of tomato sauce.",
+    "carb": 65.34,
+    "fat": 32.39,
+    "energy": 869,
+    "protein": 76.91,
+    "country": "KNA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I have a snack that includes 99.9g of cooked beef and 51g of fried rice. I’m also having a 370.1g portion of hog plum with lemon and grounded pumpkin seeds, plus a 244.8g salad with lettuce, vegetables, lemon, and salt. To drink, there's a 30.7g tamarind beverage and a maize-based tortilla of 180g.",
+    "carb": 206.83,
+    "fat": 24.960000000000004,
+    "energy": 1176,
+    "protein": 42.260000000000005,
+    "country": "GTM",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For my snack, I've got 140g of sweet wheat bread, a little 15.3g coffee substitute from cereal grains with sugar, and a hefty 282g tortilla packed with cooked black beans.",
+    "carb": 191.57,
+    "fat": 20.33,
+    "energy": 1061,
+    "protein": 32.42,
+    "country": "GTM",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For lunch, I had 186 grams of boiled coffee beans with salt, 320 grams of fermented millet injera, and 190 grams of pea stew with chili powder, salt, oil, and red onion.",
+    "carb": 142.7,
+    "fat": 6.8,
+    "energy": 670,
+    "protein": 18.8,
+    "country": "ETH",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For breakfast, I had 75g of banana, 50g of coffee, 50g of commercial sliced bread with 10g of margarine, and 40g of mozzarella cheese with 5g of sugar.",
+    "carb": 52.190000000000005,
+    "fat": 18.14,
+    "energy": 428,
+    "protein": 15.53,
+    "country": "BRA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For a snack, I'm having 100g of raw fennel, along with 100g of raw lettuce and 2g of raw onion. I also included 58.7g of dry pasta and 70.9g of canned peeled tomatoes. I added 0.6g of raw garlic, a hint of 0.5g of red hot chili pepper for some kick, and I'm enjoying 103.9g of raw veal on the side. I’m sipping on some white table wine (0.1g of alcohol) with my meal and 160g of bottled Uliveto water. Lastly, I drizzled in 9.0g of extra-virgin olive oil and 15.3g of regular olive oil for some added flavor.",
+    "carb": 52.080000000000005,
+    "fat": 26.86,
+    "energy": 566,
+    "protein": 31.8,
+    "country": "ITA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For lunch, I'm having 257 grams of cooked breadfruit with 5 grams of some kind of condiment, 226 grams of fried fish, and a 366-gram serving of Peardrella soda.",
+    "carb": 97.14,
+    "fat": 27.58,
+    "energy": 880,
+    "protein": 53.34,
+    "country": "KNA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For a snack, I had 120g of red wine, 75g of caciocavallo cheese, 60g of homemade espresso with no sugar, 2.7g of raw onions, 30g of cured pork, 54.8g of raw white rice, 8.2g of olive oil, and 320g of Leggera bottled water.",
+    "carb": 46.27,
+    "fat": 41.1,
+    "energy": 789,
+    "protein": 38.870000000000005,
+    "country": "ITA",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I ate 21g of unrefined white maize flour along with 113g of a fresh ripe banana for breakfast.",
+    "carb": 41.900000000000006,
+    "fat": 1.1,
+    "energy": 177,
+    "protein": 2.6,
+    "country": "ZMB",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For lunch, I had 31 grams of raw boiled green cabbage, 23 grams of dried boiled kasepa fish, 147 grams of raw boiled maize flour, 15 grams of raw boiled large onion, 2 grams of raw boiled large onion, 65 grams of raw boiled ripe tomato, and 149 grams of fresh boiled groundnuts in their shells.",
+    "carb": 150.6,
+    "fat": 43.5,
+    "energy": 1114,
+    "protein": 41,
+    "country": "ZMB",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "I'm enjoying a snack that includes 134.3g of homemade cake and 40.9g of plantain with sugar.",
+    "carb": 103.59,
+    "fat": 25.34,
+    "energy": 668,
+    "protein": 8.5,
+    "country": "GTM",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For lunch, I had 100g of fried Ethiopian kale with oil, onion, and salt, along with 200g of leavened injera made from corn and millet.",
+    "carb": 75.7,
+    "fat": 16.099999999999998,
+    "energy": 465,
+    "protein": 11.6,
+    "country": "ETH",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For a quick snack, I have 110 grams of Cajamanga and a 12-gram hard candy from Chupa Chups.",
+    "carb": 24.06,
+    "fat": 0,
+    "energy": 97,
+    "protein": 1.43,
+    "country": "STP",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For lunch, I'm having 25g of bread, 150g of eggplant, and 364.2g of meatball soup. I also have 348.5g of potatoes with roasted chicken and a glass of 175g of wine. And for dessert, I've got a slice of homemade cake weighing 106.7g.",
+    "carb": 130.4,
+    "fat": 93.1,
+    "energy": 1712,
+    "protein": 61.00000000000001,
+    "country": "ROU",
+    "serving_type": "metric"
+  },
+  {
+    "meal_description": "For dinner, I prepared 221g of maize flour along with 66g of okra leaves, 18g of a large onion, 61g of tomato, and 51g of roasted termites.",
+    "carb": 183,
+    "fat": 33,
+    "energy": 1157,
+    "protein": 38.3,
+    "country": "ZMB",
+    "serving_type": "metric"
+  }
+]

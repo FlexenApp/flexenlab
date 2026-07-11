@@ -1,0 +1,189 @@
+{
+  "model": "ollama",
+  "variant": "baseline",
+  "dataset": "flexen_hardset",
+  "n": 25,
+  "errors": 0,
+  "all_4_in_band": 0.4,
+  "kcal_in_tolerance": 0.68,
+  "kcal_acc_20": 0.64,
+  "mae_kcal": 87.64,
+  "rows": [
+    {
+      "query": "200g chicken breast, grilled",
+      "gt_kcal": 330,
+      "pred_kcal": 330,
+      "all": 1,
+      "errK": 0
+    },
+    {
+      "query": "tall starbucks caramel macchiato with whole milk",
+      "gt_kcal": 210,
+      "pred_kcal": 220,
+      "all": 1,
+      "errK": 10
+    },
+    {
+      "query": "grande iced brown sugar oat shaken espresso from starbucks",
+      "gt_kcal": 120,
+      "pred_kcal": 315,
+      "all": 1,
+      "errK": 195
+    },
+    {
+      "query": "Big Mac with medium fries and a Coke",
+      "gt_kcal": 1170,
+      "pred_kcal": 1100,
+      "all": 2,
+      "errK": 70
+    },
+    {
+      "query": "two scoops of Ben & Jerry's Cherry Garcia",
+      "gt_kcal": 480,
+      "pred_kcal": 250,
+      "all": 2,
+      "errK": 230
+    },
+    {
+      "query": "double-double animal style with fries from in n out",
+      "gt_kcal": 1060,
+      "pred_kcal": 1285,
+      "all": 2,
+      "errK": 225
+    },
+    {
+      "query": "slice of pepperoni pizza at Sam's Club",
+      "gt_kcal": 380,
+      "pred_kcal": 420,
+      "all": 2,
+      "errK": 40
+    },
+    {
+      "query": "Chipotle chicken burrito bowl with brown rice black beans corn salsa cheese and guac",
+      "gt_kcal": 940,
+      "pred_kcal": 723,
+      "all": 2,
+      "errK": 217
+    },
+    {
+      "query": "Sweetgreen Harvest Bowl",
+      "gt_kcal": 690,
+      "pred_kcal": 842,
+      "all": 2,
+      "errK": 152
+    },
+    {
+      "query": "Beyond Burger patty pan-fried with cheese",
+      "gt_kcal": 385,
+      "pred_kcal": 401,
+      "all": 2,
+      "errK": 16
+    },
+    {
+      "query": "1 serving of Trader Joe's Mandarin Orange Chicken",
+      "gt_kcal": 320,
+      "pred_kcal": 360,
+      "all": 2,
+      "errK": 40
+    },
+    {
+      "query": "two large eggs scrambled with butter",
+      "gt_kcal": 230,
+      "pred_kcal": 226,
+      "all": 3,
+      "errK": 4
+    },
+    {
+      "query": "half a chipotle chicken burrito",
+      "gt_kcal": 580,
+      "pred_kcal": 390,
+      "all": 3,
+      "errK": 190
+    },
+    {
+      "query": "three slices of cheese pizza",
+      "gt_kcal": 855,
+      "pred_kcal": 878,
+      "all": 4,
+      "errK": 23
+    },
+    {
+      "query": "a handful of almonds",
+      "gt_kcal": 165,
+      "pred_kcal": 162,
+      "all": 5,
+      "errK": 3
+    },
+    {
+      "query": "small bowl of oatmeal with banana and honey",
+      "gt_kcal": 290,
+      "pred_kcal": 235,
+      "all": 6,
+      "errK": 55
+    },
+    {
+      "query": "Thai green curry takeout, about half the box",
+      "gt_kcal": 420,
+      "pred_kcal": 300,
+      "all": 6,
+      "errK": 120
+    },
+    {
+      "query": "ramen tonkotsu with chashu and ajitama",
+      "gt_kcal": 850,
+      "pred_kcal": 769,
+      "all": 6,
+      "errK": 81
+    },
+    {
+      "query": "Pho Bo large with extra brisket",
+      "gt_kcal": 720,
+      "pred_kcal": 560,
+      "all": 6,
+      "errK": 160
+    },
+    {
+      "query": "elote cup",
+      "gt_kcal": 380,
+      "pred_kcal": 421,
+      "all": 6,
+      "errK": 41
+    },
+    {
+      "query": "carne apache",
+      "gt_kcal": 250,
+      "pred_kcal": 520,
+      "all": 6,
+      "errK": 270
+    },
+    {
+      "query": "Mac and Cheese with Spam and Kimchi",
+      "gt_kcal": 720,
+      "pred_kcal": 758,
+      "all": 7,
+      "errK": 38
+    },
+    {
+      "query": "1 cup of cooked white rice",
+      "gt_kcal": 205,
+      "pred_kcal": 205,
+      "all": 8,
+      "errK": 0
+    },
+    {
+      "query": "medium banana",
+      "gt_kcal": 105,
+      "pred_kcal": 116,
+      "all": 9,
+      "errK": 11
+    },
+    {
+      "query": "salmon fillet baked",
+      "gt_kcal": 350,
+      "pred_kcal": 350,
+      "all": 10,
+      "errK": 0
+    }
+  ],
+  "elapsed_sec": 373
+}

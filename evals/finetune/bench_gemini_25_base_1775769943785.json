@@ -1,0 +1,21 @@
+[
+  {
+    "model": "gemini-2.5-flash",
+    "nutribench": {
+      "n": 50,
+      "errors": 0,
+      "acc_7_5": 0.52,
+      "kcal_acc20": 0.78,
+      "mae_kcal": 102.22499999999998,
+      "mae_carbs": 17.090999999999998
+    },
+    "flexen_hardset": {
+      "n": 25,
+      "errors": 0,
+      "all_4": 0.4,
+      "kcal_tol": 0.64,
+      "kcal_acc20": 0.72,
+      "mae_kcal": 88.92
+    }
+  }
+]

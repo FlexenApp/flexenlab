@@ -1,0 +1,150 @@
+[
+  {
+    "model": "qwen3.5:397b",
+    "provider": "ollama",
+    "kind": "reasoning-moe",
+    "ok": false,
+    "dt": 361469,
+    "error": "Request timed out."
+  },
+  {
+    "model": "qwen3-next:80b",
+    "provider": "ollama",
+    "kind": "reasoning",
+    "ok": false,
+    "dt": 361434,
+    "error": "Request timed out."
+  },
+  {
+    "model": "deepseek-v3.2",
+    "provider": "ollama",
+    "kind": "reasoning",
+    "ok": false,
+    "dt": 361344,
+    "error": "Request timed out."
+  },
+  {
+    "model": "kimi-k2-thinking",
+    "provider": "ollama",
+    "kind": "reasoning",
+    "ok": false,
+    "dt": 361365,
+    "error": "Request timed out."
+  },
+  {
+    "model": "minimax-m2.7",
+    "provider": "ollama",
+    "kind": "reasoning",
+    "ok": false,
+    "dt": 361260,
+    "error": "Request timed out."
+  },
+  {
+    "model": "glm-5.1",
+    "provider": "ollama",
+    "kind": "reasoning",
+    "ok": true,
+    "dt": 103400,
+    "inTok": 137,
+    "outTok": 732,
+    "contentEmpty": false,
+    "reasoningUsed": false,
+    "rawPreview": null
+  },
+  {
+    "model": "gpt-oss:120b",
+    "provider": "ollama",
+    "kind": "reasoning",
+    "ok": true,
+    "dt": 56997,
+    "inTok": 206,
+    "outTok": 241,
+    "contentEmpty": false,
+    "reasoningUsed": false,
+    "rawPreview": null
+  },
+  {
+    "model": "gpt-oss:20b",
+    "provider": "ollama",
+    "kind": "dense",
+    "ok": true,
+    "dt": 17900,
+    "inTok": 206,
+    "outTok": 186,
+    "contentEmpty": false,
+    "reasoningUsed": false,
+    "rawPreview": null
+  },
+  {
+    "model": "gemma4:31b",
+    "provider": "ollama",
+    "kind": "dense",
+    "ok": true,
+    "dt": 144043,
+    "inTok": 154,
+    "outTok": 92,
+    "contentEmpty": false,
+    "reasoningUsed": false,
+    "rawPreview": null
+  },
+  {
+    "model": "gemma3:27b",
+    "provider": "ollama",
+    "kind": "dense",
+    "ok": true,
+    "dt": 15092,
+    "inTok": 150,
+    "outTok": 73,
+    "contentEmpty": false,
+    "reasoningUsed": false,
+    "rawPreview": null
+  },
+  {
+    "model": "ministral-3:14b",
+    "provider": "ollama",
+    "kind": "dense",
+    "ok": true,
+    "dt": 35944,
+    "inTok": 150,
+    "outTok": 90,
+    "contentEmpty": false,
+    "reasoningUsed": false,
+    "rawPreview": null
+  },
+  {
+    "model": "ministral-3:8b",
+    "provider": "ollama",
+    "kind": "dense",
+    "ok": true,
+    "dt": 5781,
+    "inTok": 150,
+    "outTok": 91,
+    "contentEmpty": false,
+    "reasoningUsed": false,
+    "rawPreview": null
+  },
+  {
+    "model": "gpt-4.1-nano",
+    "provider": "openai",
+    "kind": "dense",
+    "ok": true,
+    "dt": 1322,
+    "inTok": 142,
+    "outTok": 59,
+    "contentEmpty": false,
+    "reasoningUsed": false,
+    "rawPreview": null
+  },
+  {
+    "model": "gpt-5-mini",
+    "provider": "openai",
+    "kind": "dense",
+    "ok": true,
+    "dt": 9678,
+    "inTok": 141,
+    "outTok": 779,
+    "contentEmpty": false,
+    "reasoningUsed": false,
+    "rawPreview": null
+  }
+]

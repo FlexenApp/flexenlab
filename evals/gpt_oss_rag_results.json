@@ -1,0 +1,1752 @@
+[
+  {
+    "idx": 0,
+    "input": "200g chicken breast, grilled",
+    "targetKcal": 330,
+    "rag_hit": false,
+    "rag_preview": null,
+    "gemini": {
+      "pred": {
+        "name": "Grilled Chicken Breast",
+        "kcal": 313,
+        "carbsG": 0,
+        "proteinG": 62,
+        "fatG": 7.2,
+        "servingSize": "200g",
+        "confidence": "HIGH",
+        "reasoning": "Based on the provided weight of 200g and the instruction to use 31g of protein per 100g for cooked chicken breast. Grilling adds minimal fat (estimated at 3.6g per 100g). Total calories calculated as (62*4) + (7.2*9) = 312.8."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 17
+      }
+    },
+    "ollama": {
+      "pred": {
+        "name": "Grilled chicken breast",
+        "kcal": 330,
+        "carbsG": 0,
+        "proteinG": 62,
+        "fatG": 7.2,
+        "servingSize": "200 g",
+        "confidence": "HIGH",
+        "reasoning": "Identified the item as grilled chicken breast. Serving weight given as 200 g. USDA data for roasted (grilled) skinless chicken breast: ~165 kcal, 0 g carbs, 31 g protein, 3.6 g fat per 100 g. Multiplying by 2 (200 g) yields 330 kcal, 0 g carbs, 62 g protein, 7.2 g fat. Energy from macros (62*4 + 0*4 + 7.2*9 ≈ 313 kcal) is within 10% of the kcal estimate, confirming consistency."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 0
+      }
+    },
+    "ollama_rag": {
+      "pred": {
+        "name": "Grilled chicken breast",
+        "kcal": 330,
+        "carbsG": 0,
+        "proteinG": 62,
+        "fatG": 7.2,
+        "servingSize": "200 g",
+        "confidence": "HIGH",
+        "reasoning": "The item is explicitly 200 g of grilled chicken breast. USDA data for cooked skinless chicken breast is ~165 kcal, 31 g protein, 3.6 g fat, 0 g carbs per 100 g. Multiplying by 2 gives 330 kcal, 62 g protein, 7.2 g fat, 0 g carbs. Macro‑derived kcal (62*4 + 7.2*9 ≈ 313) is within 10% of the listed kcal, confirming consistency."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 0
+      }
+    }
+  },
+  {
+    "idx": 1,
+    "input": "tall starbucks caramel macchiato with whole milk",
+    "targetKcal": 210,
+    "rag_hit": false,
+    "rag_preview": null,
+    "gemini": {
+      "pred": {
+        "name": "Tall Starbucks Caramel Macchiato with Whole Milk",
+        "kcal": 220,
+        "carbsG": 25,
+        "proteinG": 7,
+        "fatG": 10,
+        "servingSize": "12 fl oz",
+        "confidence": "HIGH",
+        "reasoning": "Based on standard Starbucks nutritional data for a 12oz (Tall) beverage. The base drink with 2% milk is 190 kcal; substituting whole milk adds approximately 30 calories and 3g of fat. The calculation includes 1 shot of espresso, 2 pumps of vanilla syrup, steamed whole milk, and caramel drizzle. Macro verification: (25*4) + (7*4) + (10*9) = 218 kcal, which aligns with the 220 kcal estimate."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 10
+      }
+    },
+    "ollama": {
+      "pred": {
+        "name": "Tall Starbucks Caramel Macchiato with Whole Milk",
+        "kcal": 228,
+        "carbsG": 30,
+        "proteinG": 9,
+        "fatG": 8,
+        "servingSize": "12 fl oz (≈365 g)",
+        "confidence": "MEDIUM",
+        "reasoning": "Identified the drink as a Starbucks Tall (12 oz) Caramel Macchiato made with whole milk. A Tall size is about 355 ml; with whole milk (density ~1.03 g/ml) the total weight is roughly 365 g. Using typical Starbucks nutrition data for a similar drink (≈190 kcal with 2% milk) and adjusting for the higher fat content of whole milk, I estimated ~30 g carbs, 9 g protein, and 8 g fat for the 365 g serving. Multiplying per‑100 g averages gives ~228 kcal, which aligns within 10 % of the macro‑derived energy. The estimate is moderately certain due to variations in syrup and milk proportions."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 0,
+        "fat": 1,
+        "all": 0,
+        "kcal_acc20": 1,
+        "errKcal": 18
+      }
+    },
+    "ollama_rag": {
+      "pred": {
+        "name": "Starbucks Tall Caramel Macchiato with Whole Milk",
+        "kcal": 270,
+        "carbsG": 37,
+        "proteinG": 9,
+        "fatG": 9,
+        "servingSize": "Tall (12 fl oz / 355 ml)",
+        "confidence": "MEDIUM",
+        "reasoning": "Identified the beverage as a 12‑oz Starbucks Caramel Macchiato made with whole milk, vanilla syrup and caramel drizzle. Estimated total weight ~360 g (≈355 ml). Calculated contributions: whole milk (~275 g) provides ~8.8 g protein, 13.2 g carbs, 9.1 g fat, 168 kcal; vanilla syrup (~20 g) adds ~3 g carbs, 12 kcal; caramel drizzle (~30 g) adds ~21 g carbs, 90 kcal. Summed macros give ~9 g protein, 37 g carbs, 9 g fat and ~270 kcal, which satisfies the macro‑kcal check. Assumptions about syrup and drizzle volumes introduce some uncertainty, so confidence is set to MEDIUM."
+      },
+      "score": {
+        "kcal": 0,
+        "protein": 1,
+        "carbs": 0,
+        "fat": 1,
+        "all": 0,
+        "kcal_acc20": 0,
+        "errKcal": 60
+      }
+    }
+  },
+  {
+    "idx": 2,
+    "input": "grande iced brown sugar oat shaken espresso from starbucks",
+    "targetKcal": 120,
+    "rag_hit": true,
+    "rag_preview": "- Iced Brown Sugar Oatmilk Shaken Espresso (Grande) (Starbucks) (per 1 serving): 150 kcal, 27g carbs, 2g protein, 5g fat\n- Iced Shaken Espresso (Grande) (Starbucks) (per 1 serving): 100 kcal, 17g carb",
+    "gemini": {
+      "pred": {
+        "name": "Grande Iced Brown Sugar Oat Shaken Espresso",
+        "kcal": 120,
+        "carbsG": 20,
+        "proteinG": 2,
+        "fatG": 3,
+        "servingSize": "16 fl oz",
+        "confidence": "HIGH",
+        "reasoning": "This is a standardized Starbucks menu item in the US. The calculation is based on official nutritional data: 3 shots of blonde espresso (approx. 15 kcal), 4 pumps of brown sugar syrup (approx. 40-50 kcal), and a splash of oatmilk (approx. 60 kcal). The macro-to-calorie check (20*4 + 2*4 + 3*9 = 115) is within 5% of the stated 120 kcal."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 0
+      }
+    },
+    "ollama": {
+      "pred": {
+        "name": "Grande Iced Brown Sugar Oatmilk Shaken Espresso (Starbucks)",
+        "kcal": 240,
+        "carbsG": 44,
+        "proteinG": 3.5,
+        "fatG": 7,
+        "servingSize": "Grande (16 fl oz / ~473 mL)",
+        "confidence": "MEDIUM",
+        "reasoning": "Identified the drink as a Starbucks Grande (16 oz) iced brown sugar oatmilk shaken espresso. Estimated total weight ~473 g (≈473 mL, density ~1 g/mL). Assumed composition: ~355 g sweetened oatmilk, ~30 g brown‑sugar syrup, remainder espresso/water. Used USDA‑like values for sweetened oatmilk (≈50 kcal, 8 g carbs, 1 g protein, 2.5 g fat per 100 g) and brown‑sugar syrup (≈300 kcal, 75 g carbs per 100 g). Calculated macros and calories, then verified macro‑derived kcal (~253) is within 10 % of summed kcal (~240). Due to uncertainty in exact syrup amount and oatmilk sweetness, confidence is medium."
+      },
+      "score": {
+        "kcal": 0,
+        "protein": 1,
+        "carbs": 0,
+        "fat": 0,
+        "all": 0,
+        "kcal_acc20": 0,
+        "errKcal": 120
+      }
+    },
+    "ollama_rag": {
+      "pred": {
+        "name": "Iced Brown Sugar Oatmilk Shaken Espresso (Grande) (Starbucks)",
+        "kcal": 150,
+        "carbsG": 27,
+        "proteinG": 2,
+        "fatG": 5,
+        "servingSize": "Grande (≈473 g)",
+        "confidence": "HIGH",
+        "reasoning": "Identified the item as the Starbucks Grande Iced Brown Sugar Oatmilk Shaken Espresso. The database provides exact per‑serving nutrition: 150 kcal, 27 g carbs, 2 g protein, 5 g fat. A Grande size is 16 fl oz (~473 ml) and, assuming a density close to water, weighs roughly 473 g, matching typical Starbucks serving. No further calculation needed; macro‑derived calories (27*4 + 2*4 + 5*9 = 150 kcal) align with the listed kcal, confirming accuracy."
+      },
+      "score": {
+        "kcal": 0,
+        "protein": 1,
+        "carbs": 0,
+        "fat": 0,
+        "all": 0,
+        "kcal_acc20": 0,
+        "errKcal": 30
+      }
+    }
+  },
+  {
+    "idx": 3,
+    "input": "Big Mac with medium fries and a Coke",
+    "targetKcal": 1170,
+    "rag_hit": true,
+    "rag_preview": "- Diet Coke with Lime (Coca-Cola) (per 1 can): 0 kcal, 0g carbs, 0g protein, 0g fat\n- Diet Coke with Splenda (Coca-Cola) (per 1 can): 0 kcal, 0g carbs, 0g protein, 0g fat\n- Coca-Cola with Coffee (Vani",
+    "gemini": {
+      "pred": {
+        "name": "Big Mac Meal (Medium)",
+        "kcal": 1090,
+        "carbsG": 143,
+        "proteinG": 28,
+        "fatG": 45,
+        "servingSize": "1 Big Mac, 1 medium fry, 1 medium Coke (21oz)",
+        "confidence": "HIGH",
+        "reasoning": "Standardized US McDonald's nutritional data: Big Mac (550 kcal, 25g protein, 45g carbs, 30g fat), Medium Fries (320 kcal, 3g protein, 43g carbs, 15g fat), and Medium Coke (220 kcal, 55g carbs). Macro-to-calorie calculation: (28*4) + (143*4) + (45*9) = 1089 kcal, which matches the total within 1%."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 80
+      }
+    },
+    "ollama": {
+      "pred": {
+        "name": "Big Mac with medium fries and a medium Coke",
+        "kcal": 1100,
+        "carbsG": 147,
+        "proteinG": 28.5,
+        "fatG": 46,
+        "servingSize": "1 Big Mac, 1 medium fries, 1 medium Coke (21 fl oz)",
+        "confidence": "HIGH",
+        "reasoning": "IDENTIFY: The meal consists of a McDonald's Big Mac (sandwich), a medium portion of French fries, and a medium regular Coke. WEIGH: Approximate weights from standard McDonald's data – Big Mac ~219 g, medium fries ~117 g, Coke (21 fl oz) ~621 g. LOOKUP: Used typical USDA‑derived per‑100 g macro values that match McDonald's published nutrition (Big Mac ~11.4 g protein, 20.5 g carbs, 13.7 g fat per 100 g; fries ~3.0 g protein, 37.6 g carbs, 13.7 g fat per 100 g; Coke ~0 g protein/fat, 9.34 g carbs per 100 g). CALCULATE: Multiplied per‑100 g values by each item’s weight to get totals – Big Mac 550 kcal, 45 g carbs, 25 g protein, 30 g fat; fries 340 kcal, 44 g carbs, 3.5 g protein, 16 g fat; Coke 210 kcal, 58 g carbs, 0 g protein, 0 g fat. VERIFY: Energy from macros (28.5 g × 4 + 147 g × 4 + 46 g × 9 = 1116 kcal) is within 10 % of summed kcal (1100). CONFIDENCE: HIGH because the items are well‑known with standard US portion sizes."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 70
+      }
+    },
+    "ollama_rag": {
+      "pred": {
+        "name": "Big Mac with medium fries and regular Coke",
+        "kcal": 1030,
+        "carbsG": 128,
+        "proteinG": 29,
+        "fatG": 46,
+        "servingSize": "1 Big Mac (≈219 g) + 1 medium fries (≈117 g) + 1 regular Coke (355 ml)",
+        "confidence": "HIGH",
+        "reasoning": "Identified the three standard US McDonald's items. Used typical nutrition facts from McDonald's (Big Mac ~550 kcal, 45 g carbs, 25 g protein, 30 g fat; medium fries ~340 kcal, 44 g carbs, 4 g protein, 16 g fat; regular Coke 12 oz ~140 kcal, 39 g carbs). Summed macros and verified energy balance (protein*4 + carbs*4 + fat*9 ≈ total kcal within 10%)."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 140
+      }
+    }
+  },
+  {
+    "idx": 4,
+    "input": "two scoops of Ben & Jerry's Cherry Garcia",
+    "targetKcal": 480,
+    "rag_hit": true,
+    "rag_preview": "- Cherry Garcia Ice Cream (Ben & Jerry's) (per 1 serving): 340 kcal, 38g carbs, 5g protein, 20g fat\n- Cherry Garcia Ice Cream - Scoop Shop (Ben & Jerry's) (per 1 serving): 200 kcal, 22g carbs, 3g prot",
+    "gemini": {
+      "pred": {
+        "name": "Two scoops of Ben & Jerry's Cherry Garcia",
+        "kcal": 480,
+        "carbsG": 51,
+        "proteinG": 7.5,
+        "fatG": 27,
+        "servingSize": "2 scoops (approx. 210g)",
+        "confidence": "HIGH",
+        "reasoning": "Based on manufacturer data for Ben & Jerry's Cherry Garcia. A standard serving is 2/3 cup (140g) containing 320 kcal. Two standard scoops are approximately 1 cup (210g), which is 1.5 times the standard serving size. Calculations: 320 kcal * 1.5 = 480 kcal; 34g carbs * 1.5 = 51g; 5g protein * 1.5 = 7.5g; 18g fat * 1.5 = 27g."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 0
+      }
+    },
+    "ollama": {
+      "pred": {
+        "name": "Ben & Jerry's Cherry Garcia ice cream (2 scoops)",
+        "kcal": 590,
+        "carbsG": 70.8,
+        "proteinG": 7.1,
+        "fatG": 30.7,
+        "servingSize": "2 scoops (~236 g)",
+        "confidence": "HIGH",
+        "reasoning": "Identified the food as Ben & Jerry's Cherry Garcia ice cream. Estimated a typical scoop as ~118 g, so two scoops ≈236 g. USDA-like data for this flavor: ~250 kcal, 30 g carbs, 13 g fat, 3 g protein per 100 g. Multiplied by 2.36 to get totals. Energy from macros (4 kcal/g protein & carbs, 9 kcal/g fat) sums to ~588 kcal, matching the calculated 590 kcal within 10%. Confidence is high due to well‑known product and clear portion size."
+      },
+      "score": {
+        "kcal": 0,
+        "protein": 1,
+        "carbs": 0,
+        "fat": 1,
+        "all": 0,
+        "kcal_acc20": 0,
+        "errKcal": 110
+      }
+    },
+    "ollama_rag": {
+      "pred": {
+        "name": "Ben & Jerry's Cherry Garcia Ice Cream",
+        "kcal": 680,
+        "carbsG": 76,
+        "proteinG": 10,
+        "fatG": 40,
+        "servingSize": "2 scoops (≈200 g)",
+        "confidence": "HIGH",
+        "reasoning": "Identified the food as Ben & Jerry's Cherry Garcia ice cream. The database provides per‑serving values (one scoop) of 340 kcal, 38 g carbs, 5 g protein, 20 g fat. Assuming a typical scoop is ~100 g, two scoops double the nutrients. Calculated totals (2 × values) give 680 kcal, 76 g carbs, 10 g protein, 40 g fat. Energy from macros (10*4 + 76*4 + 40*9 = 704 kcal) is within 10% of the listed kcal, confirming consistency."
+      },
+      "score": {
+        "kcal": 0,
+        "protein": 1,
+        "carbs": 0,
+        "fat": 0,
+        "all": 0,
+        "kcal_acc20": 0,
+        "errKcal": 200
+      }
+    }
+  },
+  {
+    "idx": 5,
+    "input": "double-double animal style with fries from in n out",
+    "targetKcal": 1060,
+    "rag_hit": true,
+    "rag_preview": "- Double-Double with Onion (In-N-Out) (per 1 serving): 610 kcal, 42g carbs, 34g protein, 34g fat\n- Double-Double with Onion Protein Style (Bun Replaced with Lettuce) (In-N-Out) (per 1 serving): 460 kc",
+    "gemini": {
+      "pred": {
+        "name": "Double-Double Animal Style with Fries",
+        "kcal": 1040,
+        "carbsG": 91,
+        "proteinG": 43,
+        "fatG": 56,
+        "servingSize": "1 burger (330g) and 1 order of fries (125g)",
+        "confidence": "HIGH",
+        "reasoning": "Estimates are based on standardized nutritional data from In-N-Out Burger. The Double-Double Animal Style includes two beef patties, two slices of cheese, extra spread, and grilled onions (approx. 670 kcal). A standard order of fries is approximately 370 kcal. Calculations: (43g protein * 4) + (91g carbs * 4) + (56g fat * 9) = 1040 kcal."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 20
+      }
+    },
+    "ollama": {
+      "pred": {
+        "name": "In-N-Out Double-Double Animal Style with Fries",
+        "kcal": 970,
+        "carbsG": 82,
+        "proteinG": 49,
+        "fatG": 50,
+        "servingSize": "1 Double-Double Animal Style burger + regular fries (≈388 g total)",
+        "confidence": "MEDIUM",
+        "reasoning": "Identified the meal as a Double-Double (2 beef patties, 2 slices American cheese, bun, animal‑style spread and grilled onions) plus a standard order of fries. Estimated patty weight ~56 g each (112 g total), cheese ~36 g, bun ~70 g, spread/onions ~50 g, fries ~120 g, giving a total ~388 g. Used USDA per‑100 g values: ground beef 26 g protein, 10 g fat; American cheese 25 g protein, 33 g fat, 2 g carbs; white bun 9 g protein, 4 g fat, 49 g carbs; spread ~30 g fat, 10 g carbs; onions ~9 g carbs; fries ~35 g carbs, 15 g fat, 3 g protein. Scaled to portion sizes, summed macros (≈49 g protein, 82 g carbs, 50 g fat) and calculated kcal (≈970). Verification shows macro‑derived kcal matches total within 0 %. Confidence is medium due to assumptions about exact portion weights and spread composition."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 90
+      }
+    },
+    "ollama_rag": {
+      "pred": {
+        "name": "Double-Double Animal Style with Fries (In-N-Out)",
+        "kcal": 960,
+        "carbsG": 89,
+        "proteinG": 38,
+        "fatG": 50,
+        "servingSize": "1 Double-Double Animal Style burger + regular fries",
+        "confidence": "MEDIUM",
+        "reasoning": "Identified the order as an In-N-Out Double-Double Animal Style burger plus a standard side of fries. Estimated the burger using the closest database entry (Double-Double with Onion, 610 kcal) and added extra sauce/onions typical of animal style, raising calories, carbs, and fat modestly. Added a typical In-N-Out fries portion (~113 g) with known macro profile. Combined the two components and verified that macro‑derived calories (≈958 kcal) match the reported total within 10%."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 100
+      }
+    }
+  },
+  {
+    "idx": 6,
+    "input": "slice of pepperoni pizza at Sam's Club",
+    "targetKcal": 380,
+    "rag_hit": false,
+    "rag_preview": null,
+    "gemini": {
+      "pred": {
+        "name": "Sam's Club Pepperoni Pizza Slice",
+        "kcal": 650,
+        "carbsG": 70,
+        "proteinG": 30,
+        "fatG": 28,
+        "servingSize": "1 slice (approx. 230g)",
+        "confidence": "HIGH",
+        "reasoning": "Sam's Club food court pizza is standardized as 1/4 of a 16-inch pizza. The serving weight is approximately 230-250g. Calculations are based on USDA data for large-chain pepperoni pizza adjusted for the specific oversized portion and high cheese/oil content typical of warehouse club food courts. Macro verification: (30*4) + (70*4) + (28*9) = 652 kcal, which aligns with the estimated 650 kcal."
+      },
+      "score": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "all": 0,
+        "kcal_acc20": 0,
+        "errKcal": 270
+      }
+    },
+    "ollama": {
+      "pred": {
+        "name": "Pepperoni pizza (Sam's Club, 1 slice)",
+        "kcal": 475,
+        "carbsG": 49,
+        "proteinG": 22,
+        "fatG": 22,
+        "servingSize": "1 slice (~180 g)",
+        "confidence": "MEDIUM",
+        "reasoning": "A typical Sam's Club large pepperoni pizza is cut into 12 slices; each slice weighs roughly 180 g. USDA‑style data for pepperoni pizza averages ~264 kcal, 27 g carbs, 12 g protein, and 12 g fat per 100 g. Multiplying by 1.8 gives ~475 kcal, 49 g carbs, 22 g protein, and 22 g fat, which satisfies the macro‑kcal check."
+      },
+      "score": {
+        "kcal": 0,
+        "protein": 1,
+        "carbs": 0,
+        "fat": 1,
+        "all": 0,
+        "kcal_acc20": 0,
+        "errKcal": 95
+      }
+    },
+    "ollama_rag": {
+      "pred": {
+        "name": "Pepperoni pizza (Sam's Club)",
+        "kcal": 399,
+        "carbsG": 49.5,
+        "proteinG": 16.5,
+        "fatG": 15,
+        "servingSize": "1 slice (~150 g)",
+        "confidence": "MEDIUM",
+        "reasoning": "A typical Sam's Club pepperoni pizza is a large (≈14‑inch) pie cut into 8 slices. One slice weighs about 150 g. USDA‑type data for pepperoni pizza give ~266 kcal, 33 g carbs, 11 g protein, and 10 g fat per 100 g. Multiplying by 1.5 yields ~399 kcal, 49.5 g carbs, 16.5 g protein, and 15 g fat. The calculated kcal from macros (4·protein + 4·carbs + 9·fat) matches the estimated kcal, confirming consistency."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 0,
+        "fat": 1,
+        "all": 0,
+        "kcal_acc20": 1,
+        "errKcal": 19
+      }
+    }
+  },
+  {
+    "idx": 7,
+    "input": "Chipotle chicken burrito bowl with brown rice black beans corn salsa cheese and guac",
+    "targetKcal": 940,
+    "rag_hit": true,
+    "rag_preview": "- Burrito Bowl (Chipotle Mexican Grill) (per 1 bowl): 910 kcal, 79g carbs, 58g protein, 39g fat\n- Black Beans (Chipotle Mexican Grill) (per 1 serving): 130 kcal, 22g carbs, 8g protein, 2g fat\n- Black ",
+    "gemini": {
+      "pred": {
+        "name": "Chipotle chicken burrito bowl with brown rice, black beans, corn salsa, cheese, and guacamole",
+        "kcal": 971,
+        "carbsG": 83,
+        "proteinG": 55,
+        "fatG": 47,
+        "servingSize": "623g",
+        "confidence": "HIGH",
+        "reasoning": "Based on standard Chipotle portion sizes in the US: 4oz grilled chicken (180kcal), 5.3oz brown rice (210kcal), 4oz black beans (130kcal), 3.5oz corn salsa (80kcal), 1oz cheese (110kcal), and 4oz guacamole (230kcal). Macros calculated using standard USDA-aligned values for these specific commercial portions."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 31
+      }
+    },
+    "ollama": {
+      "pred": {
+        "name": "Chipotle chicken burrito bowl with brown rice, black beans, corn salsa, cheese, and guacamole",
+        "kcal": 792,
+        "carbsG": 69.5,
+        "proteinG": 59.7,
+        "fatG": 31.8,
+        "servingSize": "≈540 g (about 2.5 cups)",
+        "confidence": "MEDIUM",
+        "reasoning": "Identified components: grilled chicken, brown rice, black beans, corn salsa, shredded cheese, guacamole. Estimated typical Chipotle portion weights (chicken 120 g, rice 113 g, beans 113 g, salsa 56 g, cheese 28 g, guac 113 g) totaling ~540 g. Used USDA per‑100 g macro values for each ingredient, multiplied by portion weight, summed macros, and calculated total kcal. Macro‑derived kcal (≈803) matches summed kcal (≈792) within 10%, confirming consistency."
+      },
+      "score": {
+        "kcal": 0,
+        "protein": 1,
+        "carbs": 0,
+        "fat": 0,
+        "all": 0,
+        "kcal_acc20": 1,
+        "errKcal": 148
+      }
+    },
+    "ollama_rag": {
+      "pred": {
+        "name": "Chipotle Chicken Burrito Bowl",
+        "kcal": 910,
+        "carbsG": 79,
+        "proteinG": 58,
+        "fatG": 39,
+        "servingSize": "1 bowl",
+        "confidence": "HIGH",
+        "reasoning": "The described item matches the Chipotle Burrito Bowl entry in the database, which includes chicken, brown rice, black beans, corn salsa, cheese, and guacamole. Using the provided per‑bowl nutrition values gives 910 kcal, 79 g carbs, 58 g protein, and 39 g fat. Portion is a standard Chipotle bowl, so confidence is high."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 30
+      }
+    }
+  },
+  {
+    "idx": 8,
+    "input": "Sweetgreen Harvest Bowl",
+    "targetKcal": 690,
+    "rag_hit": true,
+    "rag_preview": "- Harvest Bowl (Sweetgreen) (per 1 serving): 760 kcal, 60g carbs, 40g protein, 42g fat\n- Little Harvest (Sweetgreen) (per 1 serving): 430 kcal, 23g carbs, 24g protein, 28g fat\n- Shroomami Bowl (Sweetg",
+    "gemini": {
+      "pred": {
+        "name": "Sweetgreen Harvest Bowl",
+        "kcal": 825,
+        "carbsG": 71,
+        "proteinG": 43,
+        "fatG": 41,
+        "servingSize": "1 bowl (approx 540g)",
+        "confidence": "HIGH",
+        "reasoning": "Standardized menu item from a US chain. Ingredients include roasted chicken (approx 115g), wild rice (150g), sweet potatoes (100g), kale, apples, goat cheese, almonds, and balsamic vinaigrette. Macros calculated using USDA references for cooked components and standard dressing portions. Calculation: (43g protein * 4) + (71g carbs * 4) + (41g fat * 9) = 825 kcal."
+      },
+      "score": {
+        "kcal": 0,
+        "protein": 1,
+        "carbs": 0,
+        "fat": 1,
+        "all": 0,
+        "kcal_acc20": 1,
+        "errKcal": 135
+      }
+    },
+    "ollama": {
+      "pred": {
+        "name": "Sweetgreen Harvest Bowl",
+        "kcal": 416,
+        "carbsG": 35,
+        "proteinG": 32,
+        "fatG": 17,
+        "servingSize": "350 g",
+        "confidence": "MEDIUM",
+        "reasoning": "Identified the Harvest Bowl as a Sweetgreen salad containing grilled chicken, quinoa, roasted sweet potatoes, apple, kale, goat cheese, almonds and vinaigrette. Estimated a typical US portion ~350 g based on menu photos and standard restaurant servings. Used USDA per‑100 g values: chicken breast 31 g protein, 3.6 g fat; quinoa 4.4 g protein, 21.3 g carbs, 1.9 g fat; sweet potato 1.2 g protein, 20 g carbs; apple 0.3 g protein, 13 g carbs; kale 1.1 g protein, 2.2 g carbs; goat cheese 5 g protein, 0.5 g carbs, 6 g fat; almonds 3.2 g protein, 1.6 g carbs, 7.5 g fat; vinaigrette ~10 g fat, 1 g carbs. Scaled each component to the assumed portion sizes, summed macros (≈32 g protein, 35 g carbs, 17 g fat) and calculated kcal (4 × protein + 4 × carbs + 9 × fat ≈ 416 kcal). The macro‑derived kcal matches the calculated total within 10%, confirming consistency. Some uncertainty remains about exact ingredient amounts and dressing quantity, so confidence is set to MEDIUM."
+      },
+      "score": {
+        "kcal": 0,
+        "protein": 1,
+        "carbs": 0,
+        "fat": 0,
+        "all": 0,
+        "kcal_acc20": 0,
+        "errKcal": 274
+      }
+    },
+    "ollama_rag": {
+      "pred": {
+        "name": "Harvest Bowl (Sweetgreen)",
+        "kcal": 760,
+        "carbsG": 60,
+        "proteinG": 40,
+        "fatG": 42,
+        "servingSize": "1 bowl (≈600 g)",
+        "confidence": "HIGH",
+        "reasoning": "The item directly matches a database entry for Sweetgreen's Harvest Bowl, which provides the exact nutrient values per serving. Typical Sweetgreen bowls weigh around 600 g, so the listed values represent the full bowl. No further calculation needed."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 70
+      }
+    }
+  },
+  {
+    "idx": 9,
+    "input": "Beyond Burger patty pan-fried with cheese",
+    "targetKcal": 385,
+    "rag_hit": true,
+    "rag_preview": "- Meatless Vegetable Burger or Patty (per 100g): 179 kcal, 13g carbs, 18g protein, 6g fat\n- Turkey Burger (per 101g): 235 kcal, 0g carbs, 27g protein, 13g fat\n- Chicken Burger (per 101g): 239 kcal, 0g",
+    "gemini": {
+      "pred": {
+        "name": "Beyond Burger patty pan-fried with cheese",
+        "kcal": 353,
+        "carbsG": 8,
+        "proteinG": 24,
+        "fatG": 25,
+        "servingSize": "1 patty (113g raw) with 1 slice of American cheese",
+        "confidence": "HIGH",
+        "reasoning": "A standard Beyond Burger patty (113g raw) contains 230 kcal, 20g protein, 14g fat, and 7g carbs. Pan-frying adds approximately 5g of oil (45 kcal). One slice of American cheese (21g) adds approximately 70 kcal, 4g protein, 6g fat, and 1g carbs. Total macros: 24g protein * 4 + 8g carbs * 4 + 25g fat * 9 = 353 kcal."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 32
+      }
+    },
+    "ollama": {
+      "pred": {
+        "name": "Beyond Burger patty pan-fried with cheese",
+        "kcal": 348,
+        "carbsG": 4.2,
+        "proteinG": 27.1,
+        "fatG": 24.8,
+        "servingSize": "1 Beyond Burger patty (≈130 g) + 1 slice cheese (≈20 g) ≈150 g total",
+        "confidence": "MEDIUM",
+        "reasoning": "Beyond Burger patty typical raw weight 113 g; pan‑frying adds ~15 % oil weight → ~130 g cooked. USDA data for cooked Beyond Burger: 17 g protein, 14 g fat, 3 g carbs, 250 kcal per 100 g. Scaled to 130 g gives 22.1 g protein, 18.2 g fat, 3.9 g carbs, 325 kcal. Added one slice cheddar cheese (~20 g): 5 g protein, 6.6 g fat, 0.26 g carbs, 80.6 kcal. Combined macros: protein 27.1 g, fat 24.8 g, carbs 4.2 g. Macro‑derived kcal = 27.1*4 + 24.8*9 + 4.2*4 ≈ 348 kcal, which is used as final kcal (within 10% of macro total). Portion size and cheese type are assumed typical US serving, giving medium confidence."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 37
+      }
+    },
+    "ollama_rag": {
+      "pred": {
+        "name": "Beyond Burger patty pan-fried with cheese",
+        "kcal": 339,
+        "carbsG": 20.5,
+        "proteinG": 32,
+        "fatG": 14,
+        "servingSize": "1 Beyond Burger patty (~113 g) + 1 slice cheese (~20 g) pan‑fried, total ≈150 g",
+        "confidence": "MEDIUM",
+        "reasoning": "Beyond Burger matches the meatless vegetable patty database (179 kcal, 13 g carbs, 18 g protein, 6 g fat per 100 g). A typical patty weighs ~113 g; adding one slice of cheese (~20 g) and accounting for ~10 g oil absorbed during pan‑frying gives a total serving of ~150 g. Macros were scaled from the per‑100 g values (×1.5) and cheese contributions (≈70 kcal, 5 g protein, 5 g fat, 1 g carbs) were added. Energy from macros (≈336 kcal) aligns with calculated kcal (≈339 kcal) within 10%."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 0,
+        "fat": 0,
+        "all": 0,
+        "kcal_acc20": 1,
+        "errKcal": 46
+      }
+    }
+  },
+  {
+    "idx": 10,
+    "input": "1 serving of Trader Joe's Mandarin Orange Chicken",
+    "targetKcal": 320,
+    "rag_hit": true,
+    "rag_preview": "- Mandarin Orange Chicken (Trader Joe's) (per 1 cup): 320 kcal, 24g carbs, 21g protein, 16g fat\n- Mandarin Orange Chicken Sauce (Trader Joe's) (per 1 tbsp): 20 kcal, 5g carbs, 0g protein, 0g fat\n- Man",
+    "gemini": {
+      "pred": {
+        "name": "Trader Joe's Mandarin Orange Chicken",
+        "kcal": 320,
+        "carbsG": 24,
+        "proteinG": 21,
+        "fatG": 16,
+        "servingSize": "140g (approx. 1 cup)",
+        "confidence": "HIGH",
+        "reasoning": "Based on standard USDA and manufacturer nutrition labeling for this specific commercial product. A single serving is defined as 140g, which includes the breaded chicken and sauce. The macro-to-calorie calculation (16*9 + 24*4 + 21*4 = 324) aligns with the reported 320 kcal."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 0
+      }
+    },
+    "ollama": {
+      "pred": {
+        "name": "Trader Joe's Mandarin Orange Chicken",
+        "kcal": 300,
+        "carbsG": 20,
+        "proteinG": 20,
+        "fatG": 15,
+        "servingSize": "1 cup (≈227 g)",
+        "confidence": "MEDIUM",
+        "reasoning": "Typical frozen Mandarin Orange Chicken from Trader Joe's lists a serving as 1 cup (~227 g). USDA-like data for similar sweet‑and‑savory chicken dishes suggest ~20 g protein, ~20 g carbs, and ~15 g fat per serving, yielding ~300 kcal, which satisfies the macro‑kcal check."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 20
+      }
+    },
+    "ollama_rag": {
+      "pred": {
+        "name": "Trader Joe's Mandarin Orange Chicken",
+        "kcal": 320,
+        "carbsG": 24,
+        "proteinG": 21,
+        "fatG": 16,
+        "servingSize": "1 cup (≈220 g)",
+        "confidence": "HIGH",
+        "reasoning": "Identified the product as Trader Joe's Mandarin Orange Chicken. The database provides nutrition per 1 cup, which is a typical US serving. Estimated the cup weight at ~220 g based on density of a mixed chicken dish. Used the provided per‑cup values directly, confirming that the calculated energy from macros (21 g protein × 4 + 24 g carbs × 4 + 16 g fat × 9 = 324 kcal) matches the listed 320 kcal within 10%."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 0
+      }
+    }
+  },
+  {
+    "idx": 11,
+    "input": "two large eggs scrambled with butter",
+    "targetKcal": 230,
+    "rag_hit": true,
+    "rag_preview": "- Scrambled Egg made from Dry Eggs (per 112g): 238 kcal, 1g carbs, 10g protein, 21g fat\n- Scrambled Eggs, Sausage and Pancakes (Frozen Meal) (per 198g): 416 kcal, 29g carbs, 19g protein, 25g fat\n- Scr",
+    "gemini": {
+      "pred": {
+        "name": "two large eggs scrambled with butter",
+        "kcal": 190,
+        "carbsG": 1,
+        "proteinG": 13,
+        "fatG": 15,
+        "servingSize": "2 large eggs with 1/2 tbsp butter",
+        "confidence": "HIGH",
+        "reasoning": "Based on USDA standards, two large eggs weigh approximately 100g (raw) providing 13g protein and 10g fat. Scrambling with approximately 7g (1/2 tbsp) of butter adds 50 kcal and 5.5g of fat. Minimal carbohydrates are present in eggs and butter."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 40
+      }
+    },
+    "ollama": {
+      "pred": {
+        "name": "Scrambled eggs with butter (2 large eggs)",
+        "kcal": 179,
+        "carbsG": 0.7,
+        "proteinG": 12.6,
+        "fatG": 13.6,
+        "servingSize": "2 large eggs scrambled with 1 tsp butter (~105 g)",
+        "confidence": "HIGH",
+        "reasoning": "Identified two large eggs (≈50 g each) and ~5 g butter used for scrambling. Estimated total weight ≈105 g. Used USDA per‑100 g values: eggs 143 kcal, 12.6 g protein, 9.5 g fat, 0.7 g carbs; butter 717 kcal, 0.9 g protein, 81 g fat, 0.1 g carbs. Scaled butter to 5 g and summed macros, yielding ~179 kcal, 12.6 g protein, 13.6 g fat, 0.7 g carbs. Macro‑derived kcal (≈175 kcal) is within 10% of total, confirming accuracy."
+      },
+      "score": {
+        "kcal": 0,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 0,
+        "all": 0,
+        "kcal_acc20": 0,
+        "errKcal": 51
+      }
+    },
+    "ollama_rag": {
+      "pred": {
+        "name": "Scrambled eggs (2 large) with butter",
+        "kcal": 176,
+        "carbsG": 1,
+        "proteinG": 13,
+        "fatG": 13.1,
+        "servingSize": "2 large eggs scrambled with 1 tsp butter (~119 g)",
+        "confidence": "MEDIUM",
+        "reasoning": "Identified the dish as two large US eggs scrambled with butter. A large egg weighs ~57 g, so two eggs ≈114 g. Added 1 tsp butter (~5 g) gives a total weight of ~119 g. Used standard egg nutrition (≈13 g protein, 9 g fat, 1 g carbs, 143 kcal per 100 g) and butter (≈7.2 kcal/g, ~0.8 g fat/g). Calculated macros for the combined weight and verified kcal from macros (≈173 kcal) matches the estimated total (≈176 kcal) within 10%."
+      },
+      "score": {
+        "kcal": 0,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 0,
+        "all": 0,
+        "kcal_acc20": 0,
+        "errKcal": 54
+      }
+    }
+  },
+  {
+    "idx": 12,
+    "input": "half a chipotle chicken burrito",
+    "targetKcal": 580,
+    "rag_hit": true,
+    "rag_preview": "- Burrito Bowl (Chipotle Mexican Grill) (per 1 bowl): 910 kcal, 79g carbs, 58g protein, 39g fat\n- Flour Tortilla (Burrito) (Chipotle Mexican Grill) (per 1 serving): 320 kcal, 50g carbs, 8g protein, 9g",
+    "gemini": {
+      "pred": {
+        "name": "half a chipotle chicken burrito",
+        "kcal": 540,
+        "carbsG": 60,
+        "proteinG": 30,
+        "fatG": 20,
+        "servingSize": "300g",
+        "confidence": "HIGH",
+        "reasoning": "A standard Chipotle chicken burrito with rice, beans, salsa, cheese, and sour cream weighs approximately 600g and contains roughly 1080-1100 calories. Half a portion is estimated at 300g. Calculations are based on the Chipotle nutrition calculator: Tortilla (160 kcal), Chicken (90 kcal), White Rice (105 kcal), Black Beans (65 kcal), Cheese (55 kcal), and Sour Cream (55 kcal) plus salsa."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 40
+      }
+    },
+    "ollama": {
+      "pred": {
+        "name": "Half a Chipotle chicken burrito (with white rice, black beans, cheese, mild salsa, lettuce)",
+        "kcal": 535,
+        "carbsG": 58,
+        "proteinG": 28,
+        "fatG": 19,
+        "servingSize": "approximately 175 g (half of a standard Chipotle chicken burrito)",
+        "confidence": "MEDIUM",
+        "reasoning": "Identified the food as a typical Chipotle chicken burrito with common toppings. A full burrito weighs ~350 g and contains about 55 g protein, 115 g carbs, 38 g fat, and 1,070 kcal according to Chipotle's nutrition data. Halving the portion gives ~27.5 g protein, 57.5 g carbs, 19 g fat, and ~535 kcal. Rounded to whole numbers for clarity. The estimate is medium confidence because exact toppings and portion weight can vary."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 45
+      }
+    },
+    "ollama_rag": {
+      "pred": {
+        "name": "Half a Chipotle chicken burrito",
+        "kcal": 615,
+        "carbsG": 64.5,
+        "proteinG": 33,
+        "fatG": 24,
+        "servingSize": "≈300 g (half a Chipotle chicken burrito)",
+        "confidence": "MEDIUM",
+        "reasoning": "Identified the item as a Chipotle chicken burrito. A full burrito can be approximated by adding a Chipotle flour tortilla (320 kcal, 50 g carbs, 8 g protein, 9 g fat) to a chicken burrito bowl (910 kcal, 79 g carbs, 58 g protein, 39 g fat). Summed macros give a full burrito of ~1230 kcal, 129 g carbs, 66 g protein, 48 g fat. Halving these values yields ~615 kcal, 64.5 g carbs, 33 g protein, 24 g fat. Estimated weight of a half burrito at ~300 g based on typical Chipotle portion sizes. Verified kcal from macros (132 + 258 + 216 = 606 kcal) is within 10% of the calculated 615 kcal."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 0,
+        "carbs": 1,
+        "fat": 1,
+        "all": 0,
+        "kcal_acc20": 1,
+        "errKcal": 35
+      }
+    }
+  },
+  {
+    "idx": 13,
+    "input": "three slices of cheese pizza",
+    "targetKcal": 855,
+    "rag_hit": true,
+    "rag_preview": "- Three Cheese XLNY Pizza - Family Slice (Papa Murphy's Pizza) (per 1 serving): 180 kcal, 21g carbs, 9g protein, 8g fat\n- Pizza Cheese (per 100g): 302 kcal, 4g carbs, 26g protein, 20g fat\n- Cheese Piz",
+    "gemini": {
+      "pred": {
+        "name": "three slices of cheese pizza",
+        "kcal": 838,
+        "carbsG": 104,
+        "proteinG": 35,
+        "fatG": 32,
+        "servingSize": "3 slices (approx. 315g)",
+        "confidence": "HIGH",
+        "reasoning": "Based on three standard slices of a 14-inch large hand-tossed cheese pizza from a typical US chain. Each slice is estimated at 105g. USDA reference data for cheese pizza averages 266 kcal, 33g carbs, 11g protein, and 10g fat per 100g."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 17
+      }
+    },
+    "ollama": {
+      "pred": {
+        "name": "Cheese pizza (3 slices)",
+        "kcal": 878,
+        "carbsG": 109,
+        "proteinG": 36,
+        "fatG": 33,
+        "servingSize": "3 slices (~330 g)",
+        "confidence": "HIGH",
+        "reasoning": "Average US cheese pizza slice ~110 g; three slices ≈330 g. USDA data for regular cheese pizza: 266 kcal, 33 g carbs, 11 g protein, 10 g fat per 100 g. Scaled to 330 g gives ~878 kcal, 109 g carbs, 36 g protein, 33 g fat. Macro‑derived kcal (4·protein + 4·carbs + 9·fat) ≈877 kcal, within 10%."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 23
+      }
+    },
+    "ollama_rag": {
+      "pred": {
+        "name": "Cheese Pizza",
+        "kcal": 911,
+        "carbsG": 99,
+        "proteinG": 40,
+        "fatG": 40,
+        "servingSize": "3 slices (~330 g)",
+        "confidence": "HIGH",
+        "reasoning": "Identified the food as standard cheese pizza. Estimated a typical US pizza slice at ~110 g, so three slices ≈330 g. Used the database per‑100 g values (276 kcal, 30 g carbs, 12 g protein, 12 g fat) and multiplied by 3.3. Calculated macros give ~911 kcal, which aligns with the energy from macros (≈916 kcal), within the 10% tolerance."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 0,
+        "all": 0,
+        "kcal_acc20": 1,
+        "errKcal": 56
+      }
+    }
+  },
+  {
+    "idx": 14,
+    "input": "a handful of almonds",
+    "targetKcal": 165,
+    "rag_hit": true,
+    "rag_preview": "- Just a Handful of Raw Almonds (Trader Joe's) (per 1 bag): 200 kcal, 8g carbs, 7g protein, 17g fat\n- Dry Roasted Unsalted Almonds - Just A Handful (Trader Joe's) (per 1 bag): 210 kcal, 9g carbs, 9g p",
+    "gemini": {
+      "pred": {
+        "name": "handful of almonds",
+        "kcal": 164,
+        "carbsG": 6.1,
+        "proteinG": 6,
+        "fatG": 14.2,
+        "servingSize": "28g (approx. 23 nuts)",
+        "confidence": "HIGH",
+        "reasoning": "A standard handful of almonds in a US context is typically measured as a 1-ounce (28g) serving. Calculations are based on USDA reference data for raw or dry-roasted almonds, where 100g contains approximately 579 kcal, 21g protein, 50g fat, and 22g carbohydrates."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 1
+      }
+    },
+    "ollama": {
+      "pred": {
+        "name": "Almonds (raw, handful)",
+        "kcal": 162,
+        "carbsG": 6,
+        "proteinG": 5.9,
+        "fatG": 14,
+        "servingSize": "28 g (≈1 ounce, a handful)",
+        "confidence": "HIGH",
+        "reasoning": "A typical US 'handful' of almonds is about 1 ounce (~28 g). USDA data for raw almonds per 100 g: 579 kcal, 21.6 g carbs, 21.2 g protein, 49.9 g fat. Multiplying by 0.28 gives ~162 kcal, 6.0 g carbs, 5.9 g protein, 14.0 g fat. Energy from macros (5.9*4 + 6.0*4 + 14.0*9 ≈ 174 kcal) is within 10% of the kcal estimate, confirming consistency."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 3
+      }
+    },
+    "ollama_rag": {
+      "pred": {
+        "name": "Handful of raw almonds",
+        "kcal": 200,
+        "carbsG": 8,
+        "proteinG": 7,
+        "fatG": 17,
+        "servingSize": "1 handful (~28 g)",
+        "confidence": "HIGH",
+        "reasoning": "The request describes a typical US portion of almonds – a handful, which is about 1 oz (≈28 g). Trader Joe's provides a specific entry for a handful of raw almonds with 200 kcal, 8 g carbs, 7 g protein, and 17 g fat, matching this portion size. Energy from macros (7 g protein × 4 + 8 g carbs × 4 + 17 g fat × 9 = 213 kcal) is within 10% of the listed 200 kcal, confirming consistency."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 0,
+        "errKcal": 35
+      }
+    }
+  },
+  {
+    "idx": 15,
+    "input": "small bowl of oatmeal with banana and honey",
+    "targetKcal": 290,
+    "rag_hit": true,
+    "rag_preview": "- Banana Oatmeal Pancakes (per 904g): 1828 kcal, 202g carbs, 59g protein, 91g fat\n- Poke Bowl (per 981g): 1198 kcal, 87g carbs, 88g protein, 59g fat\n- Burrito Bowl (per 1834g): 2488 kcal, 167g carbs, ",
+    "gemini": {
+      "pred": {
+        "name": "small bowl of oatmeal with banana and honey",
+        "kcal": 294,
+        "carbsG": 59,
+        "proteinG": 7,
+        "fatG": 3,
+        "servingSize": "1 cup cooked oatmeal, 1/2 banana, 1 tbsp honey",
+        "confidence": "HIGH",
+        "reasoning": "Estimated based on a standard US serving of 1 cup of oatmeal cooked in water (approx. 234g), half a medium banana (60g), and 1 tablespoon of honey (21g). USDA reference data for cooked oats (71kcal/100g), banana (89kcal/100g), and honey (304kcal/100g) were used. Macro-to-calorie verification: (59*4) + (7*4) + (3*9) = 291 kcal, which is within 1% of the estimate."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 4
+      }
+    },
+    "ollama": {
+      "pred": {
+        "name": "Oatmeal with banana and honey",
+        "kcal": 279,
+        "carbsG": 57.5,
+        "proteinG": 6.4,
+        "fatG": 3.5,
+        "servingSize": "small bowl (~311 g)",
+        "confidence": "MEDIUM",
+        "reasoning": "Identified a small bowl of cooked rolled oats topped with about half a banana (≈50 g) and one tablespoon of honey (≈21 g). Estimated total weight ≈311 g. Used USDA per‑100 g values: oatmeal 71 kcal, 12 g carbs, 2.4 g protein, 1.4 g fat; banana 89 kcal, 23 g carbs, 1.1 g protein, 0.3 g fat; honey 304 kcal, 82 g carbs, 0.3 g protein, 0 g fat. Scaled each by its weight, summed macros and calories, and confirmed macro‑derived kcal (≈287) is within 10% of calculated kcal (≈279)."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 11
+      }
+    },
+    "ollama_rag": {
+      "pred": {
+        "name": "Oatmeal with banana and honey",
+        "kcal": 239,
+        "carbsG": 52.8,
+        "proteinG": 4.7,
+        "fatG": 2.5,
+        "servingSize": "≈250 g (small bowl)",
+        "confidence": "MEDIUM",
+        "reasoning": "Identified a small bowl of cooked oatmeal topped with sliced banana and a drizzle of honey. Estimated typical US portion: ~150 g cooked oatmeal, ~80 g banana (about half a medium banana), and ~20 g honey, totaling ~250 g. Used USDA per‑100 g values: oatmeal 71 kcal, 12 g carbs, 2.5 g protein, 1.5 g fat; banana 89 kcal, 23 g carbs, 1.1 g protein, 0.3 g fat; honey 304 kcal, 82 g carbs, 0.3 g protein, 0 g fat. Scaled to the estimated weights, summed macros, and verified energy (≈252 kcal from macros vs 239 kcal calculated, within 10%)."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 51
+      }
+    }
+  },
+  {
+    "idx": 16,
+    "input": "Thai green curry takeout, about half the box",
+    "targetKcal": 420,
+    "rag_hit": true,
+    "rag_preview": "- Green Curry Paste (per 75g): 69 kcal, 13g carbs, 3g protein, 1g fat\n- Pork Curry (per 990g): 1568 kcal, 50g carbs, 95g protein, 113g fat\n- Thai Peanut Chicken (per 646g): 1074 kcal, 62g carbs, 95g p",
+    "gemini": {
+      "pred": {
+        "name": "Thai Green Curry (Takeout)",
+        "kcal": 453,
+        "carbsG": 18,
+        "proteinG": 21,
+        "fatG": 33,
+        "servingSize": "300g (approx. half a standard takeout container)",
+        "confidence": "MEDIUM",
+        "reasoning": "Estimated based on a 300g portion, which is half of a typical 20oz US takeout container. The high fat content is derived from the coconut milk base (approx. 10-12g fat per 100g). Protein assumes a standard inclusion of chicken. Carbs account for sugar in the paste and vegetables like bamboo shoots and eggplant."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 0,
+        "fat": 1,
+        "all": 0,
+        "kcal_acc20": 1,
+        "errKcal": 33
+      }
+    },
+    "ollama": {
+      "pred": {
+        "name": "Thai green curry with rice (half box)",
+        "kcal": 310,
+        "carbsG": 35.5,
+        "proteinG": 11.5,
+        "fatG": 13.7,
+        "servingSize": "≈250 g (half of a typical 16‑oz takeout box)",
+        "confidence": "MEDIUM",
+        "reasoning": "Identified the dish as Thai green curry (likely chicken) served with white rice. A standard US takeout box is about 450 g total, so half the box is roughly 250 g. Assumed the half‑box contains ~150 g of curry sauce with meat/vegetables and ~100 g of cooked rice. Used USDA‑based averages: green curry ≈120 kcal, 5 g carbs, 6 g protein, 9 g fat per 100 g; cooked white rice ≈130 kcal, 28 g carbs, 2.5 g protein, 0.2 g fat per 100 g. Scaled these values to the portion sizes and summed: total ≈310 kcal, 35.5 g carbs, 11.5 g protein, 13.7 g fat. Verified that kcal from macros (≈311 kcal) matches within 1 %."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 0,
+        "all": 0,
+        "kcal_acc20": 0,
+        "errKcal": 110
+      }
+    },
+    "ollama_rag": {
+      "pred": {
+        "name": "Thai green curry (takeout, approx. half box)",
+        "kcal": 360,
+        "carbsG": 15,
+        "proteinG": 21,
+        "fatG": 27,
+        "servingSize": "≈300 g (half of a typical takeout box)",
+        "confidence": "MEDIUM",
+        "reasoning": "Identified the food as Thai green curry from a takeout container. A standard Thai takeout box of curry with rice is roughly 600 g, so half the box is about 300 g. Used USDA‑based average values for Thai green curry with chicken and coconut milk (≈120 kcal, 5 g carbs, 7 g protein, 9 g fat per 100 g). Multiplied these per‑100 g values by 3 (300 g/100 g) to get total macros. Verified that 21 g protein × 4 + 15 g carbs × 4 + 27 g fat × 9 = 129 kcal per 100 g, which aligns with the 120 kcal estimate within 10%."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 0,
+        "fat": 1,
+        "all": 0,
+        "kcal_acc20": 1,
+        "errKcal": 60
+      }
+    }
+  },
+  {
+    "idx": 17,
+    "input": "ramen tonkotsu with chashu and ajitama",
+    "targetKcal": 850,
+    "rag_hit": true,
+    "rag_preview": "- Tonkotsu Ramen (Nong Shim) (per 1 container): 450 kcal, 64g carbs, 8g protein, 18g fat\n- Tonkotsu Ramen (Ajinomoto) (per 1 bowl): 390 kcal, 45g carbs, 16g protein, 15g fat\n- Tonkotsu Ramen (Maruchan",
+    "gemini": {
+      "pred": {
+        "name": "Tonkotsu Ramen with Chashu and Ajitama",
+        "kcal": 769,
+        "carbsG": 57,
+        "proteinG": 34,
+        "fatG": 45,
+        "servingSize": "1 large bowl (approx 700g)",
+        "confidence": "MEDIUM",
+        "reasoning": "Estimated based on a standard US restaurant portion: 180g cooked wheat noodles (270 kcal), 400ml rich pork bone broth (250 kcal, high fat content), 60g braised pork belly chashu (200 kcal), and one marinated soft-boiled egg (80 kcal). The high fat content is characteristic of the emulsified tonkotsu broth and pork belly slices."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 0,
+        "fat": 1,
+        "all": 0,
+        "kcal_acc20": 1,
+        "errKcal": 81
+      }
+    },
+    "ollama": {
+      "pred": {
+        "name": "Tonkotsu ramen with chashu and ajitama",
+        "kcal": 819,
+        "carbsG": 57.5,
+        "proteinG": 31.2,
+        "fatG": 51,
+        "servingSize": "≈480 g (one bowl)",
+        "confidence": "MEDIUM",
+        "reasoning": "Identified the dish as a bowl of tonkotsu broth, wheat ramen noodles, braised pork belly (chashu) and a marinated soft‑boiled egg (ajitama). Estimated typical US portion: ~200 g cooked noodles, 150 g broth, 80 g chashu, 50 g egg, total ~480 g. Used USDA per‑100 g values: noodles 138 kcal/27 g carbs/5 g protein/1 g fat; broth ~70 kcal/2 g carbs/5 g protein/5 g fat; pork belly 450 kcal/9 g protein/45 g fat; egg 155 kcal/13 g protein/11 g fat/1 g carbs. Scaled to serving weights, summed macros, and verified kcal from macros (≈815 kcal, within 10%)."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 0,
+        "fat": 0,
+        "all": 0,
+        "kcal_acc20": 1,
+        "errKcal": 31
+      }
+    },
+    "ollama_rag": {
+      "pred": {
+        "name": "Tonkotsu ramen with chashu and ajitama",
+        "kcal": 671,
+        "carbsG": 46,
+        "proteinG": 35,
+        "fatG": 38,
+        "servingSize": "1 bowl (~500 g)",
+        "confidence": "MEDIUM",
+        "reasoning": "Identified the dish as tonkotsu ramen (Ajinomoto bowl values used) plus typical toppings: ~50 g chashu (pork belly) and ~50 g ajitama (soft‑boiled egg). Estimated chashu protein ~12.5 g, fat ~17.5 g; egg protein ~6.5 g, fat ~5 g, carbs ~0.5 g. Added these to the base ramen macros (390 kcal, 45 g carbs, 16 g protein, 15 g fat). Calculated total macros and verified energy balance (≈666 kcal from macros vs 671 kcal total, within 10%). Serving size assumed a typical US bowl (~500 g)."
+      },
+      "score": {
+        "kcal": 0,
+        "protein": 1,
+        "carbs": 0,
+        "fat": 1,
+        "all": 0,
+        "kcal_acc20": 0,
+        "errKcal": 179
+      }
+    }
+  },
+  {
+    "idx": 18,
+    "input": "Pho Bo large with extra brisket",
+    "targetKcal": 720,
+    "rag_hit": true,
+    "rag_preview": "- Oriental Style Beef and Rice Noodle Soup (Vietnamese Pho Bo) (per 5456g): 3928 kcal, 376g carbs, 388g protein, 86g fat\n- Chicken Pho (per 5454g): 3632 kcal, 286g carbs, 315g protein, 126g fat\n- Pho ",
+    "gemini": {
+      "pred": {
+        "name": "Pho Bo Large with Extra Brisket",
+        "kcal": 660,
+        "carbsG": 65,
+        "proteinG": 41,
+        "fatG": 27,
+        "servingSize": "1 large bowl (approx. 950g)",
+        "confidence": "MEDIUM",
+        "reasoning": "A large US-style Pho bowl typically contains 250g of cooked rice noodles (approx. 275 kcal) and 600ml of beef broth (approx. 100 kcal). The 'extra brisket' adds significant protein and fat; estimating 120g of cooked brisket total (approx. 30g protein, 20g fat). Brisket is a marbled cut, contributing more fat than lean eye round. Calculations: (41*4) + (65*4) + (27*9) = 667 kcal, which aligns with the estimate."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 0,
+        "fat": 0,
+        "all": 0,
+        "kcal_acc20": 1,
+        "errKcal": 60
+      }
+    },
+    "ollama": {
+      "pred": {
+        "name": "Pho Bo large with extra brisket",
+        "kcal": 600,
+        "carbsG": 49,
+        "proteinG": 60,
+        "fatG": 19,
+        "servingSize": "large bowl (~700 g)",
+        "confidence": "MEDIUM",
+        "reasoning": "Estimated a large bowl as ~700 g total: 200 g cooked rice noodles (≈23 g carbs, 3 g protein per 100 g), 300 g broth (minimal macros), 100 g standard sliced beef (≈26 g protein, 5 g fat), and an extra 100 g brisket (≈26 g protein, 12 g fat). Summed macros give ~49 g carbs, 60 g protein, 19 g fat, yielding ~600 kcal, which satisfies the macro‑kcal check."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 0,
+        "fat": 0,
+        "all": 0,
+        "kcal_acc20": 1,
+        "errKcal": 120
+      }
+    },
+    "ollama_rag": {
+      "pred": {
+        "name": "Pho Bo (Vietnamese beef noodle soup) with extra brisket",
+        "kcal": 626,
+        "carbsG": 41.3,
+        "proteinG": 68.7,
+        "fatG": 19.5,
+        "servingSize": "≈800 g (large bowl with extra brisket)",
+        "confidence": "MEDIUM",
+        "reasoning": "Identified the dish as Vietnamese beef pho. Typical restaurant bowl is ~600 g; added ~100 g of extra brisket (lean beef) to reflect the request. Used per‑100 g macro values derived from the database entry (72 kcal, 6.9 g carbs, 7.1 g protein, 1.6 g fat). Calculated base soup macros for 600 g, then added macros for 100 g lean beef (26 g protein, ~10 g fat). Verified that macro‑derived kcal (~615 kcal) matches the summed kcal (~626 kcal) within 10%. Confidence is medium due to assumptions about portion size and brisket amount."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "all": 0,
+        "kcal_acc20": 1,
+        "errKcal": 94
+      }
+    }
+  },
+  {
+    "idx": 19,
+    "input": "elote cup",
+    "targetKcal": 380,
+    "rag_hit": true,
+    "rag_preview": "- Dessert Topping (Powdered with 1/2 Cup Milk) (per 100g): 189 kcal, 17g carbs, 4g protein, 12g fat\n- Pro Elite No Nut Butter Cup (OWYN) (per 1 bottle): 210 kcal, 3g carbs, 32g protein, 8g fat\n- Sausa",
+    "gemini": {
+      "pred": {
+        "name": "Elote cup (Esquites)",
+        "kcal": 450,
+        "carbsG": 35,
+        "proteinG": 10,
+        "fatG": 30,
+        "servingSize": "250g (approx. 1 cup)",
+        "confidence": "HIGH",
+        "reasoning": "Estimated based on a standard US street food serving containing approximately 160g of corn kernels, 30g of mayonnaise/crema blend, 20g of cotija cheese, and 10g of butter. Calculations use USDA reference data for sweet corn and high-fat dairy components."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 0,
+        "all": 0,
+        "kcal_acc20": 1,
+        "errKcal": 70
+      }
+    },
+    "ollama": {
+      "pred": {
+        "name": "Elote cup",
+        "kcal": 280,
+        "carbsG": 28.9,
+        "proteinG": 7.9,
+        "fatG": 15.8,
+        "servingSize": "1 cup (≈175 g)",
+        "confidence": "MEDIUM",
+        "reasoning": "Estimated a typical US serving as ~150 g of cooked corn kernels plus ~15 g mayonnaise and ~10 g cotija cheese, totaling ~175 g. Used USDA per‑100 g values for corn, mayo, and cheese, scaled to the portion, summed macros and calories, and verified that macro‑derived kcal (~289) is within 10% of the calculated total (~280)."
+      },
+      "score": {
+        "kcal": 0,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 0,
+        "kcal_acc20": 0,
+        "errKcal": 100
+      }
+    },
+    "ollama_rag": {
+      "pred": {
+        "name": "Elote cup (Mexican street corn kernels with mayo, cheese, butter)",
+        "kcal": 322,
+        "carbsG": 31.7,
+        "proteinG": 6.6,
+        "fatG": 18.8,
+        "servingSize": "1 cup (≈170 g)",
+        "confidence": "MEDIUM",
+        "reasoning": "Identified the food as corn kernels served in a cup with typical elote toppings (mayonnaise, cotija cheese, butter). Estimated a cup of kernels ≈150 g plus ~24 g of toppings, total ≈170 g. Used USDA data for cooked sweet corn (96 kcal, 21 g carbs, 3.4 g protein, 1.5 g fat per 100 g) and added values for mayo (14 g, 100 kcal, 11 g fat), cheese (5 g, 20 kcal, 1.5 g protein, 1.5 g fat) and butter (5 g, 36 kcal, 4 g fat). Calculated macros proportionally, summed to get total values, and verified that 4 × protein + 4 × carbs + 9 × fat ≈ kcal (322 kcal, within 10%). Ambiguity in exact topping amounts leads to medium confidence."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 0,
+        "carbs": 1,
+        "fat": 1,
+        "all": 0,
+        "kcal_acc20": 1,
+        "errKcal": 58
+      }
+    }
+  },
+  {
+    "idx": 20,
+    "input": "carne apache",
+    "targetKcal": 250,
+    "rag_hit": true,
+    "rag_preview": "- Chili Con Carne (per 1627g): 1692 kcal, 141g carbs, 131g protein, 69g fat\n- Chili Con Carne without Beans (per 1202g): 1286 kcal, 67g carbs, 107g protein, 68g fat\n- Chili Con Carne with Cheese (per ",
+    "gemini": {
+      "pred": {
+        "name": "Carne Apache",
+        "kcal": 260,
+        "carbsG": 8,
+        "proteinG": 30,
+        "fatG": 12,
+        "servingSize": "200g",
+        "confidence": "MEDIUM",
+        "reasoning": "Estimated for a 200g serving (approx. 1 cup). Carne Apache consists of lean ground beef 'cooked' in lime juice with onions, tomatoes, and cilantro. The beef provides approximately 15g protein per 100g when mixed with vegetables. Fat content assumes 90/10 lean beef. Carbs come primarily from the added vegetables and lime juice."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 0,
+        "carbs": 1,
+        "fat": 1,
+        "all": 0,
+        "kcal_acc20": 1,
+        "errKcal": 10
+      }
+    },
+    "ollama": {
+      "pred": {
+        "name": "Carne Apache (beef stew with vegetables)",
+        "kcal": 430,
+        "carbsG": 12.5,
+        "proteinG": 50,
+        "fatG": 20,
+        "servingSize": "250 g",
+        "confidence": "MEDIUM",
+        "reasoning": "Identified the dish as a Mexican‑style beef stew with peppers, onions, tomatoes and possibly a mild chili sauce. Estimated a typical US restaurant portion at about 250 g. Used USDA‑like values for a mixed beef‑and‑vegetable stew: ~20 g protein, 8 g fat, 5 g carbs per 100 g. Scaled to 250 g gives 50 g protein, 20 g fat, 12.5 g carbs. Calculated calories from macros (4 kcal/g protein & carbs, 9 kcal/g fat) = 430 kcal, which is within 10 % consistency. The description is somewhat ambiguous, so confidence is set to MEDIUM."
+      },
+      "score": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "all": 0,
+        "kcal_acc20": 0,
+        "errKcal": 180
+      }
+    },
+    "ollama_rag": {
+      "pred": {
+        "name": "Carne Apache",
+        "kcal": 320,
+        "carbsG": 20,
+        "proteinG": 22.5,
+        "fatG": 17.5,
+        "servingSize": "250 g",
+        "confidence": "MEDIUM",
+        "reasoning": "Carne Apache is a Mexican stew similar to chili con carne that typically includes beans and cheese. The closest database match is Chili Con Carne with Cheese (per 100 g: 128 kcal, 8 g carbs, 9 g protein, 7 g fat). A typical US portion of chili is about 1 cup (~250 g), so macros were scaled accordingly."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 0,
+        "fat": 1,
+        "all": 0,
+        "kcal_acc20": 0,
+        "errKcal": 70
+      }
+    }
+  },
+  {
+    "idx": 21,
+    "input": "Mac and Cheese with Spam and Kimchi",
+    "targetKcal": 720,
+    "rag_hit": true,
+    "rag_preview": "- Cauliflower Mac and Cheese (per 1439g): 2210 kcal, 61g carbs, 84g protein, 189g fat\n- Big Mac Casserole (per 1096g): 2376 kcal, 146g carbs, 164g protein, 123g fat\n- Big Mac Salad (per 1398g): 2487 k",
+    "gemini": {
+      "pred": {
+        "name": "Mac and Cheese with Spam and Kimchi",
+        "kcal": 608,
+        "carbsG": 58.5,
+        "proteinG": 26,
+        "fatG": 30,
+        "servingSize": "350g",
+        "confidence": "MEDIUM",
+        "reasoning": "Estimated based on a standard US portion of macaroni and cheese (250g) combined with 50g of diced Spam and 50g of Kimchi. The macaroni and cheese base provides the bulk of the carbohydrates and fats, while the Spam significantly increases the fat and protein content. Kimchi adds negligible calories but contributes to the overall weight and flavor profile."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 112
+      }
+    },
+    "ollama": {
+      "pred": {
+        "name": "Mac and Cheese with Spam and Kimchi",
+        "kcal": 380,
+        "carbsG": 41,
+        "proteinG": 18,
+        "fatG": 17,
+        "servingSize": "≈260 g (≈1 cup mac & cheese, 30 g Spam, 30 g kimchi)",
+        "confidence": "MEDIUM",
+        "reasoning": "Identified three components: prepared mac & cheese (~200 g), Spam (~30 g) and kimchi (~30 g). Estimated typical US portion sizes. Used USDA‑like per‑100 g values: mac & cheese 150 kcal, 20 g carbs, 7 g protein, 5 g fat; Spam 250 kcal, 1 g carbs, 13 g protein, 22 g fat; kimchi 15 kcal, 2 g carbs, 1 g protein, negligible fat. Scaled to serving weights, summed macros, and verified energy (≈389 kcal from macros vs 380 kcal reported, within 10%)."
+      },
+      "score": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "all": 0,
+        "kcal_acc20": 0,
+        "errKcal": 340
+      }
+    },
+    "ollama_rag": {
+      "pred": {
+        "name": "Mac and Cheese with Spam and Kimchi",
+        "kcal": 545,
+        "carbsG": 53,
+        "proteinG": 24,
+        "fatG": 26,
+        "servingSize": "≈330 g (≈1 cup mac & cheese, 2 oz Spam, 1 oz kimchi)",
+        "confidence": "MEDIUM",
+        "reasoning": "Identified a fusion dish combining typical American mac and cheese, canned Spam, and Korean kimchi. Estimated portion: 250 g mac & cheese, 50 g Spam, 30 g kimchi (~330 g total). Used USDA‑like per‑100 g values: mac & cheese ~150 kcal, 20 g carbs, 7 g protein, 5 g fat; Spam ~302 kcal, 4.2 g carbs, 13.2 g protein, 27.5 g fat; kimchi ~15 kcal, 2 g carbs, 1 g protein, 0.2 g fat. Scaled and summed macros, then verified energy (protein*4 + carbs*4 + fat*9 ≈ 545 kcal, within 10% of summed kcal). Medium confidence due to ingredient variability."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 0,
+        "fat": 1,
+        "all": 0,
+        "kcal_acc20": 0,
+        "errKcal": 175
+      }
+    }
+  },
+  {
+    "idx": 22,
+    "input": "1 cup of cooked white rice",
+    "targetKcal": 205,
+    "rag_hit": true,
+    "rag_preview": "- White Rice (Unsalted) (per 158g): 205 kcal, 45g carbs, 4g protein, 0g fat\n- White Rice (per 160g): 206 kcal, 45g carbs, 4g protein, 0g fat\n- Instant White Rice (per 167g): 193 kcal, 41g carbs, 4g pr",
+    "gemini": {
+      "pred": {
+        "name": "1 cup of cooked white rice",
+        "kcal": 205,
+        "carbsG": 44.5,
+        "proteinG": 4.3,
+        "fatG": 0.4,
+        "servingSize": "1 cup (158g)",
+        "confidence": "HIGH",
+        "reasoning": "Based on USDA standard reference for cooked long-grain white rice, 1 cup weighs approximately 158g. Per 100g, it contains roughly 130 kcal, 28g carbs, 2.7g protein, and 0.3g fat. Calculations for 158g yield approximately 205 kcal, 44.5g carbs, 4.3g protein, and 0.4g fat."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 0
+      }
+    },
+    "ollama": {
+      "pred": {
+        "name": "Cooked white rice",
+        "kcal": 205,
+        "carbsG": 44.2,
+        "proteinG": 4.3,
+        "fatG": 0.5,
+        "servingSize": "1 cup (≈158 g)",
+        "confidence": "HIGH",
+        "reasoning": "Identified the food as 1 cup of cooked white rice. US standard cup of cooked white rice weighs about 158 g. USDA data for cooked white rice: ~130 kcal, 28 g carbs, 2.7 g protein, 0.3 g fat per 100 g. Scaled these values by 1.58 to get the nutrient amounts for 158 g. Verified that macro‑derived kcal (≈198 kcal) is within 10% of the listed kcal (205 kcal)."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 0
+      }
+    },
+    "ollama_rag": {
+      "pred": {
+        "name": "Cooked white rice",
+        "kcal": 205,
+        "carbsG": 45,
+        "proteinG": 4,
+        "fatG": 0,
+        "servingSize": "1 cup (≈158 g)",
+        "confidence": "HIGH",
+        "reasoning": "Identified the food as cooked white rice, a common US portion of 1 cup weighs about 158 g. Used the database entry for 158 g which provides 205 kcal, 45 g carbs, 4 g protein, and 0 g fat. Calculated macros match the kcal within 10%, giving high confidence."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 0
+      }
+    }
+  },
+  {
+    "idx": 23,
+    "input": "medium banana",
+    "targetKcal": 105,
+    "rag_hit": true,
+    "rag_preview": "- Bananas (per 100g): 89 kcal, 23g carbs, 1g protein, 0g fat\n- Banana (per 100g): 89 kcal, 23g carbs, 1g protein, 0g fat\n- Banana - Shakes Medium (Braum's) (per 1 serving): 1020 kcal, 121g carbs, 27g ",
+    "gemini": {
+      "pred": {
+        "name": "Medium Banana",
+        "kcal": 105,
+        "carbsG": 27,
+        "proteinG": 1.3,
+        "fatG": 0.4,
+        "servingSize": "118g (approx. 7-8 inches long)",
+        "confidence": "HIGH",
+        "reasoning": "Based on USDA standard reference for a medium-sized raw banana (peeled). A medium banana is defined as 7 to 7 7/8 inches long, weighing approximately 118 grams. Nutritional values are calculated using the standard 89 kcal per 100g reference."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 0
+      }
+    },
+    "ollama": {
+      "pred": {
+        "name": "Medium banana",
+        "kcal": 116,
+        "carbsG": 27,
+        "proteinG": 1.3,
+        "fatG": 0.35,
+        "servingSize": "1 medium banana (~118 g)",
+        "confidence": "HIGH",
+        "reasoning": "Identified as a raw medium banana, typical US portion ~118 g. USDA per‑100 g values: 22.8 g carbs, 1.1 g protein, 0.3 g fat, 89 kcal. Scaled to 118 g gives ~27 g carbs, 1.3 g protein, 0.35 g fat. Calculated kcal from macros (protein*4 + carbs*4 + fat*9) = ~116 kcal, which aligns with the macro‑derived energy. Confidence is high due to well‑known food and standard portion size."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 11
+      }
+    },
+    "ollama_rag": {
+      "pred": {
+        "name": "Banana",
+        "kcal": 105,
+        "carbsG": 27.1,
+        "proteinG": 1.2,
+        "fatG": 0,
+        "servingSize": "1 medium banana (~118 g)",
+        "confidence": "HIGH",
+        "reasoning": "A medium banana in the US typically weighs about 118 g. Using the per‑100 g values (89 kcal, 23 g carbs, 1 g protein, 0 g fat) and scaling by 1.18 yields ~105 kcal, 27.1 g carbs, 1.2 g protein, and 0 g fat. Energy from macros matches the kcal within 10%."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 0
+      }
+    }
+  },
+  {
+    "idx": 24,
+    "input": "salmon fillet baked",
+    "targetKcal": 350,
+    "rag_hit": true,
+    "rag_preview": "- Baked or Broiled Salmon (per 845g): 1445 kcal, 4g carbs, 203g protein, 64g fat\n- Baked or Broiled Fish Stick Patty or Fillet (per 100g): 249 kcal, 21g carbs, 11g protein, 13g fat\n- Baked or Broiled ",
+    "gemini": {
+      "pred": {
+        "name": "Baked Salmon Fillet",
+        "kcal": 354,
+        "carbsG": 0,
+        "proteinG": 42.5,
+        "fatG": 20.4,
+        "servingSize": "170g (6 oz cooked)",
+        "confidence": "HIGH",
+        "reasoning": "Based on a standard US 6 oz cooked portion of Atlantic salmon. Using USDA reference for dry heat preparation (approx. 208 kcal, 25g protein, and 12g fat per 100g). Calculation: 1.7 * 25g protein = 42.5g; 1.7 * 12g fat = 20.4g. Kcal verified by macro calculation (42.5*4 + 20.4*9)."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 4
+      }
+    },
+    "ollama": {
+      "pred": {
+        "name": "Baked salmon fillet",
+        "kcal": 394,
+        "carbsG": 0,
+        "proteinG": 42.5,
+        "fatG": 23.8,
+        "servingSize": "170 g (≈6 oz) baked salmon fillet",
+        "confidence": "HIGH",
+        "reasoning": "Identified the food as a baked salmon fillet. US standard portion for fish is ~6 oz (≈170 g). USDA data for cooked Atlantic salmon (dry‑heat roasted) gives ~232 kcal, 25 g protein, 14 g fat per 100 g. Multiplying by 1.7 yields ~394 kcal, 42.5 g protein, 23.8 g fat, 0 g carbs. Macro‑derived kcal (≈384 kcal) is within 10% of listed kcal, confirming the estimate."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1,
+        "all": 1,
+        "kcal_acc20": 1,
+        "errKcal": 44
+      }
+    },
+    "ollama_rag": {
+      "pred": {
+        "name": "Baked Salmon Fillet",
+        "kcal": 291,
+        "carbsG": 0.8,
+        "proteinG": 40.8,
+        "fatG": 12.9,
+        "servingSize": "170 g (≈6 oz)",
+        "confidence": "HIGH",
+        "reasoning": "Identified the food as a baked salmon fillet. US standard portion for a salmon fillet is about 6 oz (~170 g). Used per‑100 g values derived from the database entry for baked salmon (≈171 kcal, 0.47 g carbs, 24.0 g protein, 7.6 g fat). Multiplied by 1.7 to get totals for 170 g and verified the energy calculation falls within 10% of the macro‑derived kcal."
+      },
+      "score": {
+        "kcal": 1,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 0,
+        "all": 0,
+        "kcal_acc20": 1,
+        "errKcal": 59
+      }
+    }
+  }
+]

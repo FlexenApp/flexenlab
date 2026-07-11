@@ -1,0 +1,23 @@
+// E12 long multi-meal queries (extracted from e12_long_queries_test.ts)
+export const E12_CASES = [
+  { query: "Today for breakfast I had two scrambled eggs with butter and a slice of whole wheat toast with jam",
+    targetKcal: 350, targetProtein: 16, targetCarbs: 28, targetFat: 18 },
+  { query: "For lunch I had a grilled chicken salad with 150g chicken breast, mixed greens, half an avocado, cherry tomatoes, and 2 tbsp olive oil dressing",
+    targetKcal: 620, targetProtein: 50, targetCarbs: 12, targetFat: 42 },
+  { query: "My dinner was 200g salmon baked, 1 cup cooked brown rice, and a cup of steamed broccoli with butter",
+    targetKcal: 690, targetProtein: 49, targetCarbs: 48, targetFat: 32 },
+  { query: "Breakfast: bowl of oatmeal made with milk, topped with banana and honey. Lunch: turkey sandwich with cheese and mayo. Snack: an apple.",
+    targetKcal: 1050, targetProtein: 45, targetCarbs: 145, targetFat: 34 },
+  { query: "I ate a McDonald's Big Mac meal with medium fries and a medium Coke, plus I added a McChicken on the side",
+    targetKcal: 1570, targetProtein: 45, targetCarbs: 190, targetFat: 64 },
+  { query: "Two slices of pepperoni pizza, a garlic knot, and a Caesar salad on the side with dressing",
+    targetKcal: 1020, targetProtein: 36, targetCarbs: 110, targetFat: 48 },
+  { query: "Protein shake with whey, a banana, a handful of almonds, and a scoop of peanut butter for a post-workout meal",
+    targetKcal: 560, targetProtein: 37, targetCarbs: 35, targetFat: 28 },
+  { query: "For dinner I had a full Chipotle burrito bowl with chicken, white rice, pinto beans, mild salsa, cheese, and sour cream",
+    targetKcal: 810, targetProtein: 48, targetCarbs: 85, targetFat: 30 },
+  { query: "Breakfast was a bagel with cream cheese and smoked salmon, plus orange juice",
+    targetKcal: 550, targetProtein: 24, targetCarbs: 72, targetFat: 18 },
+  { query: "Dinner: pan-fried ribeye steak about 250g, baked potato with butter and sour cream, side of asparagus",
+    targetKcal: 950, targetProtein: 68, targetCarbs: 45, targetFat: 55 },
+];

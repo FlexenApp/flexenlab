@@ -1,0 +1,2642 @@
+[
+  {
+    "query": "McDonald's Big Mac no onions",
+    "category": "fast_food"
+  },
+  {
+    "query": "Large McDonald's fries half eaten",
+    "category": "fast_food"
+  },
+  {
+    "query": "piece McNuggets with honey mustard",
+    "category": "fast_food"
+  },
+  {
+    "query": "Egg McMuffin no Canadian bacon",
+    "category": "fast_food"
+  },
+  {
+    "query": "Quarter Pounder with Cheese no pickle",
+    "category": "fast_food"
+  },
+  {
+    "query": "Small McDonald's vanilla shake",
+    "category": "fast_food"
+  },
+  {
+    "query": "Sausage McMuffin with Egg",
+    "category": "fast_food"
+  },
+  {
+    "query": "Double Quarter Pounder with cheese large meal",
+    "category": "fast_food"
+  },
+  {
+    "query": "piece Chicken McNuggets from Happy Meal",
+    "category": "fast_food"
+  },
+  {
+    "query": "McDonald's Filet-O-Fish",
+    "category": "fast_food"
+  },
+  {
+    "query": "Burger King Whopper no mayo",
+    "category": "fast_food"
+  },
+  {
+    "query": "Whopper Junior with cheese",
+    "category": "fast_food"
+  },
+  {
+    "query": "BK Chicken Fries 9 piece",
+    "category": "fast_food"
+  },
+  {
+    "query": "Large onion rings from Burger King",
+    "category": "fast_food"
+  },
+  {
+    "query": "Burger King Impossible Whopper",
+    "category": "fast_food"
+  },
+  {
+    "query": "Bacon King sandwich",
+    "category": "fast_food"
+  },
+  {
+    "query": "Wendy's Dave's Single with extra pickles",
+    "category": "fast_food"
+  },
+  {
+    "query": "Small Wendy's Frosty chocolate",
+    "category": "fast_food"
+  },
+  {
+    "query": "Wendy's Spicy Chicken Sandwich no tomato",
+    "category": "fast_food"
+  },
+  {
+    "query": "Large Wendy's natural cut fries",
+    "category": "fast_food"
+  },
+  {
+    "query": "Wendy's chili small bowl",
+    "category": "fast_food"
+  },
+  {
+    "query": "Sour cream and chive baked potato Wendy's",
+    "category": "fast_food"
+  },
+  {
+    "query": "piece spicy nuggets Wendy's",
+    "category": "fast_food"
+  },
+  {
+    "query": "Taco Bell Crunchwrap Supreme",
+    "category": "fast_food"
+  },
+  {
+    "query": "Soft Tacos beef from Taco Bell",
+    "category": "fast_food"
+  },
+  {
+    "query": "Taco Bell Bean Burrito no onions",
+    "category": "fast_food"
+  },
+  {
+    "query": "Nachos BellGrande",
+    "category": "fast_food"
+  },
+  {
+    "query": "Chicken Quesadilla Taco Bell",
+    "category": "fast_food"
+  },
+  {
+    "query": "Taco Bell Cheesy Gordita Crunch",
+    "category": "fast_food"
+  },
+  {
+    "query": "Doritos Locos Tacos supreme",
+    "category": "fast_food"
+  },
+  {
+    "query": "KFC 2 piece dark meat original recipe",
+    "category": "fast_food"
+  },
+  {
+    "query": "Large KFC mashed potatoes with gravy",
+    "category": "fast_food"
+  },
+  {
+    "query": "KFC Famous Bowl",
+    "category": "fast_food"
+  },
+  {
+    "query": "piece KFC extra crispy tenders",
+    "category": "fast_food"
+  },
+  {
+    "query": "KFC coleslaw individual side",
+    "category": "fast_food"
+  },
+  {
+    "query": "KFC biscuit with honey",
+    "category": "fast_food"
+  },
+  {
+    "query": "Chick-fil-A 12 count nuggets",
+    "category": "fast_food"
+  },
+  {
+    "query": "Chick-fil-A Spicy Deluxe sandwich with pepper jack",
+    "category": "fast_food"
+  },
+  {
+    "query": "Medium Chick-fil-A waffle fries",
+    "category": "fast_food"
+  },
+  {
+    "query": "Chick-fil-A Grilled Chicken Sandwich no bun",
+    "category": "fast_food"
+  },
+  {
+    "query": "count grilled nuggets Chick-fil-A",
+    "category": "fast_food"
+  },
+  {
+    "query": "Chick-fil-A Cobb Salad with avocado lime ranch",
+    "category": "fast_food"
+  },
+  {
+    "query": "Large Chick-fil-A lemonade",
+    "category": "fast_food"
+  },
+  {
+    "query": "Subway 6 inch Turkey Breast on wheat",
+    "category": "fast_food"
+  },
+  {
+    "query": "Subway Footlong Italian BMT",
+    "category": "fast_food"
+  },
+  {
+    "query": "Subway Tuna sub 6 inch with extra mayo",
+    "category": "fast_food"
+  },
+  {
+    "query": "Subway Veggie Delite no cheese",
+    "category": "fast_food"
+  },
+  {
+    "query": "Subway chocolate chip cookie",
+    "category": "fast_food"
+  },
+  {
+    "query": "Subway Sweet Onion Chicken Teriyaki footlong",
+    "category": "fast_food"
+  },
+  {
+    "query": "Subway Cold Cut Combo 6 inch",
+    "category": "fast_food"
+  },
+  {
+    "query": "Popeyes Spicy Chicken Sandwich",
+    "category": "fast_food"
+  },
+  {
+    "query": "piece Popeyes blackened tenders",
+    "category": "fast_food"
+  },
+  {
+    "query": "Popeyes red beans and rice regular size",
+    "category": "fast_food"
+  },
+  {
+    "query": "Large Popeyes fries",
+    "category": "fast_food"
+  },
+  {
+    "query": "Popeyes biscuit",
+    "category": "fast_food"
+  },
+  {
+    "query": "piece Popeyes nuggets",
+    "category": "fast_food"
+  },
+  {
+    "query": "Arby's Classic Roast Beef",
+    "category": "fast_food"
+  },
+  {
+    "query": "Large Arby's curly fries",
+    "category": "fast_food"
+  },
+  {
+    "query": "Arby's Beef 'n Cheddar Classic",
+    "category": "fast_food"
+  },
+  {
+    "query": "Arby's Greek Gyro",
+    "category": "fast_food"
+  },
+  {
+    "query": "Small Arby's Jamocha Shake",
+    "category": "fast_food"
+  },
+  {
+    "query": "Arby's mozzarella sticks 4 count",
+    "category": "fast_food"
+  },
+  {
+    "query": "Five Guys Little Cheeseburger with everything",
+    "category": "fast_food"
+  },
+  {
+    "query": "Regular Five Guys fries shared",
+    "category": "fast_food"
+  },
+  {
+    "query": "Five Guys bacon cheeseburger no bun",
+    "category": "fast_food"
+  },
+  {
+    "query": "Small Five Guys Cajun fries",
+    "category": "fast_food"
+  },
+  {
+    "query": "In-N-Out Double-Double Animal Style",
+    "category": "fast_food"
+  },
+  {
+    "query": "In-N-Out Cheeseburger protein style",
+    "category": "fast_food"
+  },
+  {
+    "query": "In-N-Out French Fries",
+    "category": "fast_food"
+  },
+  {
+    "query": "In-N-Out Hamburger with grilled onions",
+    "category": "fast_food"
+  },
+  {
+    "query": "Shake Shack ShackBurger single",
+    "category": "fast_food"
+  },
+  {
+    "query": "Shake Shack crinkle cut fries with cheese sauce",
+    "category": "fast_food"
+  },
+  {
+    "query": "Shake Shack Shroom Burger",
+    "category": "fast_food"
+  },
+  {
+    "query": "Shake Shack vanilla shake small",
+    "category": "fast_food"
+  },
+  {
+    "query": "Whataburger with cheese and jalapeños",
+    "category": "fast_food"
+  },
+  {
+    "query": "Whataburger Patty Melt",
+    "category": "fast_food"
+  },
+  {
+    "query": "Medium Whataburger fries",
+    "category": "fast_food"
+  },
+  {
+    "query": "Whataburger Honey Butter Chicken Biscuit",
+    "category": "fast_food"
+  },
+  {
+    "query": "Jack in the Box 2 tacos",
+    "category": "fast_food"
+  },
+  {
+    "query": "Jack in the Box Sourdough Jack",
+    "category": "fast_food"
+  },
+  {
+    "query": "Large Jack in the Box curly fries",
+    "category": "fast_food"
+  },
+  {
+    "query": "Jack in the Box Jumbo Jack with cheese",
+    "category": "fast_food"
+  },
+  {
+    "query": "Carl's Jr Western Bacon Cheeseburger",
+    "category": "fast_food"
+  },
+  {
+    "query": "Carl's Jr Famous Star with cheese",
+    "category": "fast_food"
+  },
+  {
+    "query": "Carl's Jr Crisscut fries small",
+    "category": "fast_food"
+  },
+  {
+    "query": "Dairy Queen Oreo Blizzard medium",
+    "category": "fast_food"
+  },
+  {
+    "query": "Dairy Queen 4 piece chicken strip basket with gravy",
+    "category": "fast_food"
+  },
+  {
+    "query": "Small Dairy Queen vanilla cone",
+    "category": "fast_food"
+  },
+  {
+    "query": "Dairy Queen Chili Cheese Dog",
+    "category": "fast_food"
+  },
+  {
+    "query": "Sonic Cherry Limeade large",
+    "category": "fast_food"
+  },
+  {
+    "query": "Sonic Garlic Butter Bacon Burger",
+    "category": "fast_food"
+  },
+  {
+    "query": "Sonic Tater Tots medium",
+    "category": "fast_food"
+  },
+  {
+    "query": "Sonic Corn Dog",
+    "category": "fast_food"
+  },
+  {
+    "query": "Panda Express Orange Chicken one scoop",
+    "category": "fast_food"
+  },
+  {
+    "query": "Panda Express Chow Mein side",
+    "category": "fast_food"
+  },
+  {
+    "query": "Panda Express Beijing Beef",
+    "category": "fast_food"
+  },
+  {
+    "query": "Panda Express Honey Walnut Shrimp",
+    "category": "fast_food"
+  },
+  {
+    "query": "Panda Express Kung Pao Chicken with white rice",
+    "category": "fast_food"
+  },
+  {
+    "query": "Raising Cane's 3 finger combo",
+    "category": "fast_food"
+  },
+  {
+    "query": "Raising Cane's extra toast",
+    "category": "fast_food"
+  },
+  {
+    "query": "Raising Cane's chicken fingers",
+    "category": "fast_food"
+  },
+  {
+    "query": "Raising Cane's sauce cup",
+    "category": "fast_food"
+  },
+  {
+    "query": "Jersey Mike's #13 Italian Mike's Way regular",
+    "category": "fast_food"
+  },
+  {
+    "query": "Jersey Mike's #7 Turkey and Provolone giant",
+    "category": "fast_food"
+  },
+  {
+    "query": "Jersey Mike's #17 Philly Cheesesteak regular",
+    "category": "fast_food"
+  },
+  {
+    "query": "McDonald's McDouble",
+    "category": "fast_food"
+  },
+  {
+    "query": "McDonald's McChicken no mayo",
+    "category": "fast_food"
+  },
+  {
+    "query": "Small McDonald's McCafe Mocha",
+    "category": "fast_food"
+  },
+  {
+    "query": "McDonald's hash browns",
+    "category": "fast_food"
+  },
+  {
+    "query": "Burger King Whopper with cheese no tomato",
+    "category": "fast_food"
+  },
+  {
+    "query": "BK Big Fish sandwich",
+    "category": "fast_food"
+  },
+  {
+    "query": "Small BK nuggets 8 piece",
+    "category": "fast_food"
+  },
+  {
+    "query": "Wendy's Baconator",
+    "category": "fast_food"
+  },
+  {
+    "query": "Wendy's Apple Pecan Salad half size",
+    "category": "fast_food"
+  },
+  {
+    "query": "Wendy's Jr Bacon Cheeseburger",
+    "category": "fast_food"
+  },
+  {
+    "query": "Taco Bell Cheesy Roll Up",
+    "category": "fast_food"
+  },
+  {
+    "query": "Taco Bell Power Menu Bowl chicken",
+    "category": "fast_food"
+  },
+  {
+    "query": "Taco Bell Chalupa Supreme beef",
+    "category": "fast_food"
+  },
+  {
+    "query": "Taco Bell hard tacos",
+    "category": "fast_food"
+  },
+  {
+    "query": "KFC Spicy Chicken Sandwich",
+    "category": "fast_food"
+  },
+  {
+    "query": "KFC Mac and Cheese large side",
+    "category": "fast_food"
+  },
+  {
+    "query": "Chick-fil-A Breakfast Filet",
+    "category": "fast_food"
+  },
+  {
+    "query": "Chick-fil-A Mac and Cheese small",
+    "category": "fast_food"
+  },
+  {
+    "query": "Subway Meatball Marinara 6 inch",
+    "category": "fast_food"
+  },
+  {
+    "query": "Subway Roasted Chicken Breast sub",
+    "category": "fast_food"
+  },
+  {
+    "query": "Popeyes Mashed Potatoes with gravy large",
+    "category": "fast_food"
+  },
+  {
+    "query": "Arby's Classic Beef 'n Cheddar mid-size",
+    "category": "fast_food"
+  },
+  {
+    "query": "Five Guys Little Hamburger",
+    "category": "fast_food"
+  },
+  {
+    "query": "In-N-Out 4x4 Burger",
+    "category": "fast_food"
+  },
+  {
+    "query": "Shake Shack SmokeShack single",
+    "category": "fast_food"
+  },
+  {
+    "query": "Whataburger Avocado Bacon Burger",
+    "category": "fast_food"
+  },
+  {
+    "query": "Jack in the Box Ultimate Cheeseburger",
+    "category": "fast_food"
+  },
+  {
+    "query": "Carl's Jr Beyond Famous Star",
+    "category": "fast_food"
+  },
+  {
+    "query": "Dairy Queen Reese's Blizzard small",
+    "category": "fast_food"
+  },
+  {
+    "query": "Sonic Mozzarella Sticks 4 pc",
+    "category": "fast_food"
+  },
+  {
+    "query": "Panda Express Broccoli Beef",
+    "category": "fast_food"
+  },
+  {
+    "query": "Raising Cane's Box Combo",
+    "category": "fast_food"
+  },
+  {
+    "query": "Jersey Mike's #43 Chipotle Cheesesteak regular",
+    "category": "fast_food"
+  },
+  {
+    "query": "McDonald's Quarter Pounder Deluxe",
+    "category": "fast_food"
+  },
+  {
+    "query": "McDonald's Big Breakfast with Hotcakes",
+    "category": "fast_food"
+  },
+  {
+    "query": "Burger King Croissan'wich sausage egg and cheese",
+    "category": "fast_food"
+  },
+  {
+    "query": "Wendy's Dave's Triple",
+    "category": "fast_food"
+  },
+  {
+    "query": "Taco Bell Burrito Supreme",
+    "category": "fast_food"
+  },
+  {
+    "query": "KFC Pot Pie",
+    "category": "fast_food"
+  },
+  {
+    "query": "Chick-fil-A Spicy Biscuit",
+    "category": "fast_food"
+  },
+  {
+    "query": "Subway Spicy Italian footlong",
+    "category": "fast_food"
+  },
+  {
+    "query": "Arby's Curly Fries small",
+    "category": "fast_food"
+  },
+  {
+    "query": "Five Guys Cheeseburger with pickles and mustard",
+    "category": "fast_food"
+  },
+  {
+    "query": "In-N-Out chocolate shake",
+    "category": "fast_food"
+  },
+  {
+    "query": "Panda Express Fried Rice 1 portion",
+    "category": "fast_food"
+  },
+  {
+    "query": "McDonald's Sausage Biscuit",
+    "category": "fast_food"
+  },
+  {
+    "query": "Burger King Hershey's Pie",
+    "category": "fast_food"
+  },
+  {
+    "query": "Wendy's Southwest Avocado Salad",
+    "category": "fast_food"
+  },
+  {
+    "query": "Taco Bell Cinnabon Delights 2 pack",
+    "category": "fast_food"
+  },
+  {
+    "query": "KFC Coleslaw large",
+    "category": "fast_food"
+  },
+  {
+    "query": "Chick-fil-A Sunjoy large",
+    "category": "fast_food"
+  },
+  {
+    "query": "Subway Roast Beef 6 inch",
+    "category": "fast_food"
+  },
+  {
+    "query": "Popeyes Fried Chicken Leg spicy",
+    "category": "fast_food"
+  },
+  {
+    "query": "Arby's French Dip and Swiss",
+    "category": "fast_food"
+  },
+  {
+    "query": "Five Guys Veggie Sandwich with mushrooms",
+    "category": "fast_food"
+  },
+  {
+    "query": "Grande Starbucks latte with oat milk",
+    "category": "coffee"
+  },
+  {
+    "query": "Dunkin medium iced coffee with 2 sugars and cream",
+    "category": "coffee"
+  },
+  {
+    "query": "Dutch Bros large Golden Eagle hot",
+    "category": "coffee"
+  },
+  {
+    "query": "Peet's small caffe latte whole milk",
+    "category": "coffee"
+  },
+  {
+    "query": "Tim Hortons large double double",
+    "category": "coffee"
+  },
+  {
+    "query": "Philz Mint Mojito iced medium sweet and creamy",
+    "category": "coffee"
+  },
+  {
+    "query": "Blue Bottle 12oz New Orleans cold brew",
+    "category": "coffee"
+  },
+  {
+    "query": "Venti iced caramel macchiato with extra drizzle",
+    "category": "coffee"
+  },
+  {
+    "query": "Starbucks tall strawberry acai refresher no lemonade",
+    "category": "coffee"
+  },
+  {
+    "query": "Dunkin medium pumpkin spice latte with whipped cream",
+    "category": "coffee"
+  },
+  {
+    "query": "Dutch Bros Rebel energy drink large with peach and mango",
+    "category": "coffee"
+  },
+  {
+    "query": "Peet's medium iced matcha latte with soy milk",
+    "category": "coffee"
+  },
+  {
+    "query": "Tim Hortons medium iced capp",
+    "category": "coffee"
+  },
+  {
+    "query": "Philz Tesora medium light cream",
+    "category": "coffee"
+  },
+  {
+    "query": "Blue Bottle 16oz oat milk latte",
+    "category": "coffee"
+  },
+  {
+    "query": "Grande toasted white chocolate mocha with almond milk",
+    "category": "coffee"
+  },
+  {
+    "query": "Venti brown sugar oatmilk iced shaken espresso",
+    "category": "coffee"
+  },
+  {
+    "query": "Starbucks tall flat white",
+    "category": "coffee"
+  },
+  {
+    "query": "Dunkin small hot chocolate",
+    "category": "coffee"
+  },
+  {
+    "query": "Dutch Bros medium Annihilator with oat milk",
+    "category": "coffee"
+  },
+  {
+    "query": "Peet's small dark roast black",
+    "category": "coffee"
+  },
+  {
+    "query": "Tim Hortons 10 timbits assorted",
+    "category": "coffee"
+  },
+  {
+    "query": "Philz iced Ecstatic medium no sugar",
+    "category": "coffee"
+  },
+  {
+    "query": "Blue Bottle iced latte 12oz",
+    "category": "coffee"
+  },
+  {
+    "query": "Venti pink drink with heavy cream",
+    "category": "coffee"
+  },
+  {
+    "query": "Grande nitro cold brew with sweet cream",
+    "category": "coffee"
+  },
+  {
+    "query": "Dunkin large cold brew with whole milk",
+    "category": "coffee"
+  },
+  {
+    "query": "Dutch Bros small Caramelizer",
+    "category": "coffee"
+  },
+  {
+    "query": "Peet's large iced vanilla latte with nonfat milk",
+    "category": "coffee"
+  },
+  {
+    "query": "Tim Hortons small french vanilla",
+    "category": "coffee"
+  },
+  {
+    "query": "Philz Gingersnap hot medium",
+    "category": "coffee"
+  },
+  {
+    "query": "Blue Bottle pour over coffee black",
+    "category": "coffee"
+  },
+  {
+    "query": "Starbucks tall mocha cookie crumble frappuccino no whip",
+    "category": "coffee"
+  },
+  {
+    "query": "Venti blonde vanilla latte with 2 pumps sugar free vanilla",
+    "category": "coffee"
+  },
+  {
+    "query": "Dunkin medium blueberry iced coffee black",
+    "category": "coffee"
+  },
+  {
+    "query": "Dutch Bros large 9-1-1 with extra shot",
+    "category": "coffee"
+  },
+  {
+    "query": "Peet's medium caramel macchiato",
+    "category": "coffee"
+  },
+  {
+    "query": "Tim Hortons large coffee with milk",
+    "category": "coffee"
+  },
+  {
+    "query": "Philz iced coffee rose medium",
+    "category": "coffee"
+  },
+  {
+    "query": "Blue Bottle 8oz cappuccino",
+    "category": "coffee"
+  },
+  {
+    "query": "Starbucks grande mango dragonfruit refresher with lemonade",
+    "category": "coffee"
+  },
+  {
+    "query": "Tall honey almondmilk flat white",
+    "category": "coffee"
+  },
+  {
+    "query": "Dunkin medium iced tea unsweetened",
+    "category": "coffee"
+  },
+  {
+    "query": "Dutch Bros small Kicker",
+    "category": "coffee"
+  },
+  {
+    "query": "Peet's 16oz cold brew with oat milk",
+    "category": "coffee"
+  },
+  {
+    "query": "Tim Hortons medium steep tea with 2 honeys",
+    "category": "coffee"
+  },
+  {
+    "query": "Philz medium Philtered Soul",
+    "category": "coffee"
+  },
+  {
+    "query": "Blue Bottle giant iced espresso",
+    "category": "coffee"
+  },
+  {
+    "query": "Grande iced blonde americano 3 shots",
+    "category": "coffee"
+  },
+  {
+    "query": "Venti Java Chip Frappuccino with extra mocha drizzle",
+    "category": "coffee"
+  },
+  {
+    "query": "Dunkin large frozen coffee with caramel",
+    "category": "coffee"
+  },
+  {
+    "query": "Dutch Bros medium Dutch Cocoa",
+    "category": "coffee"
+  },
+  {
+    "query": "Peet's small iced latte with almond milk",
+    "category": "coffee"
+  },
+  {
+    "query": "Tim Hortons extra large black coffee",
+    "category": "coffee"
+  },
+  {
+    "query": "Philz iced Mint Mojito light sweet",
+    "category": "coffee"
+  },
+  {
+    "query": "Blue Bottle 12oz gibraltar",
+    "category": "coffee"
+  },
+  {
+    "query": "Starbucks tall chai tea latte with soy",
+    "category": "coffee"
+  },
+  {
+    "query": "Grande paradise drink",
+    "category": "coffee"
+  },
+  {
+    "query": "Dunkin medium iced latte with coconut milk",
+    "category": "coffee"
+  },
+  {
+    "query": "Dutch Bros large Picture Perfect freeze",
+    "category": "coffee"
+  },
+  {
+    "query": "Peet's medium peppermint mocha with whip",
+    "category": "coffee"
+  },
+  {
+    "query": "Tim Hortons medium iced coffee no sugar",
+    "category": "coffee"
+  },
+  {
+    "query": "Philz Jacob's Wonderbar medium",
+    "category": "coffee"
+  },
+  {
+    "query": "Blue Bottle hot chocolate 12oz",
+    "category": "coffee"
+  },
+  {
+    "query": "Venti iced peach green tea lemonade",
+    "category": "coffee"
+  },
+  {
+    "query": "Grande caramel frappuccino light",
+    "category": "coffee"
+  },
+  {
+    "query": "Dunkin small hazelnut coffee with cream",
+    "category": "coffee"
+  },
+  {
+    "query": "Dutch Bros medium Cocomo",
+    "category": "coffee"
+  },
+  {
+    "query": "Peet's small cappuccino with 2% milk",
+    "category": "coffee"
+  },
+  {
+    "query": "Tim Hortons 20 ounce double double",
+    "category": "coffee"
+  },
+  {
+    "query": "Philz medium iced Dancing Water",
+    "category": "coffee"
+  },
+  {
+    "query": "Blue Bottle 16oz cold brew",
+    "category": "coffee"
+  },
+  {
+    "query": "Starbucks tall caffe misto with nonfat milk",
+    "category": "coffee"
+  },
+  {
+    "query": "Grande honey citrus mint tea",
+    "category": "coffee"
+  },
+  {
+    "query": "Dunkin medium mocha swirl iced latte",
+    "category": "coffee"
+  },
+  {
+    "query": "Dutch Bros small white chocolate mocha",
+    "category": "coffee"
+  },
+  {
+    "query": "Peet's medium iced black tea",
+    "category": "coffee"
+  },
+  {
+    "query": "Tim Hortons small dark roast",
+    "category": "coffee"
+  },
+  {
+    "query": "Philz iced Silken Splendid medium",
+    "category": "coffee"
+  },
+  {
+    "query": "Blue Bottle latte with oat milk 12oz",
+    "category": "coffee"
+  },
+  {
+    "query": "Venti dragon drink",
+    "category": "coffee"
+  },
+  {
+    "query": "Starbucks grande iced white chocolate mocha no whip",
+    "category": "coffee"
+  },
+  {
+    "query": "Dunkin large sweet tea",
+    "category": "coffee"
+  },
+  {
+    "query": "Dutch Bros medium iced Rebel sugar free",
+    "category": "coffee"
+  },
+  {
+    "query": "Peet's small flat white with soy",
+    "category": "coffee"
+  },
+  {
+    "query": "Tim Hortons medium hot chocolate with whip",
+    "category": "coffee"
+  },
+  {
+    "query": "Philz Aromatic Arabic medium",
+    "category": "coffee"
+  },
+  {
+    "query": "Blue Bottle 12oz espresso",
+    "category": "coffee"
+  },
+  {
+    "query": "Grande iced shaken espresso with 4 pumps vanilla",
+    "category": "coffee"
+  },
+  {
+    "query": "Tall pumpkin cream cold brew",
+    "category": "coffee"
+  },
+  {
+    "query": "Dunkin medium cold brew with sweet cold foam",
+    "category": "coffee"
+  },
+  {
+    "query": "Dutch Bros large iced 911",
+    "category": "coffee"
+  },
+  {
+    "query": "Peet's medium iced latte with whole milk",
+    "category": "coffee"
+  },
+  {
+    "query": "Tim Hortons large latte",
+    "category": "coffee"
+  },
+  {
+    "query": "Philz medium iced Tesora",
+    "category": "coffee"
+  },
+  {
+    "query": "Blue Bottle 12oz mocha",
+    "category": "coffee"
+  },
+  {
+    "query": "Starbucks venti passion tango herbal tea",
+    "category": "coffee"
+  },
+  {
+    "query": "Grande peppermint hot chocolate",
+    "category": "coffee"
+  },
+  {
+    "query": "Dunkin small french vanilla iced coffee",
+    "category": "coffee"
+  },
+  {
+    "query": "Dutch Bros small nitro cold brew black",
+    "category": "coffee"
+  },
+  {
+    "query": "Chipotle chicken bowl with white rice, black beans, mild salsa, and lettuce",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Half a Chipotle steak burrito with no rice and extra peppers",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Chipotle barbacoa tacos (3) on soft flour tortillas",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Side of Chipotle guacamole and half a bag of chips",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Chipotle carnitas salad bowl with vinaigrette and no beans",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Kid’s quesadilla from Chipotle with a side of white rice",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Chipotle sofritas bowl with double corn salsa and extra sour cream",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Sweetgreen Harvest Bowl with no goat cheese",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Sweetgreen Kale Caesar with roasted chicken and extra dressing",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Large Sweetgreen Shroomami bowl",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Sweetgreen Buffalo Cauliflower side",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Sweetgreen Crispy Rice Bowl with blackened chicken",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Half a Sweetgreen Garden Cobb salad",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Cava bowl with greens and grains, harissa honey chicken, and crazy feta",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Cava pita wrap with falafel and hummus",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Side of Cava pita chips and red pepper hummus",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Cava bowl with double braised lamb and lemon herb tahini",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Cava salad with grilled chicken, pickled onions, and tzatziki",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Small Cava bowl with just lentils and roasted vegetables",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Chopt Mexican Caesar salad with grilled chicken",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Chopt Classic Cobb with extra avocado and balsamic vinaigrette",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Chopt Santa Fe salad with light dressing",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Chopt Kebab salad served as a wrap",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Large Chopt Kale Caesar with crispy chicken",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Chopt Palm Beach salad without shrimp",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Panera Bread Broccoli Cheddar Soup in a bread bowl",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Panera You Pick Two: Half Fuji Apple Salad and Half Turkey Sandwich",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Panera Cinnamon Crunch Bagel with plain cream cheese",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Panera Mediterranean Veggie Sandwich on Tomato Basil bread",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Large Panera Mac and Cheese",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Panera Green Goddess Cobb Salad with Chicken",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Panera Toasted Frontega Chicken Sandwich",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Olive Garden Breadstick (just one)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Olive Garden Salad (two servings) with extra dressing",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Olive Garden Fettuccine Alfredo with grilled chicken",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Olive Garden Lasagna Classico lunch portion",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Olive Garden Chicken Parmigiana with a side of spaghetti",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Olive Garden Eggplant Parmigiana dinner size",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Olive Garden Shrimp Scampi with angel hair pasta",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Applebee's 8 oz Top Sirloin with mashed potatoes and broccoli",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Applebee's Classic Bacon Cheeseburger with no bun",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Applebee's Spinach Artichoke Dip with chips",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Applebee's Oriental Chicken Salad with grilled chicken instead of fried",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Applebee's 4-Cheese Mac and Cheese with Honey Pepper Chicken Tenders",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Applebee's Bourbon Street Steak",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Applebee's Fiesta Lime Chicken",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Cheesecake Factory Avocado Eggrolls (2 pieces)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Cheesecake Factory Chicken Madeira dinner",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Slice of Cheesecake Factory Original Cheesecake",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Cheesecake Factory Bang-Bang Chicken and Shrimp",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Cheesecake Factory Shepherd's Pie",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Cheesecake Factory Factory Burger with fries",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Slice of Cheesecake Factory Godiva Chocolate Cheesecake",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Cheesecake Factory Glazed Salmon with asparagus",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Texas Roadhouse 6 oz Sirloin with a baked potato (butter only)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Texas Roadhouse rolls with cinnamon butter",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Texas Roadhouse Grilled BBQ Chicken Breast",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Texas Roadhouse Fried Catfish (3 pieces)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Texas Roadhouse Cactus Blossom (roughly 10 petals)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Texas Roadhouse Chili (cup)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Texas Roadhouse Dallas Filet 8 oz",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Red Lobster Cheddar Bay Biscuit (3 biscuits)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Red Lobster Ultimate Feast with lobster tail and snow crab",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Red Lobster Walt's Favorite Fried Shrimp (half portion)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Red Lobster Garlic Shrimp Scampi",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Red Lobster Admiral’s Feast",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Red Lobster Salmon with rice pilaf",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Red Lobster Parrot Isle Jumbo Coconut Shrimp",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Buffalo Wild Wings traditional wings with Lemon Pepper dry rub",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Buffalo Wild Wings boneless wings with Honey BBQ sauce",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Buffalo Wild Wings side of potato wedges with cheese",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Buffalo Wild Wings Street Tacos",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Buffalo Wild Wings Caribbean Jerk wings (bone-in)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Buffalo Wild Wings Fried Pickles side",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Outback Steakhouse 6 oz Victoria’s Filet with steamed broccoli",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Outback Steakhouse Bloomin' Onion (about 1/4 of the appetizer)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Outback Steakhouse Alice Springs Chicken",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Outback Steakhouse Outback Special 9 oz steak",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Outback Steakhouse Kookaburra Wings (medium)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Outback Steakhouse Queensland Chicken and Shrimp Pasta",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "slices of Domino's large hand-tossed pepperoni pizza",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Domino's medium thin crust veggie pizza (whole pizza)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Domino's Garlic Bread Twists",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Domino's Specialty Chicken Classic Hot Buffalo (8 pieces)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Domino's Philly Cheese Steak Sandwich",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Domino's Pasta Primavera in a bread bowl",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "slices of Pizza Hut large Pan Pizza with sausage and mushrooms",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Pizza Hut Personal Pan Cheese Pizza",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Pizza Hut Breadsticks (2) with marinara sauce",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Pizza Hut Meat Lover's Melt (one half)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Pizza Hut Bone-Out Wings (6 count) with Garlic Parmesan",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Pizza Hut Stuffed Crust Pepperoni Pizza (1 slice)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "slices of Papa John's large original crust The Works pizza",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Papa John's Garlic Knots (4 pieces)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Papa John's Papadia Italian",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Papa John's garden fresh pizza (3 slices)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Papa John's chocolate chip cookie (one square)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Little Caesars Hot-N-Ready Pepperoni Pizza (2 slices)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Little Caesars Crazy Bread (3 sticks) with Crazy Sauce",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Little Caesars Deep Deep Dish Pepperoni (1 slice)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Little Caesars Caesar Wings (8 count) Buffalo",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Chipotle veggie bowl with extra guac and brown rice",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Panera Bread bowl of French Onion Soup",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Sweetgreen Chicken Pesto Parm bowl",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Olive Garden Tour of Italy (leftovers, about half)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Applebee's Chicken Wonton Tacos (3)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Cheesecake Factory Fried Macaroni and Cheese (2 balls)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Texas Roadhouse Roadkill with sautéed onions and mushrooms",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Outback Steakhouse Chocolate Thunder from Down Under (half)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Domino's medium hand-tossed cheese pizza (half)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Red Lobster Lobster Bisque (bowl)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Buffalo Wild Wings Asian Zing boneless wings (10 count)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Papa John's Epic Stuffed Crust Pepperoni (2 slices)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Cava greens bowl with grilled chicken and tahini",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Chopt Crispy Chicken Ranch wrap",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Little Caesars Italian Sausage Pizza (3 slices)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Pizza Hut thin n crispy supreme pizza (2 slices)",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Chipotle steak quesadilla with a side of salsa",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Panera tuna salad sandwich on black pepper focaccia",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Cheesecake Factory SkinnyLicious Grilled Salmon",
+    "category": "restaurant_chain"
+  },
+  {
+    "query": "Trader Joe's Orange Chicken, half a bag",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Kirkland Signature Protein Bars, Chocolate Brownie",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Whole Foods 365 Frozen Cheese Pizza, 1/3 of the box",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Ben & Jerry's Half Baked, about half the pint",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Haagen-Dazs Vanilla Bean, 2 scoops",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Double Stuf Oreos",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Kind Bar Dark Chocolate Nuts & Sea Salt",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Clif Bar Chocolate Chip, standard size",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "RX Bar Blueberry, 1 bar",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Perfect Bar Peanut Butter, refrigerated",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Chobani Flip Key Lime Crumble",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Fage Total 5% Greek Yogurt, 200g",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Siggi's Mixed Berry Skyr, 1 container",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Beyond Burger patty, grilled",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Impossible Nuggets, 6 pieces air fried",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Silk Unsweetened Almond Milk, 8 fl oz",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Oatly Barista Edition in coffee, 2 tbsp",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Quaker Instant Oatmeal Maple & Brown Sugar, 2 packets",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Trader Joe's Everything But The Bagel Seasoning on 1 egg",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Kirkland Rotisserie Chicken breast, no skin, 4 oz",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Whole Foods 365 Organic Almond Butter, 1 big spoonful",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Oreo Thins",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Ben & Jerry's Phish Food, 1/2 cup",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Haagen-Dazs Strawberry ice cream, small bowl",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Kind Mini Bar Caramel Almond & Sea Salt",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Clif Builders Protein Bar Chocolate Peanut Butter",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "RX Bar Chocolate Sea Salt",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Perfect Bar Dark Chocolate Chip Peanut Butter, half a bar",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Chobani Plain Non-fat Greek Yogurt, 1 cup with honey",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Fage Total 0% with strawberry side, 1 cup",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Siggi's Vanilla 0% Skyr, 5.3 oz",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Beyond Sausage Hot Italian, grilled with peppers",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Impossible Burger with cheese, no bun",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Silk Vanilla Soy Milk, a splash in tea",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Oatly Full Fat Oat Milk, 1 cup",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Quaker Old Fashioned Oats, 1/2 cup dry",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Trader Joe's Cauliflower Gnocchi, 1/2 bag sautéed",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Kirkland Mixed Nuts, 2 handfuls",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Whole Foods 365 Frozen Blueberries, 1/2 cup",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Golden Oreo",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Ben & Jerry's Tonight Dough, 3 large spoonfuls",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Haagen-Dazs Coffee Ice Cream, 1 mini cup",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Kind Bar Peanut Butter Dark Chocolate",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Clif Bar Crunchy Peanut Butter",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "RX Bar Peanut Butter",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Perfect Bar Coconut Peanut Butter",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Chobani Drinkable Greek Yogurt Strawberry Banana",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Fage 2% Greek Yogurt, 170g",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Siggi's Strawberry & Rhubarb Skyr",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Beyond Meat Crumbles, 1/2 cup browned",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Impossible Beef, 4 oz patty pan-fried",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Silk Oat Creamer, 1 tbsp",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Oatly Chocolate Oat Milk, small glass",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Quaker Rice Cakes White Cheddar, 2 cakes",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Trader Joe's Peanut Butter Filled Pretzels, 10 pieces",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Kirkland Organic Greek Yogurt, 1 cup with berries",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Whole Foods 365 Marinara Sauce, 1/2 cup",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Oreos dipped in milk",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Ben & Jerry's Cherry Garcia, 1 pint",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Haagen-Dazs Chocolate Dark Chocolate Bar, 1 bar",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Kind Bar Almond & Coconut",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Clif Kid Zbar Chocolate Chip",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "RX Bar Coconut Chocolate",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Perfect Bar Salted Caramel",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Chobani Less Sugar Madagascar Vanilla Cinnamon",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Fage Total 5% with honey, 1 container",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Siggi's Raspberry Skyr, 1 pouch",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Beyond Breakfast Sausage Links, 2 links",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Impossible Pork, 3 oz cooked",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Silk Chocolate Almond Milk, 1 cup",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Oatly Original Oat Milk, 250ml",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Quaker Instant Oatmeal Apples & Cinnamon, 1 packet",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Trader Joe's Steamed Chicken Soup Dumplings, 1 box",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Kirkland Albacore Tuna in water, 1 can drained",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Whole Foods 365 Organic Popcorn, 3 cups",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Mini Oreos",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Ben & Jerry's Non-Dairy Milk & Cookies, 1/2 cup",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Haagen-Dazs Caramel Cone Ice Cream, 2 scoops",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Kind Protein Bar Toasted Caramel Nut",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Clif Bar White Chocolate Macadamia Nut",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "RX Bar Mixed Berry",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Perfect Bar Pumpkin Pie, seasonal",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Chobani Flip S'more S'mores",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Fage Total 0% Greek Yogurt, 1 lb container (ate half)",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Siggi's Peach Skyr",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Beyond Burger with avocado and sprouts",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Impossible Chicken Nuggets, 10 pieces",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Silk Unsweetened Cashew Milk, 8 oz",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Oatly Low Fat Oat Milk, 1 cup",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Quaker Chewy Granola Bar Chocolate Chip",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Trader Joe's Sweet Potato Fries, 1/3 bag air fried",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Kirkland Pesto, 2 tablespoons",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Whole Foods 365 Vegetable Potstickers, 5 pieces",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Mint Oreos",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Ben & Jerry's Chocolate Chip Cookie Dough, 1 scoop",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Haagen-Dazs Mango Sorbet, 1/2 cup",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Kind Bar Dark Chocolate Cherry Cashew",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Clif Bar Peanut Toffee Buzz",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "RX Bar Chocolate Chips, 1 bar",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "Perfect Bar Chocolate Mint, 1 bar",
+    "category": "grocery_brand"
+  },
+  {
+    "query": "scrambled eggs",
+    "category": "generic_common"
+  },
+  {
+    "query": "g grilled chicken breast skinless",
+    "category": "generic_common"
+  },
+  {
+    "query": "cup cooked white rice",
+    "category": "generic_common"
+  },
+  {
+    "query": "oz sirloin steak medium rare",
+    "category": "generic_common"
+  },
+  {
+    "query": "slices whole wheat toast with butter",
+    "category": "generic_common"
+  },
+  {
+    "query": "half an avocado",
+    "category": "generic_common"
+  },
+  {
+    "query": "/2 cup dry oats cooked with water",
+    "category": "generic_common"
+  },
+  {
+    "query": "strips of bacon crispy",
+    "category": "generic_common"
+  },
+  {
+    "query": "medium banana",
+    "category": "generic_common"
+  },
+  {
+    "query": "g Greek yogurt plain",
+    "category": "generic_common"
+  },
+  {
+    "query": "cup skim milk",
+    "category": "generic_common"
+  },
+  {
+    "query": "oz baked cod",
+    "category": "generic_common"
+  },
+  {
+    "query": "a handful of raw almonds",
+    "category": "generic_common"
+  },
+  {
+    "query": "tbsp peanut butter",
+    "category": "generic_common"
+  },
+  {
+    "query": "hard boiled eggs",
+    "category": "generic_common"
+  },
+  {
+    "query": "cup broccoli steamed",
+    "category": "generic_common"
+  },
+  {
+    "query": "/2 cup cottage cheese 2%",
+    "category": "generic_common"
+  },
+  {
+    "query": "oz turkey breast deli meat",
+    "category": "generic_common"
+  },
+  {
+    "query": "large apple with skin",
+    "category": "generic_common"
+  },
+  {
+    "query": "cups mixed greens salad no dressing",
+    "category": "generic_common"
+  },
+  {
+    "query": "small bowl of pasta with marinara",
+    "category": "generic_common"
+  },
+  {
+    "query": "g pan seared salmon",
+    "category": "generic_common"
+  },
+  {
+    "query": "cup blueberries",
+    "category": "generic_common"
+  },
+  {
+    "query": "corn tortillas",
+    "category": "generic_common"
+  },
+  {
+    "query": "/2 cup black beans canned",
+    "category": "generic_common"
+  },
+  {
+    "query": "large sweet potato baked",
+    "category": "generic_common"
+  },
+  {
+    "query": "scoop whey protein powder in water",
+    "category": "generic_common"
+  },
+  {
+    "query": "slices pepperoni pizza thin crust",
+    "category": "generic_common"
+  },
+  {
+    "query": "cup orange juice no pulp",
+    "category": "generic_common"
+  },
+  {
+    "query": "/4 cup hummus",
+    "category": "generic_common"
+  },
+  {
+    "query": "baby carrots",
+    "category": "generic_common"
+  },
+  {
+    "query": "oz ground beef 80/20 browned",
+    "category": "generic_common"
+  },
+  {
+    "query": "tsp olive oil",
+    "category": "generic_common"
+  },
+  {
+    "query": "cup coffee with a splash of half and half",
+    "category": "generic_common"
+  },
+  {
+    "query": "medium bag of popcorn no butter",
+    "category": "generic_common"
+  },
+  {
+    "query": "cherry tomatoes",
+    "category": "generic_common"
+  },
+  {
+    "query": "pancakes with syrup",
+    "category": "generic_common"
+  },
+  {
+    "query": "cup Cheerios with whole milk",
+    "category": "generic_common"
+  },
+  {
+    "query": "inch turkey sub with mayo",
+    "category": "generic_common"
+  },
+  {
+    "query": "oz grilled shrimp",
+    "category": "generic_common"
+  },
+  {
+    "query": "/2 cup quinoa cooked",
+    "category": "generic_common"
+  },
+  {
+    "query": "fried egg in butter",
+    "category": "generic_common"
+  },
+  {
+    "query": "small handful of walnuts",
+    "category": "generic_common"
+  },
+  {
+    "query": "cup lentil soup",
+    "category": "generic_common"
+  },
+  {
+    "query": "g roasted cauliflower",
+    "category": "generic_common"
+  },
+  {
+    "query": "slice cheddar cheese",
+    "category": "generic_common"
+  },
+  {
+    "query": "/2 cup tuna salad with celery",
+    "category": "generic_common"
+  },
+  {
+    "query": "cup chopped kale raw",
+    "category": "generic_common"
+  },
+  {
+    "query": "oz bone-in pork chop grilled",
+    "category": "generic_common"
+  },
+  {
+    "query": "medium peach",
+    "category": "generic_common"
+  },
+  {
+    "query": "tbsp ranch dressing",
+    "category": "generic_common"
+  },
+  {
+    "query": "bowl of chicken noodle soup",
+    "category": "generic_common"
+  },
+  {
+    "query": "g tofu firm sautéed",
+    "category": "generic_common"
+  },
+  {
+    "query": "/4 cup sunflower seeds",
+    "category": "generic_common"
+  },
+  {
+    "query": "large flour tortilla",
+    "category": "generic_common"
+  },
+  {
+    "query": "cup diced watermelon",
+    "category": "generic_common"
+  },
+  {
+    "query": "oz rotisserie chicken dark meat no skin",
+    "category": "generic_common"
+  },
+  {
+    "query": "bagel with cream cheese",
+    "category": "generic_common"
+  },
+  {
+    "query": "cups air popped popcorn",
+    "category": "generic_common"
+  },
+  {
+    "query": "/2 cup cooked spinach",
+    "category": "generic_common"
+  },
+  {
+    "query": "oz burger patty no bun",
+    "category": "generic_common"
+  },
+  {
+    "query": "small side of french fries",
+    "category": "generic_common"
+  },
+  {
+    "query": "cup brown rice steamed",
+    "category": "generic_common"
+  },
+  {
+    "query": "tbsp maple syrup",
+    "category": "generic_common"
+  },
+  {
+    "query": "/2 cup salsa verde",
+    "category": "generic_common"
+  },
+  {
+    "query": "g asparagus grilled",
+    "category": "generic_common"
+  },
+  {
+    "query": "cup spaghetti with meat sauce",
+    "category": "generic_common"
+  },
+  {
+    "query": "oz goat cheese",
+    "category": "generic_common"
+  },
+  {
+    "query": "/2 cup granola with honey",
+    "category": "generic_common"
+  },
+  {
+    "query": "can of tuna in water drained",
+    "category": "generic_common"
+  },
+  {
+    "query": "oz ham steak",
+    "category": "generic_common"
+  },
+  {
+    "query": "medium pear",
+    "category": "generic_common"
+  },
+  {
+    "query": "/2 cup mashed potatoes with milk",
+    "category": "generic_common"
+  },
+  {
+    "query": "tbsp balsamic vinaigrette",
+    "category": "generic_common"
+  },
+  {
+    "query": "cup frozen peas boiled",
+    "category": "generic_common"
+  },
+  {
+    "query": "egg whites scrambled",
+    "category": "generic_common"
+  },
+  {
+    "query": "grapes green",
+    "category": "generic_common"
+  },
+  {
+    "query": "slice sourdough bread toasted",
+    "category": "generic_common"
+  },
+  {
+    "query": "/2 cup refried beans with cheese",
+    "category": "generic_common"
+  },
+  {
+    "query": "oz tilapia baked with lemon",
+    "category": "generic_common"
+  },
+  {
+    "query": "protein bar chocolate peanut butter",
+    "category": "generic_common"
+  },
+  {
+    "query": "cup zucchini noodles",
+    "category": "generic_common"
+  },
+  {
+    "query": "oz beef jerky",
+    "category": "generic_common"
+  },
+  {
+    "query": "/2 cup greek salad with feta",
+    "category": "generic_common"
+  },
+  {
+    "query": "medium zucchini roasted",
+    "category": "generic_common"
+  },
+  {
+    "query": "cup almond milk unsweetened",
+    "category": "generic_common"
+  },
+  {
+    "query": "oz smoked salmon",
+    "category": "generic_common"
+  },
+  {
+    "query": "/2 cup pinto beans seasoned",
+    "category": "generic_common"
+  },
+  {
+    "query": "bowl of fruit salad",
+    "category": "generic_common"
+  },
+  {
+    "query": "tortilla chips with guacamole",
+    "category": "generic_common"
+  },
+  {
+    "query": "tbsp butter salted",
+    "category": "generic_common"
+  },
+  {
+    "query": "/2 cup edamame in pods",
+    "category": "generic_common"
+  },
+  {
+    "query": "oz chicken thighs with skin roasted",
+    "category": "generic_common"
+  },
+  {
+    "query": "cup minestrone soup",
+    "category": "generic_common"
+  },
+  {
+    "query": "slice swiss cheese",
+    "category": "generic_common"
+  },
+  {
+    "query": "oz deli roast beef",
+    "category": "generic_common"
+  },
+  {
+    "query": "/2 cup chickpeas roasted",
+    "category": "generic_common"
+  },
+  {
+    "query": "cup green beans almondine",
+    "category": "generic_common"
+  },
+  {
+    "query": "small orange",
+    "category": "generic_common"
+  },
+  {
+    "query": "/2 cup egg salad on white bread",
+    "category": "generic_common"
+  },
+  {
+    "query": "Chipotle chicken burrito with extra guacamole and white rice",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "street tacos with carnitas and onions",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Large plate of beef nachos with jalapeños and sour cream",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Two cheese enchiladas with red sauce and a side of refried beans",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Bowl of chicken tortilla soup with extra tortilla strips",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Steak quesadilla with a side of pico de gallo",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Small side of restaurant-style chips and salsa",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "oz bowl of pork pozole with cabbage and lime",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Shrimp ceviche with 3 crispy tostadas",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "California burrito with french fries inside",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "slices of pepperoni pizza from a 14-inch pie",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Large bowl of spaghetti bolognese with parmesan cheese",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Fettuccine alfredo with grilled chicken breast",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Small side Caesar salad with croutons",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Two pieces of cheesy garlic bread from a pizzeria",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Lasagna bolognese, standard restaurant-sized square",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Penne alla vodka with extra heavy cream",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "slice of Chicago-style deep dish pizza with sausage",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Chicken parm dinner with a side of spaghetti",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "buffalo wings with blue cheese dressing",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Large pad thai with shrimp and extra crushed peanuts",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Bowl of beef pho with bean sprouts and Thai basil",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "spicy tuna rolls with soy sauce",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "pieces of salmon nigiri",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Bibimbap with fried egg and gochujang sauce",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Tonkotsu ramen with extra pork belly slices",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Orange chicken from a large takeout container",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Small bowl of miso soup with tofu and seaweed",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "pork potstickers, pan-fried",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "General Tso’s chicken with a side of steamed white rice",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Chicken tikka masala, roughly 1.5 cups",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "One whole piece of garlic naan",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Lamb biryani with a side of yogurt raita",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "vegetable samosas with tamarind chutney",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Saag paneer, medium restaurant portion",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Butter chicken with half a plate of basmati rice",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Chana masala with two rotis",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "oz mango lassi",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Tandoori chicken breast and one wing",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Dal makhani with a side of cumin rice",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Gyro wrap with extra tzatziki and onions",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Falafel pita sandwich with hummus and pickles",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Large Greek salad with extra feta and kalamata olives",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "chicken souvlaki skewers with lemon",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Side of baba ganoush with one toasted pita bread",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Hummus plate with sliced cucumbers and baby carrots",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Lamb kebab with saffron rice and grilled tomato",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "stuffed grape leaves with olive oil",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "One small square of honey baklava",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Tabouli salad, about a cup portion",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Barbacoa burrito bowl with no beans and extra cheese",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "al pastor tacos with pineapple and cilantro",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Chicken fajitas with 3 flour tortillas and peppers",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Chile relleno with a side of rice and beans",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Large 20 oz horchata",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "thin crust cheese pizza slice",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Pesto pasta with sun-dried tomatoes and pine nuts",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "inch meatball sub with provolone cheese",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Linguine with clams and white wine garlic sauce",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Eggplant parmesan, one large breaded slice",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Green curry with chicken and bamboo shoots",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Drunken noodles with tofu and extra oil",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "vegetable spring roll with sweet chili sauce",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Miso ramen with corn and a soft-boiled egg",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "piece dragon roll with eel and avocado",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Beef and broccoli takeout with a side of fried rice",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "pieces of shrimp tempura",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Teriyaki chicken bowl with steamed broccoli and carrots",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Chicken korma with one piece of garlic naan",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "onion bhajis with mint chutney",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Palak paneer with one whole chapati",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Fish curry made with coconut milk and spices",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Beef vindaloo with a large portion of white rice",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Chicken shawarma plate with rice and side salad",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "falafel balls with tahini sauce on the side",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Mediterranean bowl with quinoa, feta, and grilled chicken",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "One large piece of spinach and feta spanakopita",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Kofta kebab with pita bread and hummus",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "cup of Mediterranean-style lentil soup",
+    "category": "ethnic_us"
+  },
+  {
+    "query": "Massive chicken burrito from a local food truck",
+    "category": "ethnic_us"
+  }
+]

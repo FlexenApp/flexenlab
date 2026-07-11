@@ -1,0 +1,4124 @@
+{
+  "flexen": {
+    "n": 99,
+    "all_4": 0.5858585858585859,
+    "kcal_acc20": 0.8080808080808081,
+    "mae_kcal": 58.17171717171717,
+    "premium": 99,
+    "lite": 0
+  },
+  "nutribench": {
+    "n": 90,
+    "errors": 10,
+    "acc_7_5": 0.45555555555555555,
+    "kcal_acc20": 0.7,
+    "mae_kcal": 93.29277777777779,
+    "premium": 100,
+    "lite": 0
+  },
+  "cost": {
+    "avg_per_call": 0.011100000000000007,
+    "pure_premium": 0.0111,
+    "monthly_1m": 11100.000000000007,
+    "savings_vs_pure": -6.938893903907228e-12
+  },
+  "hsCases": [
+    {
+      "i": 0,
+      "model": "gemini-3-flash-preview",
+      "input": "200g chicken breast, grilled",
+      "target": {
+        "kcal": 330,
+        "protein": 62,
+        "carbs": 0,
+        "fat": 7.2
+      },
+      "pred": {
+        "kcal": 330,
+        "protein": 62,
+        "carbs": 0,
+        "fat": 7.2,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 1,
+      "model": "gemini-3-flash-preview",
+      "input": "tall starbucks caramel macchiato with whole milk",
+      "target": {
+        "kcal": 210,
+        "protein": 8,
+        "carbs": 26,
+        "fat": 9
+      },
+      "pred": {
+        "kcal": 210,
+        "protein": 8,
+        "carbs": 26,
+        "fat": 9,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 2,
+      "model": "gemini-3-flash-preview",
+      "input": "grande iced brown sugar oat shaken espresso from starbucks",
+      "target": {
+        "kcal": 120,
+        "protein": 2,
+        "carbs": 20,
+        "fat": 3
+      },
+      "pred": {
+        "kcal": 120,
+        "protein": 2,
+        "carbs": 20,
+        "fat": 3,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 3,
+      "model": "gemini-3-flash-preview",
+      "input": "Big Mac with medium fries and a Coke",
+      "target": {
+        "kcal": 1170,
+        "protein": 31,
+        "carbs": 142,
+        "fat": 44
+      },
+      "pred": {
+        "kcal": 1130,
+        "protein": 28,
+        "carbs": 147,
+        "fat": 48,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 4,
+      "model": "gemini-3-flash-preview",
+      "input": "two scoops of Ben & Jerry's Cherry Garcia",
+      "target": {
+        "kcal": 480,
+        "protein": 8,
+        "carbs": 56,
+        "fat": 26
+      },
+      "pred": {
+        "kcal": 520,
+        "protein": 8,
+        "carbs": 54,
+        "fat": 30,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 5,
+      "model": "gemini-3-flash-preview",
+      "input": "double-double animal style with fries from in n out",
+      "target": {
+        "kcal": 1060,
+        "protein": 43,
+        "carbs": 88,
+        "fat": 56
+      },
+      "pred": {
+        "kcal": 1040,
+        "protein": 43,
+        "carbs": 91,
+        "fat": 56,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 6,
+      "model": "gemini-3-flash-preview",
+      "input": "slice of pepperoni pizza at Sam's Club",
+      "target": {
+        "kcal": 380,
+        "protein": 18,
+        "carbs": 33,
+        "fat": 20
+      },
+      "pred": {
+        "kcal": 650,
+        "protein": 30,
+        "carbs": 65,
+        "fat": 30,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": false,
+        "protein": false,
+        "carbs": false,
+        "fat": false,
+        "all": false
+      }
+    },
+    {
+      "i": 7,
+      "model": "gemini-3-flash-preview",
+      "input": "Chipotle chicken burrito bowl with brown rice black beans corn salsa cheese and guac",
+      "target": {
+        "kcal": 940,
+        "protein": 55,
+        "carbs": 87,
+        "fat": 46
+      },
+      "pred": {
+        "kcal": 940,
+        "protein": 55,
+        "carbs": 83,
+        "fat": 46,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 8,
+      "model": "gemini-3-flash-preview",
+      "input": "Sweetgreen Harvest Bowl",
+      "target": {
+        "kcal": 690,
+        "protein": 37,
+        "carbs": 54,
+        "fat": 39
+      },
+      "pred": {
+        "kcal": 805,
+        "protein": 36,
+        "carbs": 68,
+        "fat": 45,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": false,
+        "fat": true,
+        "all": false
+      }
+    },
+    {
+      "i": 9,
+      "model": "gemini-3-flash-preview",
+      "input": "Beyond Burger patty pan-fried with cheese",
+      "target": {
+        "kcal": 385,
+        "protein": 27,
+        "carbs": 8,
+        "fat": 28
+      },
+      "pred": {
+        "kcal": 360,
+        "protein": 25,
+        "carbs": 7.5,
+        "fat": 26,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 10,
+      "model": "gemini-3-flash-preview",
+      "input": "1 serving of Trader Joe's Mandarin Orange Chicken",
+      "target": {
+        "kcal": 320,
+        "protein": 21,
+        "carbs": 24,
+        "fat": 16
+      },
+      "pred": {
+        "kcal": 320,
+        "protein": 15,
+        "carbs": 35,
+        "fat": 13,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": false,
+        "carbs": false,
+        "fat": true,
+        "all": false
+      }
+    },
+    {
+      "i": 11,
+      "model": "gemini-3-flash-preview",
+      "input": "two large eggs scrambled with butter",
+      "target": {
+        "kcal": 230,
+        "protein": 13,
+        "carbs": 1,
+        "fat": 19
+      },
+      "pred": {
+        "kcal": 193,
+        "protein": 12.7,
+        "carbs": 0.7,
+        "fat": 15.2,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 12,
+      "model": "gemini-3-flash-preview",
+      "input": "half a chipotle chicken burrito",
+      "target": {
+        "kcal": 580,
+        "protein": 26,
+        "carbs": 65,
+        "fat": 21
+      },
+      "pred": {
+        "kcal": 543,
+        "protein": 30,
+        "carbs": 60,
+        "fat": 19,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 13,
+      "model": "gemini-3-flash-preview",
+      "input": "three slices of cheese pizza",
+      "target": {
+        "kcal": 855,
+        "protein": 36,
+        "carbs": 108,
+        "fat": 30
+      },
+      "pred": {
+        "kcal": 855,
+        "protein": 36,
+        "carbs": 108,
+        "fat": 30,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 14,
+      "model": "gemini-3-flash-preview",
+      "input": "a handful of almonds",
+      "target": {
+        "kcal": 165,
+        "protein": 6,
+        "carbs": 6,
+        "fat": 14
+      },
+      "pred": {
+        "kcal": 164,
+        "protein": 6,
+        "carbs": 6.1,
+        "fat": 14,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 15,
+      "model": "gemini-3-flash-preview",
+      "input": "small bowl of oatmeal with banana and honey",
+      "target": {
+        "kcal": 290,
+        "protein": 6,
+        "carbs": 60,
+        "fat": 4
+      },
+      "pred": {
+        "kcal": 226,
+        "protein": 4.3,
+        "carbs": 48,
+        "fat": 1.9,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": false,
+        "protein": true,
+        "carbs": true,
+        "fat": false,
+        "all": false
+      }
+    },
+    {
+      "i": 16,
+      "model": "gemini-3-flash-preview",
+      "input": "Thai green curry takeout, about half the box",
+      "target": {
+        "kcal": 420,
+        "protein": 18,
+        "carbs": 45,
+        "fat": 25
+      },
+      "pred": {
+        "kcal": 362,
+        "protein": 16.8,
+        "carbs": 14.4,
+        "fat": 26.4,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": false,
+        "fat": true,
+        "all": false
+      }
+    },
+    {
+      "i": 17,
+      "model": "gemini-3-flash-preview",
+      "input": "ramen tonkotsu with chashu and ajitama",
+      "target": {
+        "kcal": 850,
+        "protein": 38,
+        "carbs": 85,
+        "fat": 38
+      },
+      "pred": {
+        "kcal": 630,
+        "protein": 30,
+        "carbs": 52,
+        "fat": 33.5,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": false,
+        "protein": true,
+        "carbs": false,
+        "fat": true,
+        "all": false
+      }
+    },
+    {
+      "i": 18,
+      "model": "gemini-3-flash-preview",
+      "input": "Pho Bo large with extra brisket",
+      "target": {
+        "kcal": 720,
+        "protein": 48,
+        "carbs": 100,
+        "fat": 12
+      },
+      "pred": {
+        "kcal": 750,
+        "protein": 40,
+        "carbs": 82,
+        "fat": 30,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": false,
+        "all": false
+      }
+    },
+    {
+      "i": 19,
+      "model": "gemini-3-flash-preview",
+      "input": "elote cup",
+      "target": {
+        "kcal": 380,
+        "protein": 11,
+        "carbs": 38,
+        "fat": 20
+      },
+      "pred": {
+        "kcal": 355,
+        "protein": 9,
+        "carbs": 33,
+        "fat": 21,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 20,
+      "model": "gemini-3-flash-preview",
+      "input": "carne apache",
+      "target": {
+        "kcal": 250,
+        "protein": 22,
+        "carbs": 6,
+        "fat": 14
+      },
+      "pred": {
+        "kcal": 271,
+        "protein": 30.5,
+        "carbs": 3.5,
+        "fat": 15,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": false,
+        "carbs": true,
+        "fat": true,
+        "all": false
+      }
+    },
+    {
+      "i": 21,
+      "model": "gemini-3-flash-preview",
+      "input": "Mac and Cheese with Spam and Kimchi",
+      "target": {
+        "kcal": 720,
+        "protein": 28,
+        "carbs": 78,
+        "fat": 32
+      },
+      "pred": {
+        "kcal": 505,
+        "protein": 18,
+        "carbs": 41,
+        "fat": 29,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": false,
+        "protein": false,
+        "carbs": false,
+        "fat": true,
+        "all": false
+      }
+    },
+    {
+      "i": 22,
+      "model": "gemini-3-flash-preview",
+      "input": "1 cup of cooked white rice",
+      "target": {
+        "kcal": 205,
+        "protein": 4.3,
+        "carbs": 45,
+        "fat": 0.4
+      },
+      "pred": {
+        "kcal": 206,
+        "protein": 4.3,
+        "carbs": 44.5,
+        "fat": 0.4,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 23,
+      "model": "gemini-3-flash-preview",
+      "input": "medium banana",
+      "target": {
+        "kcal": 105,
+        "protein": 1.3,
+        "carbs": 27,
+        "fat": 0.4
+      },
+      "pred": {
+        "kcal": 105,
+        "protein": 1.3,
+        "carbs": 27,
+        "fat": 0.4,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 24,
+      "model": "gemini-3-flash-preview",
+      "input": "salmon fillet baked",
+      "target": {
+        "kcal": 350,
+        "protein": 39,
+        "carbs": 0,
+        "fat": 21
+      },
+      "pred": {
+        "kcal": 350,
+        "protein": 39,
+        "carbs": 0,
+        "fat": 21,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 25,
+      "model": "gemini-3-flash-preview",
+      "input": "Chick-fil-A original chicken sandwich",
+      "target": {
+        "kcal": 440,
+        "protein": 29,
+        "carbs": 41,
+        "fat": 17
+      },
+      "pred": {
+        "kcal": 440,
+        "protein": 28,
+        "carbs": 41,
+        "fat": 19,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 26,
+      "model": "gemini-3-flash-preview",
+      "input": "Chick-fil-A 12-count nuggets",
+      "target": {
+        "kcal": 380,
+        "protein": 40,
+        "carbs": 12,
+        "fat": 18
+      },
+      "pred": {
+        "kcal": 380,
+        "protein": 40,
+        "carbs": 16,
+        "fat": 17,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": false,
+        "fat": true,
+        "all": false
+      }
+    },
+    {
+      "i": 27,
+      "model": "gemini-3-flash-preview",
+      "input": "Wendy's Baconator",
+      "target": {
+        "kcal": 920,
+        "protein": 57,
+        "carbs": 38,
+        "fat": 60
+      },
+      "pred": {
+        "kcal": 960,
+        "protein": 57,
+        "carbs": 36,
+        "fat": 66,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 28,
+      "model": "gemini-3-flash-preview",
+      "input": "Taco Bell Crunchwrap Supreme",
+      "target": {
+        "kcal": 530,
+        "protein": 16,
+        "carbs": 71,
+        "fat": 21
+      },
+      "pred": {
+        "kcal": 540,
+        "protein": 16,
+        "carbs": 71,
+        "fat": 21,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 29,
+      "model": "gemini-3-flash-preview",
+      "input": "Five Guys little hamburger",
+      "target": {
+        "kcal": 480,
+        "protein": 23,
+        "carbs": 39,
+        "fat": 26
+      },
+      "pred": {
+        "kcal": 540,
+        "protein": 23,
+        "carbs": 39,
+        "fat": 33,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": false,
+        "all": false
+      }
+    },
+    {
+      "i": 30,
+      "model": "gemini-3-flash-preview",
+      "input": "Popeyes spicy chicken sandwich",
+      "target": {
+        "kcal": 700,
+        "protein": 28,
+        "carbs": 50,
+        "fat": 42
+      },
+      "pred": {
+        "kcal": 700,
+        "protein": 28,
+        "carbs": 50,
+        "fat": 42,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 31,
+      "model": "gemini-3-flash-preview",
+      "input": "Panda Express orange chicken bowl with fried rice",
+      "target": {
+        "kcal": 890,
+        "protein": 26,
+        "carbs": 107,
+        "fat": 40
+      },
+      "pred": {
+        "kcal": 1010,
+        "protein": 36,
+        "carbs": 136,
+        "fat": 39,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": false,
+        "carbs": false,
+        "fat": true,
+        "all": false
+      }
+    },
+    {
+      "i": 32,
+      "model": "gemini-3-flash-preview",
+      "input": "Shake Shack single ShackBurger",
+      "target": {
+        "kcal": 530,
+        "protein": 29,
+        "carbs": 26,
+        "fat": 34
+      },
+      "pred": {
+        "kcal": 500,
+        "protein": 29,
+        "carbs": 26,
+        "fat": 30,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 33,
+      "model": "gemini-3-flash-preview",
+      "input": "Subway footlong turkey breast sub no cheese with veggies",
+      "target": {
+        "kcal": 560,
+        "protein": 36,
+        "carbs": 92,
+        "fat": 7
+      },
+      "pred": {
+        "kcal": 540,
+        "protein": 38,
+        "carbs": 82,
+        "fat": 8,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 34,
+      "model": "gemini-3-flash-preview",
+      "input": "Whataburger original",
+      "target": {
+        "kcal": 590,
+        "protein": 30,
+        "carbs": 52,
+        "fat": 29
+      },
+      "pred": {
+        "kcal": 590,
+        "protein": 29,
+        "carbs": 62,
+        "fat": 25,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 35,
+      "model": "gemini-3-flash-preview",
+      "input": "Starbucks venti iced vanilla latte with 2% milk",
+      "target": {
+        "kcal": 270,
+        "protein": 10,
+        "carbs": 45,
+        "fat": 5
+      },
+      "pred": {
+        "kcal": 280,
+        "protein": 10,
+        "carbs": 45,
+        "fat": 7,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": false,
+        "all": false
+      }
+    },
+    {
+      "i": 36,
+      "model": "gemini-3-flash-preview",
+      "input": "Dunkin medium iced coffee with cream and sugar",
+      "target": {
+        "kcal": 190,
+        "protein": 2,
+        "carbs": 29,
+        "fat": 8
+      },
+      "pred": {
+        "kcal": 190,
+        "protein": 2,
+        "carbs": 26,
+        "fat": 9,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 37,
+      "model": "gemini-3-flash-preview",
+      "input": "Starbucks grande cold brew with sweet cream cold foam",
+      "target": {
+        "kcal": 200,
+        "protein": 3,
+        "carbs": 24,
+        "fat": 11
+      },
+      "pred": {
+        "kcal": 200,
+        "protein": 2,
+        "carbs": 23,
+        "fat": 12,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 38,
+      "model": "gemini-3-flash-preview",
+      "input": "Panera cup of broccoli cheddar soup",
+      "target": {
+        "kcal": 230,
+        "protein": 9,
+        "carbs": 19,
+        "fat": 13
+      },
+      "pred": {
+        "kcal": 230,
+        "protein": 9,
+        "carbs": 19,
+        "fat": 14,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 39,
+      "model": "gemini-3-flash-preview",
+      "input": "Chipotle chicken quesadilla",
+      "target": {
+        "kcal": 830,
+        "protein": 45,
+        "carbs": 53,
+        "fat": 40
+      },
+      "pred": {
+        "kcal": 830,
+        "protein": 60,
+        "carbs": 44,
+        "fat": 42,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": false,
+        "carbs": true,
+        "fat": true,
+        "all": false
+      }
+    },
+    {
+      "i": 40,
+      "model": "gemini-3-flash-preview",
+      "input": "2 slices of Domino's medium hand-tossed pepperoni pizza",
+      "target": {
+        "kcal": 430,
+        "protein": 18,
+        "carbs": 50,
+        "fat": 18
+      },
+      "pred": {
+        "kcal": 420,
+        "protein": 16,
+        "carbs": 50,
+        "fat": 18,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 41,
+      "model": "gemini-3-flash-preview",
+      "input": "1 Red Lobster cheddar bay biscuit",
+      "target": {
+        "kcal": 160,
+        "protein": 3,
+        "carbs": 16,
+        "fat": 10
+      },
+      "pred": {
+        "kcal": 160,
+        "protein": 2,
+        "carbs": 16,
+        "fat": 10,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 42,
+      "model": "gemini-3-flash-preview",
+      "input": "IHOP short stack original buttermilk pancakes, no butter or syrup",
+      "target": {
+        "kcal": 390,
+        "protein": 13,
+        "carbs": 61,
+        "fat": 10
+      },
+      "pred": {
+        "kcal": 450,
+        "protein": 13,
+        "carbs": 74,
+        "fat": 11,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": false,
+        "protein": true,
+        "carbs": false,
+        "fat": true,
+        "all": false
+      }
+    },
+    {
+      "i": 43,
+      "model": "gemini-3-flash-preview",
+      "input": "6 traditional wings from Buffalo Wild Wings with medium sauce",
+      "target": {
+        "kcal": 500,
+        "protein": 50,
+        "carbs": 2,
+        "fat": 24
+      },
+      "pred": {
+        "kcal": 460,
+        "protein": 44,
+        "carbs": 1,
+        "fat": 31,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 44,
+      "model": "gemini-3-flash-preview",
+      "input": "1 serving of Trader Joe's cauliflower gnocchi",
+      "target": {
+        "kcal": 140,
+        "protein": 2,
+        "carbs": 22,
+        "fat": 3
+      },
+      "pred": {
+        "kcal": 140,
+        "protein": 2,
+        "carbs": 22,
+        "fat": 3,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 45,
+      "model": "gemini-3-flash-preview",
+      "input": "3oz Kirkland rotisserie chicken white meat",
+      "target": {
+        "kcal": 140,
+        "protein": 19,
+        "carbs": 0,
+        "fat": 7
+      },
+      "pred": {
+        "kcal": 140,
+        "protein": 24,
+        "carbs": 0,
+        "fat": 5,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": false,
+        "carbs": true,
+        "fat": true,
+        "all": false
+      }
+    },
+    {
+      "i": 46,
+      "model": "gemini-3-flash-preview",
+      "input": "KIND peanut butter dark chocolate bar",
+      "target": {
+        "kcal": 200,
+        "protein": 7,
+        "carbs": 16,
+        "fat": 14
+      },
+      "pred": {
+        "kcal": 200,
+        "protein": 7,
+        "carbs": 17,
+        "fat": 13,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 47,
+      "model": "gemini-3-flash-preview",
+      "input": "Clif Bar chocolate chip",
+      "target": {
+        "kcal": 250,
+        "protein": 10,
+        "carbs": 43,
+        "fat": 6
+      },
+      "pred": {
+        "kcal": 250,
+        "protein": 10,
+        "carbs": 45,
+        "fat": 5,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 48,
+      "model": "gemini-3-flash-preview",
+      "input": "RX Bar chocolate sea salt",
+      "target": {
+        "kcal": 210,
+        "protein": 12,
+        "carbs": 23,
+        "fat": 8
+      },
+      "pred": {
+        "kcal": 210,
+        "protein": 12,
+        "carbs": 23,
+        "fat": 9,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 49,
+      "model": "gemini-3-flash-preview",
+      "input": "Chobani vanilla Greek yogurt 5.3oz cup",
+      "target": {
+        "kcal": 80,
+        "protein": 14,
+        "carbs": 6,
+        "fat": 0
+      },
+      "pred": {
+        "kcal": 120,
+        "protein": 12,
+        "carbs": 15,
+        "fat": 0,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": false,
+        "protein": true,
+        "carbs": false,
+        "fat": true,
+        "all": false
+      }
+    },
+    {
+      "i": 50,
+      "model": "gemini-3-flash-preview",
+      "input": "Impossible Burger patty 4oz",
+      "target": {
+        "kcal": 240,
+        "protein": 19,
+        "carbs": 9,
+        "fat": 14
+      },
+      "pred": {
+        "kcal": 230,
+        "protein": 19,
+        "carbs": 9,
+        "fat": 14,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 51,
+      "model": "gemini-3-flash-preview",
+      "input": "1 cup of Oatly full fat oat milk",
+      "target": {
+        "kcal": 160,
+        "protein": 3,
+        "carbs": 16,
+        "fat": 9
+      },
+      "pred": {
+        "kcal": 160,
+        "protein": 3,
+        "carbs": 16,
+        "fat": 9,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 52,
+      "model": "gemini-3-flash-preview",
+      "input": "shrimp pad thai from a restaurant",
+      "target": {
+        "kcal": 480,
+        "protein": 20,
+        "carbs": 60,
+        "fat": 16
+      },
+      "pred": {
+        "kcal": 940,
+        "protein": 35,
+        "carbs": 135,
+        "fat": 30,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": false,
+        "protein": false,
+        "carbs": false,
+        "fat": false,
+        "all": false
+      }
+    },
+    {
+      "i": 53,
+      "model": "gemini-3-flash-preview",
+      "input": "chicken tikka masala with basmati rice",
+      "target": {
+        "kcal": 550,
+        "protein": 30,
+        "carbs": 55,
+        "fat": 22
+      },
+      "pred": {
+        "kcal": 610,
+        "protein": 32,
+        "carbs": 57,
+        "fat": 28,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 54,
+      "model": "gemini-3-flash-preview",
+      "input": "8 piece California roll",
+      "target": {
+        "kcal": 270,
+        "protein": 9,
+        "carbs": 33,
+        "fat": 7
+      },
+      "pred": {
+        "kcal": 320,
+        "protein": 9,
+        "carbs": 50,
+        "fat": 9,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": false,
+        "fat": true,
+        "all": false
+      }
+    },
+    {
+      "i": 55,
+      "model": "gemini-3-flash-preview",
+      "input": "2 al pastor street tacos",
+      "target": {
+        "kcal": 340,
+        "protein": 18,
+        "carbs": 28,
+        "fat": 16
+      },
+      "pred": {
+        "kcal": 290,
+        "protein": 21,
+        "carbs": 23,
+        "fat": 13,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 56,
+      "model": "gemini-3-flash-preview",
+      "input": "bibimbap with beef and egg",
+      "target": {
+        "kcal": 490,
+        "protein": 27,
+        "carbs": 53,
+        "fat": 15
+      },
+      "pred": {
+        "kcal": 741,
+        "protein": 31,
+        "carbs": 92,
+        "fat": 28,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": false,
+        "protein": true,
+        "carbs": false,
+        "fat": false,
+        "all": false
+      }
+    },
+    {
+      "i": 57,
+      "model": "gemini-3-flash-preview",
+      "input": "chicken shawarma wrap with hummus and tahini",
+      "target": {
+        "kcal": 550,
+        "protein": 30,
+        "carbs": 45,
+        "fat": 28
+      },
+      "pred": {
+        "kcal": 605,
+        "protein": 37,
+        "carbs": 50,
+        "fat": 29,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 58,
+      "model": "gemini-3-flash-preview",
+      "input": "large plate of chicken lo mein",
+      "target": {
+        "kcal": 750,
+        "protein": 30,
+        "carbs": 82,
+        "fat": 32
+      },
+      "pred": {
+        "kcal": 844,
+        "protein": 41,
+        "carbs": 102,
+        "fat": 30,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": false,
+        "carbs": true,
+        "fat": true,
+        "all": false
+      }
+    },
+    {
+      "i": 59,
+      "model": "gemini-3-flash-preview",
+      "input": "falafel plate with rice and salad",
+      "target": {
+        "kcal": 620,
+        "protein": 18,
+        "carbs": 75,
+        "fat": 26
+      },
+      "pred": {
+        "kcal": 682,
+        "protein": 21.6,
+        "carbs": 88.5,
+        "fat": 26.9,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 60,
+      "model": "gemini-3-flash-preview",
+      "input": "tres leches cake slice",
+      "target": {
+        "kcal": 350,
+        "protein": 6,
+        "carbs": 48,
+        "fat": 15
+      },
+      "pred": {
+        "kcal": 450,
+        "protein": 8,
+        "carbs": 60,
+        "fat": 20,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": false,
+        "protein": true,
+        "carbs": false,
+        "fat": true,
+        "all": false
+      }
+    },
+    {
+      "i": 61,
+      "model": "gemini-3-flash-preview",
+      "input": "avocado toast with poached egg and everything seasoning",
+      "target": {
+        "kcal": 340,
+        "protein": 13,
+        "carbs": 26,
+        "fat": 22
+      },
+      "pred": {
+        "kcal": 312,
+        "protein": 12.2,
+        "carbs": 24.6,
+        "fat": 18.3,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 62,
+      "model": "gemini-3-flash-preview",
+      "input": "a few handfuls of trail mix",
+      "target": {
+        "kcal": 420,
+        "protein": 12,
+        "carbs": 40,
+        "fat": 24
+      },
+      "pred": {
+        "kcal": 502,
+        "protein": 13,
+        "carbs": 45,
+        "fat": 30,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 63,
+      "model": "gemini-3-flash-preview",
+      "input": "leftover lasagna, about a quarter of the pan",
+      "target": {
+        "kcal": 680,
+        "protein": 32,
+        "carbs": 52,
+        "fat": 36
+      },
+      "pred": {
+        "kcal": 1388,
+        "protein": 82.5,
+        "carbs": 112.5,
+        "fat": 67.5,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": false,
+        "protein": false,
+        "carbs": false,
+        "fat": false,
+        "all": false
+      }
+    },
+    {
+      "i": 64,
+      "model": "gemini-3-flash-preview",
+      "input": "protein shake with whey powder banana and peanut butter",
+      "target": {
+        "kcal": 400,
+        "protein": 35,
+        "carbs": 38,
+        "fat": 12
+      },
+      "pred": {
+        "kcal": 338,
+        "protein": 29,
+        "carbs": 33,
+        "fat": 10,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 65,
+      "model": "gemini-3-flash-preview",
+      "input": "bowl of cereal with whole milk",
+      "target": {
+        "kcal": 300,
+        "protein": 11,
+        "carbs": 45,
+        "fat": 8
+      },
+      "pred": {
+        "kcal": 337,
+        "protein": 13.2,
+        "carbs": 45.5,
+        "fat": 11.3,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": false,
+        "all": false
+      }
+    },
+    {
+      "i": 66,
+      "model": "gemini-3-flash-preview",
+      "input": "2 slices of sourdough toast with cream cheese and smoked salmon",
+      "target": {
+        "kcal": 430,
+        "protein": 20,
+        "carbs": 38,
+        "fat": 22
+      },
+      "pred": {
+        "kcal": 360,
+        "protein": 18.3,
+        "carbs": 41.2,
+        "fat": 13.6,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": false,
+        "all": false
+      }
+    },
+    {
+      "i": 67,
+      "model": "gemini-3-flash-preview",
+      "input": "a smoothie bowl with acai granola and mixed berries",
+      "target": {
+        "kcal": 450,
+        "protein": 8,
+        "carbs": 72,
+        "fat": 14
+      },
+      "pred": {
+        "kcal": 420,
+        "protein": 7,
+        "carbs": 72,
+        "fat": 12,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 68,
+      "model": "gemini-3-flash-preview",
+      "input": "turkey and cheese sandwich from the deli",
+      "target": {
+        "kcal": 380,
+        "protein": 22,
+        "carbs": 35,
+        "fat": 16
+      },
+      "pred": {
+        "kcal": 433,
+        "protein": 30,
+        "carbs": 31,
+        "fat": 21,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": false,
+        "carbs": true,
+        "fat": true,
+        "all": false
+      }
+    },
+    {
+      "i": 69,
+      "model": "gemini-3-flash-preview",
+      "input": "loaded baked potato with butter sour cream bacon and cheese",
+      "target": {
+        "kcal": 530,
+        "protein": 16,
+        "carbs": 52,
+        "fat": 28
+      },
+      "pred": {
+        "kcal": 551,
+        "protein": 15.8,
+        "carbs": 64.7,
+        "fat": 26.2,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": false,
+        "fat": true,
+        "all": false
+      }
+    },
+    {
+      "i": 70,
+      "model": "gemini-3-flash-preview",
+      "input": "100g raw almonds",
+      "target": {
+        "kcal": 579,
+        "protein": 21,
+        "carbs": 22,
+        "fat": 50
+      },
+      "pred": {
+        "kcal": 579,
+        "protein": 21.2,
+        "carbs": 21.6,
+        "fat": 49.9,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 71,
+      "model": "gemini-3-flash-preview",
+      "input": "150g plain cooked quinoa",
+      "target": {
+        "kcal": 180,
+        "protein": 6.6,
+        "carbs": 32,
+        "fat": 2.7
+      },
+      "pred": {
+        "kcal": 180,
+        "protein": 6.6,
+        "carbs": 32,
+        "fat": 2.9,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 72,
+      "model": "gemini-3-flash-preview",
+      "input": "8oz whole milk",
+      "target": {
+        "kcal": 150,
+        "protein": 8,
+        "carbs": 12,
+        "fat": 8
+      },
+      "pred": {
+        "kcal": 149,
+        "protein": 7.7,
+        "carbs": 11.7,
+        "fat": 7.9,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 73,
+      "model": "gemini-3-flash-preview",
+      "input": "1 tablespoon of olive oil",
+      "target": {
+        "kcal": 119,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 14
+      },
+      "pred": {
+        "kcal": 124,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 14,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 74,
+      "model": "gemini-3-flash-preview",
+      "input": "1 medium sweet potato baked",
+      "target": {
+        "kcal": 103,
+        "protein": 2.3,
+        "carbs": 24,
+        "fat": 0.1
+      },
+      "pred": {
+        "kcal": 138,
+        "protein": 3,
+        "carbs": 31.1,
+        "fat": 0.2,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": false,
+        "protein": true,
+        "carbs": false,
+        "fat": true,
+        "all": false
+      }
+    },
+    {
+      "i": 75,
+      "model": "gemini-3-flash-preview",
+      "input": "1 cup cooked black beans",
+      "target": {
+        "kcal": 227,
+        "protein": 15,
+        "carbs": 41,
+        "fat": 0.9
+      },
+      "pred": {
+        "kcal": 227,
+        "protein": 15.2,
+        "carbs": 40.8,
+        "fat": 0.9,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 76,
+      "model": "gemini-3-flash-preview",
+      "input": "2 tablespoons of peanut butter",
+      "target": {
+        "kcal": 190,
+        "protein": 8,
+        "carbs": 7,
+        "fat": 16
+      },
+      "pred": {
+        "kcal": 190,
+        "protein": 7,
+        "carbs": 7,
+        "fat": 16,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 77,
+      "model": "gemini-3-flash-preview",
+      "input": "gyro with tzatziki in a pita",
+      "target": {
+        "kcal": 480,
+        "protein": 25,
+        "carbs": 40,
+        "fat": 22
+      },
+      "pred": {
+        "kcal": 565,
+        "protein": 24,
+        "carbs": 44,
+        "fat": 33,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": false,
+        "all": false
+      }
+    },
+    {
+      "i": 78,
+      "model": "gemini-3-flash-preview",
+      "input": "pupusa de chicharron with curtido",
+      "target": {
+        "kcal": 300,
+        "protein": 10,
+        "carbs": 35,
+        "fat": 14
+      },
+      "pred": {
+        "kcal": 640,
+        "protein": 21,
+        "carbs": 71,
+        "fat": 31,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": false,
+        "protein": false,
+        "carbs": false,
+        "fat": false,
+        "all": false
+      }
+    },
+    {
+      "i": 79,
+      "model": "gemini-3-flash-preview",
+      "input": "bowl of pho ga",
+      "target": {
+        "kcal": 450,
+        "protein": 30,
+        "carbs": 60,
+        "fat": 6
+      },
+      "pred": {
+        "kcal": 450,
+        "protein": 30,
+        "carbs": 60,
+        "fat": 10,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": false,
+        "all": false
+      }
+    },
+    {
+      "i": 80,
+      "model": "gemini-3-flash-preview",
+      "input": "a generous serving of chicken fried rice",
+      "target": {
+        "kcal": 580,
+        "protein": 22,
+        "carbs": 65,
+        "fat": 24
+      },
+      "pred": {
+        "kcal": 743,
+        "protein": 36,
+        "carbs": 99,
+        "fat": 23,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": false,
+        "protein": false,
+        "carbs": false,
+        "fat": true,
+        "all": false
+      }
+    },
+    {
+      "i": 81,
+      "model": "gemini-3-flash-preview",
+      "input": "chicken burrito from a taqueria",
+      "target": {
+        "kcal": 850,
+        "protein": 42,
+        "carbs": 85,
+        "fat": 32
+      },
+      "pred": {
+        "kcal": 1040,
+        "protein": 65,
+        "carbs": 132,
+        "fat": 26,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": false,
+        "carbs": false,
+        "fat": true,
+        "all": false
+      }
+    },
+    {
+      "i": 82,
+      "model": "gemini-3-flash-preview",
+      "input": "2 pieces of fried chicken with mashed potatoes and gravy",
+      "target": {
+        "kcal": 780,
+        "protein": 42,
+        "carbs": 48,
+        "fat": 42
+      },
+      "pred": {
+        "kcal": 613,
+        "protein": 32,
+        "carbs": 38,
+        "fat": 37,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 83,
+      "model": "gemini-3-flash-preview",
+      "input": "açai bowl from Jamba Juice",
+      "target": {
+        "kcal": 510,
+        "protein": 10,
+        "carbs": 81,
+        "fat": 16
+      },
+      "pred": {
+        "kcal": 510,
+        "protein": 8,
+        "carbs": 92,
+        "fat": 13,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 84,
+      "model": "gemini-3-flash-preview",
+      "input": "one slice of New York style cheese pizza",
+      "target": {
+        "kcal": 285,
+        "protein": 12,
+        "carbs": 36,
+        "fat": 10
+      },
+      "pred": {
+        "kcal": 305,
+        "protein": 13,
+        "carbs": 39,
+        "fat": 11,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 85,
+      "model": "gemini-3-flash-preview",
+      "input": "Wendy's small chili",
+      "target": {
+        "kcal": 170,
+        "protein": 15,
+        "carbs": 16,
+        "fat": 5
+      },
+      "pred": {
+        "kcal": 240,
+        "protein": 18,
+        "carbs": 22,
+        "fat": 11,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": false,
+        "protein": true,
+        "carbs": false,
+        "fat": false,
+        "all": false
+      }
+    },
+    {
+      "i": 86,
+      "model": "gemini-3-flash-preview",
+      "input": "Jack in the Box Jumbo Jack",
+      "target": {
+        "kcal": 510,
+        "protein": 22,
+        "carbs": 38,
+        "fat": 30
+      },
+      "pred": {
+        "kcal": 520,
+        "protein": 25,
+        "carbs": 33,
+        "fat": 32,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 87,
+      "model": "gemini-3-flash-preview",
+      "input": "a plain bagel with cream cheese",
+      "target": {
+        "kcal": 440,
+        "protein": 13,
+        "carbs": 58,
+        "fat": 17
+      },
+      "pred": {
+        "kcal": 370,
+        "protein": 11.8,
+        "carbs": 54.2,
+        "fat": 11.5,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": false,
+        "all": false
+      }
+    },
+    {
+      "i": 88,
+      "model": "gemini-3-flash-preview",
+      "input": "half a rotisserie chicken",
+      "target": {
+        "kcal": 640,
+        "protein": 68,
+        "carbs": 0,
+        "fat": 38
+      },
+      "pred": {
+        "kcal": 555,
+        "protein": 60,
+        "carbs": 0,
+        "fat": 35,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 89,
+      "model": "gemini-3-flash-preview",
+      "input": "a couple of fish tacos",
+      "target": {
+        "kcal": 400,
+        "protein": 22,
+        "carbs": 36,
+        "fat": 18
+      },
+      "pred": {
+        "kcal": 500,
+        "protein": 22,
+        "carbs": 40,
+        "fat": 27,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": false,
+        "all": false
+      }
+    },
+    {
+      "i": 90,
+      "model": "gemini-3-flash-preview",
+      "input": "small order of mozzarella sticks (6 pieces)",
+      "target": {
+        "kcal": 480,
+        "protein": 18,
+        "carbs": 42,
+        "fat": 24
+      },
+      "pred": {
+        "kcal": 570,
+        "protein": 22,
+        "carbs": 48,
+        "fat": 32,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": false,
+        "all": false
+      }
+    },
+    {
+      "i": 91,
+      "model": "gemini-3-flash-preview",
+      "input": "grande Starbucks matcha latte with oat milk",
+      "target": {
+        "kcal": 270,
+        "protein": 4,
+        "carbs": 42,
+        "fat": 7
+      },
+      "pred": {
+        "kcal": 270,
+        "protein": 4,
+        "carbs": 41,
+        "fat": 9,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 92,
+      "model": "gemini-3-flash-preview",
+      "input": "Dunkin glazed donut",
+      "target": {
+        "kcal": 270,
+        "protein": 4,
+        "carbs": 31,
+        "fat": 15
+      },
+      "pred": {
+        "kcal": 240,
+        "protein": 3,
+        "carbs": 33,
+        "fat": 11,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": false,
+        "all": false
+      }
+    },
+    {
+      "i": 93,
+      "model": "gemini-3-flash-preview",
+      "input": "chicken Caesar salad with croutons",
+      "target": {
+        "kcal": 470,
+        "protein": 36,
+        "carbs": 18,
+        "fat": 28
+      },
+      "pred": {
+        "kcal": 630,
+        "protein": 46,
+        "carbs": 29,
+        "fat": 37,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": false,
+        "protein": false,
+        "carbs": false,
+        "fat": false,
+        "all": false
+      }
+    },
+    {
+      "i": 94,
+      "model": "gemini-3-flash-preview",
+      "input": "a small handful of blueberries",
+      "target": {
+        "kcal": 42,
+        "protein": 0.5,
+        "carbs": 11,
+        "fat": 0.2
+      },
+      "pred": {
+        "kcal": 23,
+        "protein": 0.3,
+        "carbs": 5.8,
+        "fat": 0.1,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": false,
+        "protein": true,
+        "carbs": false,
+        "fat": true,
+        "all": false
+      }
+    },
+    {
+      "i": 95,
+      "model": "gemini-3-flash-preview",
+      "input": "a Big Mac no pickles extra sauce",
+      "target": {
+        "kcal": 610,
+        "protein": 25,
+        "carbs": 45,
+        "fat": 35
+      },
+      "pred": {
+        "kcal": 678,
+        "protein": 25,
+        "carbs": 46.5,
+        "fat": 42,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 96,
+      "model": "gemini-3-flash-preview",
+      "input": "Taco Bell bean burrito",
+      "target": {
+        "kcal": 380,
+        "protein": 14,
+        "carbs": 55,
+        "fat": 10
+      },
+      "pred": {
+        "kcal": 350,
+        "protein": 13,
+        "carbs": 54,
+        "fat": 9,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 97,
+      "model": "gemini-3-flash-preview",
+      "input": "about 200ml of orange juice",
+      "target": {
+        "kcal": 89,
+        "protein": 1.4,
+        "carbs": 21,
+        "fat": 0.4
+      },
+      "pred": {
+        "kcal": 96,
+        "protein": 1.5,
+        "carbs": 21.6,
+        "fat": 0.4,
+        "confidence": "HIGH"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": true,
+        "carbs": true,
+        "fat": true,
+        "all": true
+      }
+    },
+    {
+      "i": 98,
+      "model": "gemini-3-flash-preview",
+      "input": "a bowl of chili con carne",
+      "target": {
+        "kcal": 350,
+        "protein": 20,
+        "carbs": 25,
+        "fat": 16
+      },
+      "pred": {
+        "kcal": 422,
+        "protein": 26.3,
+        "carbs": 41.3,
+        "fat": 16.9,
+        "confidence": "MEDIUM"
+      },
+      "ok": {
+        "kcal": true,
+        "protein": false,
+        "carbs": false,
+        "fat": true,
+        "all": false
+      }
+    }
+  ],
+  "nbCases": [
+    {
+      "i": 0,
+      "model": "gemini-3-flash-preview",
+      "input": "I'm enjoying a 150g apple, peeled, with 160g of bottled water for lunch.",
+      "target": {
+        "kcal": 80,
+        "carbs": 19.65
+      },
+      "pred": {
+        "kcal": 78,
+        "carbs": 19.2,
+        "confidence": "HIGH"
+      },
+      "errC": 0.4499999999999993,
+      "errK": 2,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 1,
+      "model": "gemini-3-flash-preview",
+      "input": "At lunch, I enjoyed 24g of Jowar Roti, a side of 111g Potato Bhaji, 26.5g of Red Gram Dhal, and 55.3g of rice.",
+      "target": {
+        "kcal": 348,
+        "carbs": 52.8
+      },
+      "pred": {
+        "kcal": 287,
+        "carbs": 51,
+        "confidence": "MEDIUM"
+      },
+      "errC": 1.7999999999999972,
+      "errK": 61,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 2,
+      "model": "gemini-3-flash-preview",
+      "input": "I started my day with 50 grams of coffee, some saltine crackers weighing 15 grams, a bit of sugar at 5 grams, and 120 grams of tapioca couscous.",
+      "target": {
+        "kcal": 289,
+        "carbs": 54.28
+      },
+      "pred": {
+        "kcal": 271,
+        "carbs": 63,
+        "confidence": "HIGH"
+      },
+      "errC": 8.719999999999999,
+      "errK": 18,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 3,
+      "model": "gemini-3-flash-preview",
+      "input": "For lunch, I'm enjoying 75g of banana, 35g of roasting beef, 60g of kale, and 100g of white rice.",
+      "target": {
+        "kcal": 359,
+        "carbs": 53.41
+      },
+      "pred": {
+        "kcal": 303,
+        "carbs": 47.7,
+        "confidence": "HIGH"
+      },
+      "errC": 5.709999999999994,
+      "errK": 56,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 4,
+      "model": "gemini-3-flash-preview",
+      "input": "This morning, I ate 74g of unleavened corn bread along with 238g of fermented corn injera and drank 213g of boiled tea with sugar.",
+      "target": {
+        "kcal": 622,
+        "carbs": 157.1
+      },
+      "pred": {
+        "kcal": 454,
+        "carbs": 98.6,
+        "confidence": "MEDIUM"
+      },
+      "errC": 58.5,
+      "errK": 168,
+      "carbOk": false,
+      "kcalOk": false
+    },
+    {
+      "i": 5,
+      "model": "gemini-3-flash-preview",
+      "input": "I’ve got a dinner plate with 279.5 grams of chicken meatballs, 198 grams of boiled pasta, and a drizzle of 30.6 grams of tomato sauce.",
+      "target": {
+        "kcal": 869,
+        "carbs": 65.34
+      },
+      "pred": {
+        "kcal": 888,
+        "carbs": 77.8,
+        "confidence": "MEDIUM"
+      },
+      "errC": 12.459999999999994,
+      "errK": 19,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 6,
+      "model": "gemini-3-flash-preview",
+      "input": "I have a snack that includes 99.9g of cooked beef and 51g of fried rice. I’m also having a 370.1g portion of hog plum with lemon and grounded pumpkin seeds, plus a 244.8g salad with lettuce, vegetables, lemon, and salt. To drink, there's a 30.7g tamarind beverage and a maize-based tortilla of 180g.",
+      "target": {
+        "kcal": 1176,
+        "carbs": 206.83
+      },
+      "pred": {
+        "kcal": 1160,
+        "carbs": 163,
+        "confidence": "MEDIUM"
+      },
+      "errC": 43.83000000000001,
+      "errK": 16,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 7,
+      "model": "gemini-3-flash-preview",
+      "input": "For my snack, I've got 140g of sweet wheat bread, a little 15.3g coffee substitute from cereal grains with sugar, and a hefty 282g tortilla packed with cooked black beans.",
+      "target": {
+        "kcal": 1061,
+        "carbs": 191.57
+      },
+      "pred": {
+        "kcal": 954,
+        "carbs": 169,
+        "confidence": "MEDIUM"
+      },
+      "errC": 22.569999999999993,
+      "errK": 107,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 8,
+      "model": "gemini-3-flash-preview",
+      "input": "For lunch, I had 186 grams of boiled coffee beans with salt, 320 grams of fermented millet injera, and 190 grams of pea stew with chili powder, salt, oil, and red onion.",
+      "target": {
+        "kcal": 670,
+        "carbs": 142.7
+      },
+      "pred": {
+        "kcal": 1012,
+        "carbs": 154,
+        "confidence": "MEDIUM"
+      },
+      "errC": 11.300000000000011,
+      "errK": 342,
+      "carbOk": false,
+      "kcalOk": false
+    },
+    {
+      "i": 10,
+      "model": "gemini-3-flash-preview",
+      "input": "For a snack, I'm having 100g of raw fennel, along with 100g of raw lettuce and 2g of raw onion. I also included 58.7g of dry pasta and 70.9g of canned peeled tomatoes. I added 0.6g of raw garlic, a hint of 0.5g of red hot chili pepper for some kick, and I'm enjoying 103.9g of raw veal on the side. I’m sipping on some white table wine (0.1g of alcohol) with my meal and 160g of bottled Uliveto water. Lastly, I drizzled in 9.0g of extra-virgin olive oil and 15.3g of regular olive oil for some added flavor.",
+      "target": {
+        "kcal": 566,
+        "carbs": 52.080000000000005
+      },
+      "pred": {
+        "kcal": 615,
+        "carbs": 58,
+        "confidence": "HIGH"
+      },
+      "errC": 5.919999999999995,
+      "errK": 49,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 11,
+      "model": "gemini-3-flash-preview",
+      "input": "For lunch, I'm having 257 grams of cooked breadfruit with 5 grams of some kind of condiment, 226 grams of fried fish, and a 366-gram serving of Peardrella soda.",
+      "target": {
+        "kcal": 880,
+        "carbs": 97.14
+      },
+      "pred": {
+        "kcal": 953,
+        "carbs": 129,
+        "confidence": "MEDIUM"
+      },
+      "errC": 31.86,
+      "errK": 73,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 13,
+      "model": "gemini-3-flash-preview",
+      "input": "I ate 21g of unrefined white maize flour along with 113g of a fresh ripe banana for breakfast.",
+      "target": {
+        "kcal": 177,
+        "carbs": 41.900000000000006
+      },
+      "pred": {
+        "kcal": 188,
+        "carbs": 42,
+        "confidence": "HIGH"
+      },
+      "errC": 0.09999999999999432,
+      "errK": 11,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 14,
+      "model": "gemini-3-flash-preview",
+      "input": "For lunch, I had 31 grams of raw boiled green cabbage, 23 grams of dried boiled kasepa fish, 147 grams of raw boiled maize flour, 15 grams of raw boiled large onion, 2 grams of raw boiled large onion, 65 grams of raw boiled ripe tomato, and 149 grams of fresh boiled groundnuts in their shells.",
+      "target": {
+        "kcal": 1114,
+        "carbs": 150.6
+      },
+      "pred": {
+        "kcal": 1091,
+        "carbs": 130,
+        "confidence": "HIGH"
+      },
+      "errC": 20.599999999999994,
+      "errK": 23,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 15,
+      "model": "gemini-3-flash-preview",
+      "input": "I'm enjoying a snack that includes 134.3g of homemade cake and 40.9g of plantain with sugar.",
+      "target": {
+        "kcal": 668,
+        "carbs": 103.59
+      },
+      "pred": {
+        "kcal": 611,
+        "carbs": 86.3,
+        "confidence": "MEDIUM"
+      },
+      "errC": 17.290000000000006,
+      "errK": 57,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 16,
+      "model": "gemini-3-flash-preview",
+      "input": "For lunch, I had 100g of fried Ethiopian kale with oil, onion, and salt, along with 200g of leavened injera made from corn and millet.",
+      "target": {
+        "kcal": 465,
+        "carbs": 75.7
+      },
+      "pred": {
+        "kcal": 420,
+        "carbs": 76,
+        "confidence": "MEDIUM"
+      },
+      "errC": 0.29999999999999716,
+      "errK": 45,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 17,
+      "model": "gemini-3-flash-preview",
+      "input": "For a quick snack, I have 110 grams of Cajamanga and a 12-gram hard candy from Chupa Chups.",
+      "target": {
+        "kcal": 97,
+        "carbs": 24.06
+      },
+      "pred": {
+        "kcal": 96,
+        "carbs": 24.6,
+        "confidence": "HIGH"
+      },
+      "errC": 0.5400000000000027,
+      "errK": 1,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 18,
+      "model": "gemini-3-flash-preview",
+      "input": "For lunch, I'm having 25g of bread, 150g of eggplant, and 364.2g of meatball soup. I also have 348.5g of potatoes with roasted chicken and a glass of 175g of wine. And for dessert, I've got a slice of homemade cake weighing 106.7g.",
+      "target": {
+        "kcal": 1712,
+        "carbs": 130.4
+      },
+      "pred": {
+        "kcal": 1478,
+        "carbs": 131,
+        "confidence": "MEDIUM"
+      },
+      "errC": 0.5999999999999943,
+      "errK": 234,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 19,
+      "model": "gemini-3-flash-preview",
+      "input": "For dinner, I prepared 221g of maize flour along with 66g of okra leaves, 18g of a large onion, 61g of tomato, and 51g of roasted termites.",
+      "target": {
+        "kcal": 1157,
+        "carbs": 183
+      },
+      "pred": {
+        "kcal": 505,
+        "carbs": 52.6,
+        "confidence": "MEDIUM"
+      },
+      "errC": 130.4,
+      "errK": 652,
+      "carbOk": false,
+      "kcalOk": false
+    },
+    {
+      "i": 20,
+      "model": "gemini-3-flash-preview",
+      "input": "I had a dinner plate with 128 grams of raw white maize flour, 7 grams of fresh boiled grasshoppers, 98 grams of dried raw groundnuts, and 265 grams of boiled yellow sweet potato still in its skin.",
+      "target": {
+        "kcal": 1333,
+        "carbs": 185.4
+      },
+      "pred": {
+        "kcal": 1314,
+        "carbs": 167,
+        "confidence": "HIGH"
+      },
+      "errC": 18.400000000000006,
+      "errK": 19,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 21,
+      "model": "gemini-3-flash-preview",
+      "input": "For lunch, I'm having 328g of red teff and corn porridge along with 60g of potato stew with onion, red chili, oil, and salt.",
+      "target": {
+        "kcal": 538,
+        "carbs": 91.9
+      },
+      "pred": {
+        "kcal": 377,
+        "carbs": 71.3,
+        "confidence": "HIGH"
+      },
+      "errC": 20.60000000000001,
+      "errK": 161,
+      "carbOk": false,
+      "kcalOk": false
+    },
+    {
+      "i": 22,
+      "model": "gemini-3-flash-preview",
+      "input": "For lunch, I'm having 192 grams of boiled rice and 16 grams of fried horse mackerel.",
+      "target": {
+        "kcal": 287,
+        "carbs": 57.97
+      },
+      "pred": {
+        "kcal": 286,
+        "carbs": 55.7,
+        "confidence": "HIGH"
+      },
+      "errC": 2.269999999999996,
+      "errK": 1,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 23,
+      "model": "gemini-3-flash-preview",
+      "input": "For my snack, I’m enjoying 2.9g of orange-flavored drink, alongside 196g of black beans, 102g of fried rice, and a 180g tortilla made from maize.",
+      "target": {
+        "kcal": 819,
+        "carbs": 155.45
+      },
+      "pred": {
+        "kcal": 865,
+        "carbs": 155.7,
+        "confidence": "HIGH"
+      },
+      "errC": 0.25,
+      "errK": 46,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 24,
+      "model": "gemini-3-flash-preview",
+      "input": "For breakfast, I ate 50 grams of groundnut powder, 39 grams of maize flour, 368 grams of ripe mango, and mixed in 20 grams of brown sugar.",
+      "target": {
+        "kcal": 741,
+        "carbs": 120.7
+      },
+      "pred": {
+        "kcal": 773,
+        "carbs": 112.8,
+        "confidence": "HIGH"
+      },
+      "errC": 7.900000000000006,
+      "errK": 32,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 25,
+      "model": "gemini-3-flash-preview",
+      "input": "For lunch, I'm having 25 grams of soda crackers with salt and a 459g fruit smoothie with sugar and water.",
+      "target": {
+        "kcal": 542,
+        "carbs": 130.59
+      },
+      "pred": {
+        "kcal": 357,
+        "carbs": 78.5,
+        "confidence": "HIGH"
+      },
+      "errC": 52.09,
+      "errK": 185,
+      "carbOk": false,
+      "kcalOk": false
+    },
+    {
+      "i": 26,
+      "model": "gemini-3-flash-preview",
+      "input": "I enjoyed 436.1 grams of country soup along with 380.3 grams of rice pilaf with poultry for lunch.",
+      "target": {
+        "kcal": 958,
+        "carbs": 72.50000000000001
+      },
+      "pred": {
+        "kcal": 809,
+        "carbs": 110,
+        "confidence": "MEDIUM"
+      },
+      "errC": 37.499999999999986,
+      "errK": 149,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 27,
+      "model": "gemini-3-flash-preview",
+      "input": "Lunch consists of 13g of kasepa fish that’s boiled, 74g of raw white maize flour, 4g and 5g of boiled onions, 55g of boiled ripe tomatoes, 25g of boiled pork, and 40g of raw sugarcane.",
+      "target": {
+        "kcal": 410,
+        "carbs": 65.2
+      },
+      "pred": {
+        "kcal": 415,
+        "carbs": 64,
+        "confidence": "MEDIUM"
+      },
+      "errC": 1.2000000000000028,
+      "errK": 5,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 28,
+      "model": "gemini-3-flash-preview",
+      "input": "I'm enjoying a dinner that consists of 56 grams of boiled banana and 8 grams of fried horse mackerel.",
+      "target": {
+        "kcal": 87,
+        "carbs": 18.96
+      },
+      "pred": {
+        "kcal": 88,
+        "carbs": 16.2,
+        "confidence": "HIGH"
+      },
+      "errC": 2.7600000000000016,
+      "errK": 1,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 29,
+      "model": "gemini-3-flash-preview",
+      "input": "For breakfast, I ate 314 grams of sugary cereal with milk and a 57g thick tortilla that was filled with cheese and sauce.",
+      "target": {
+        "kcal": 503,
+        "carbs": 83.15
+      },
+      "pred": {
+        "kcal": 638,
+        "carbs": 97,
+        "confidence": "MEDIUM"
+      },
+      "errC": 13.849999999999994,
+      "errK": 135,
+      "carbOk": false,
+      "kcalOk": false
+    },
+    {
+      "i": 31,
+      "model": "gemini-3-flash-preview",
+      "input": "I enjoyed 240 grams of acerola juice for dinner, with 90g of frying beef, an 80g salad with lettuce, tomato, and onion, plus 16g of olive oil, 111g of rice and beans, and 24g of sugar.",
+      "target": {
+        "kcal": 661,
+        "carbs": 55.13
+      },
+      "pred": {
+        "kcal": 725,
+        "carbs": 74,
+        "confidence": "HIGH"
+      },
+      "errC": 18.869999999999997,
+      "errK": 64,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 32,
+      "model": "gemini-3-flash-preview",
+      "input": "For lunch, I'm having 140g of various black and multicolored beans, along with 25g of grilled carrots, 360g of roasted chicken breast, 36g of raw cucumber, 60g of a salad with lettuce, tomato, and onion, 19.2g of olive oil, 150g of cooked pumpkin without fats or oils, and 100g of polished rice.",
+      "target": {
+        "kcal": 1038,
+        "carbs": 61.33
+      },
+      "pred": {
+        "kcal": 1138,
+        "carbs": 75.1,
+        "confidence": "HIGH"
+      },
+      "errC": 13.769999999999996,
+      "errK": 100,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 33,
+      "model": "gemini-3-flash-preview",
+      "input": "For dinner, I had 50g of coffee with milk, 30g of roasted mortadella, 5g of sugar, and 150g of sweet potato cooked without fats or oils.",
+      "target": {
+        "kcal": 257,
+        "carbs": 46.11
+      },
+      "pred": {
+        "kcal": 242,
+        "carbs": 33.7,
+        "confidence": "HIGH"
+      },
+      "errC": 12.409999999999997,
+      "errK": 15,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 36,
+      "model": "gemini-3-flash-preview",
+      "input": "I had a snack consisting of 2 grams of dried fish powder (fine), 2 grams of boiled peanuts (without husks), 16 grams of fresh boiled roselle leaves, 13 grams of liquid potassium salt, 1 gram of iodised salt, 63 grams of red sorghum flour, and 1 gram of dry stink beans. I also had 0 grams of stock cubes or granulate (bouillon base).",
+      "target": {
+        "kcal": 242,
+        "carbs": 48.6
+      },
+      "pred": {
+        "kcal": 258,
+        "carbs": 50.4,
+        "confidence": "MEDIUM"
+      },
+      "errC": 1.7999999999999972,
+      "errK": 16,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 37,
+      "model": "gemini-3-flash-preview",
+      "input": "I prepared 342.6g of peas and mushrooms for dinner.",
+      "target": {
+        "kcal": 389,
+        "carbs": 41.2
+      },
+      "pred": {
+        "kcal": 241,
+        "carbs": 32.2,
+        "confidence": "MEDIUM"
+      },
+      "errC": 9,
+      "errK": 148,
+      "carbOk": false,
+      "kcalOk": false
+    },
+    {
+      "i": 38,
+      "model": "gemini-3-flash-preview",
+      "input": "I’ve got a snack with 20g of dulce de leche paired with 180g of navel orange.",
+      "target": {
+        "kcal": 144,
+        "carbs": 31.25
+      },
+      "pred": {
+        "kcal": 157,
+        "carbs": 32.6,
+        "confidence": "HIGH"
+      },
+      "errC": 1.3500000000000014,
+      "errK": 13,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 39,
+      "model": "gemini-3-flash-preview",
+      "input": "For lunch, I'm having 202g of carbonated cola, 34.4g of cooked lime-treated corn flour, 48g of cooked and broiled marinated pork, and 238.1g of raw cucumber salad.",
+      "target": {
+        "kcal": 365,
+        "carbs": 58.9
+      },
+      "pred": {
+        "kcal": 272,
+        "carbs": 38.2,
+        "confidence": "HIGH"
+      },
+      "errC": 20.699999999999996,
+      "errK": 93,
+      "carbOk": false,
+      "kcalOk": false
+    },
+    {
+      "i": 40,
+      "model": "gemini-3-flash-preview",
+      "input": "For my snack, I had 4.7 grams of milk, 174 grams of pomegranate, 219 grams of brewed cinnamon tea, 219 grams of another herbal tea, and 525 grams of water.",
+      "target": {
+        "kcal": 105,
+        "carbs": 20.37
+      },
+      "pred": {
+        "kcal": 152,
+        "carbs": 33.6,
+        "confidence": "HIGH"
+      },
+      "errC": 13.23,
+      "errK": 47,
+      "carbOk": false,
+      "kcalOk": false
+    },
+    {
+      "i": 42,
+      "model": "gemini-3-flash-preview",
+      "input": "For a snack, I'm having 12.5g of plain biscuits, 50g of whole peach compote, 50g of plain crackers, 7.5g of wheat starch, 10g of sugar, and a pinch of vanilla (0.5g).",
+      "target": {
+        "kcal": 343,
+        "carbs": 70.19999999999999
+      },
+      "pred": {
+        "kcal": 359,
+        "carbs": 69.5,
+        "confidence": "HIGH"
+      },
+      "errC": 0.6999999999999886,
+      "errK": 16,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 43,
+      "model": "gemini-3-flash-preview",
+      "input": "I had a refreshing snack with 600 grams of water, 36 grams of orange fruit, 140 grams of ripe papaya, and 266 grams of fresh sugarcane juice.",
+      "target": {
+        "kcal": 232,
+        "carbs": 56.010000000000005
+      },
+      "pred": {
+        "kcal": 292,
+        "carbs": 70,
+        "confidence": "HIGH"
+      },
+      "errC": 13.989999999999995,
+      "errK": 60,
+      "carbOk": false,
+      "kcalOk": false
+    },
+    {
+      "i": 44,
+      "model": "gemini-3-flash-preview",
+      "input": "For my snack, I have 20g of boiled cowpeas, 62g of raw maize flour, and 3g of raw onion. I also included 13g of boiled rape leaves, 12g of boiled ripe tomato, and 41g of fresh whole milk. There's also 16g of brown sugar, 66g of boiled orange sweet potato, and a bit of tea powder at 1g.",
+      "target": {
+        "kcal": 471,
+        "carbs": 99.2
+      },
+      "pred": {
+        "kcal": 400,
+        "carbs": 82.2,
+        "confidence": "HIGH"
+      },
+      "errC": 17,
+      "errK": 71,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 45,
+      "model": "gemini-3-flash-preview",
+      "input": "Right now, I'm enjoying a snack of 30 grams of peanut butter cookies and 30 grams of butter cookies, plus 225 grams of rum and cola to drink.",
+      "target": {
+        "kcal": 481.35,
+        "carbs": 55.19
+      },
+      "pred": {
+        "kcal": 474,
+        "carbs": 54,
+        "confidence": "HIGH"
+      },
+      "errC": 1.1899999999999977,
+      "errK": 7.350000000000023,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 47,
+      "model": "gemini-3-flash-preview",
+      "input": "Lunch today was 60 grams of beef sautéed in 5.1 grams of coconut oil, with 75 grams of boiled rice and 4 grams of sautéed green peas.",
+      "target": {
+        "kcal": 291,
+        "carbs": 23.07
+      },
+      "pred": {
+        "kcal": 241,
+        "carbs": 21.6,
+        "confidence": "HIGH"
+      },
+      "errC": 1.4699999999999989,
+      "errK": 50,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 48,
+      "model": "gemini-3-flash-preview",
+      "input": "I prepared 64 grams of raw kidney beans for lunch, mixed with 1.5 grams of peeled red onion, and seasoned it with 1.2g of iodized salt and 3.5g of vegetable oil.",
+      "target": {
+        "kcal": 106,
+        "carbs": 10
+      },
+      "pred": {
+        "kcal": 245,
+        "carbs": 38.5,
+        "confidence": "HIGH"
+      },
+      "errC": 28.5,
+      "errK": 139,
+      "carbOk": false,
+      "kcalOk": false
+    },
+    {
+      "i": 49,
+      "model": "gemini-3-flash-preview",
+      "input": "For dinner, I'm having 25 grams of kidney beans, 88.3 grams of maize flour, a sprinkle of 2.1 grams of iodized salt, and 1.7 grams of vegetable oil.",
+      "target": {
+        "kcal": 418,
+        "carbs": 82.9
+      },
+      "pred": {
+        "kcal": 410,
+        "carbs": 83,
+        "confidence": "HIGH"
+      },
+      "errC": 0.09999999999999432,
+      "errK": 8,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 50,
+      "model": "gemini-3-flash-preview",
+      "input": "For breakfast, I'm having 7 grams of butter, 32 grams of briny cow cheese, and 10 grams of Milupa infant formula milk. I also have 7 grams of sugar in my tea made from herbs or fruits, along with 117 grams of white bread from Bulgaria. Oh, and I forgot to mention, I've got 62 grams of the traditional Bulgarian white bread to go with it all.",
+      "target": {
+        "kcal": 367,
+        "carbs": 48.9
+      },
+      "pred": {
+        "kcal": 686,
+        "carbs": 101.5,
+        "confidence": "HIGH"
+      },
+      "errC": 52.6,
+      "errK": 319,
+      "carbOk": false,
+      "kcalOk": false
+    },
+    {
+      "i": 51,
+      "model": "gemini-3-flash-preview",
+      "input": "For lunch, I had about 71.9g of fried foods, a 50g pear, 27g of raw potatoes, a 28g serving of Tunisian salad with olive oil, and 200g of baguette bread.",
+      "target": {
+        "kcal": 710,
+        "carbs": 130.11
+      },
+      "pred": {
+        "kcal": 836,
+        "carbs": 135.5,
+        "confidence": "MEDIUM"
+      },
+      "errC": 5.389999999999986,
+      "errK": 126,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 53,
+      "model": "gemini-3-flash-preview",
+      "input": "For a snack, I'm having 18.3g of boiled borlotti beans, 240g of drinking water, and 54.8g of boiled drinking water. I also have 0.2g of epazote, 56.4g of fresh uncured cheese, 0.5g of garlic, 3.6g of white onions, 4.9g of white onions cooked in oil, 0.9g of salt, 18.9g of plain sour cream, 45.0g of fried tortilla, and 16.6g of vegetable fats and oils for frying. Plus, I’m enjoying a refreshing 332.5g of yoghurt drink.",
+      "target": {
+        "kcal": 819,
+        "carbs": 81.80000000000001
+      },
+      "pred": {
+        "kcal": 744,
+        "carbs": 61.2,
+        "confidence": "HIGH"
+      },
+      "errC": 20.60000000000001,
+      "errK": 75,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 54,
+      "model": "gemini-3-flash-preview",
+      "input": "Lunch today consists of 254.6 grams of cola drinks, 85.5 grams of cow meat with half fat, and 69.2 grams of a white tortilla.",
+      "target": {
+        "kcal": 489,
+        "carbs": 60.2
+      },
+      "pred": {
+        "kcal": 510,
+        "carbs": 61.6,
+        "confidence": "MEDIUM"
+      },
+      "errC": 1.3999999999999986,
+      "errK": 21,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 55,
+      "model": "gemini-3-flash-preview",
+      "input": "For lunch, I'm having 28g of boiled chicken, 1.9g of boiled chocolate, and 1.5g of boiled dried vine fruits like raisins. I also have 194g of boiled drinking water and 32.5g of boiled garlic. Additionally, I've got 28g of fresh boiled chicken, 1.9g of boiled chocolate (with some sugar), 1.5g of more boiled dried vine fruits, and 0.4g of boiled garlic. I've added 93.4g of boiled limes, 10.8g of boiled white onions, and a sprinkle of 0.7g of peanuts that I roasted. There are also a few pieces of dried peppers (0.2g, baked) and more dried peppers (0.7g, boiled), alongside another 1.4g of boiled dried peppers. I tossed in 12.9g of boiled plum tomato, a bit of 0.3g of boiled pumpkin seeds, and a pinch of 0.7g of boiled salt. To round it off, I have 1.5g of boiled tortilla made from maize grain, 0.2g of boiled walnuts, 1.5g of boiled white wheat bread, and a teaspoon of 12.6g of white sugar.",
+      "target": {
+        "kcal": 181,
+        "carbs": 29.7
+      },
+      "pred": {
+        "kcal": 293,
+        "carbs": 41.9,
+        "confidence": "HIGH"
+      },
+      "errC": 12.2,
+      "errK": 112,
+      "carbOk": false,
+      "kcalOk": false
+    },
+    {
+      "i": 56,
+      "model": "gemini-3-flash-preview",
+      "input": "I'm enjoying a snack with 19.6 grams of apples, 30.9g of cola-type drink, and 21g of corn chips. I also have 250g of boiling water, 5.8g of maize starch, 4g of milk powder, and 0.8g of sugar from boiling.",
+      "target": {
+        "kcal": 175,
+        "carbs": 25.800000000000004
+      },
+      "pred": {
+        "kcal": 181,
+        "carbs": 25.1,
+        "confidence": "HIGH"
+      },
+      "errC": 0.7000000000000028,
+      "errK": 6,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 57,
+      "model": "gemini-3-flash-preview",
+      "input": "For lunch, I had 8.6g of boiled borlotti beans, 240g of drinking water, and 25.7g of another boiled drinking water. I also included 0.1g of epazote, 0.2g of garlic, and 1.7g of onions, which are all boiled together. I tossed in 33.3g of plain pasta that I boiled, along with 79.1g of potatoes fried in 4.0g of rapeseed oil. I added another 4.0g of rapeseed oil for boiling, seasoned it with 0.8g of salt and an additional 0.3g of salt while boiling as well. To wrap it all up, I enjoyed it with 103.8g of white maize tortillas.",
+      "target": {
+        "kcal": 514,
+        "carbs": 88.2
+      },
+      "pred": {
+        "kcal": 443,
+        "carbs": 75,
+        "confidence": "HIGH"
+      },
+      "errC": 13.200000000000003,
+      "errK": 71,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 58,
+      "model": "gemini-3-flash-preview",
+      "input": "For a snack, I had 110.5 grams of apples, 28.4 grams of brown sugar, and 66.7 grams of boiled chicken. I also had 8.3 grams of boiled carrots and 1000 grams of drinking water. Additionally, I enjoyed 130.9 grams of drinking water, a pinch of garlic weighing 0.9 grams, and 10.7 grams of hard candies. I washed it down with 346.0 grams of orange juice. To round out my snack, I also had 18.3 grams of boiled white onions, 10.8 grams of boiled plum tomato, and 36.0 grams of boiled potatoes. I added a little salt at 0.8 grams to enhance the flavors, and for some variety, I had 138.4 grams of white maize grain tortilla.",
+      "target": {
+        "kcal": 869,
+        "carbs": 164
+      },
+      "pred": {
+        "kcal": 846,
+        "carbs": 161.9,
+        "confidence": "HIGH"
+      },
+      "errC": 2.0999999999999943,
+      "errK": 23,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 59,
+      "model": "gemini-3-flash-preview",
+      "input": "For dinner, I'm enjoying a pasta-based vegetable dish (121.2g) and a plain sponge cake (87g).",
+      "target": {
+        "kcal": 321,
+        "carbs": 59.96
+      },
+      "pred": {
+        "kcal": 422,
+        "carbs": 77.3,
+        "confidence": "MEDIUM"
+      },
+      "errC": 17.339999999999996,
+      "errK": 101,
+      "carbOk": false,
+      "kcalOk": false
+    },
+    {
+      "i": 60,
+      "model": "gemini-3-flash-preview",
+      "input": "Lunch today includes 90g of white rice, 140g of black beans, 110g of fried chicken, and a glass of 200g water.",
+      "target": {
+        "kcal": 495,
+        "carbs": 46.67
+      },
+      "pred": {
+        "kcal": 588,
+        "carbs": 62.8,
+        "confidence": "HIGH"
+      },
+      "errC": 16.129999999999995,
+      "errK": 93,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 61,
+      "model": "gemini-3-flash-preview",
+      "input": "For breakfast, I have 30 grams of hot chocolate powder, 200 grams of milk, and a generous portion of 365.28 grams of flat fried rice noodles.",
+      "target": {
+        "kcal": 941,
+        "carbs": 114.07
+      },
+      "pred": {
+        "kcal": 959,
+        "carbs": 143.2,
+        "confidence": "MEDIUM"
+      },
+      "errC": 29.129999999999995,
+      "errK": 18,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 62,
+      "model": "gemini-3-flash-preview",
+      "input": "For dinner, I had 122.6g of chapatti made with brown rice flour and ghee, along with a 16.9g fruit flavor drink. I also enjoyed 10.2g of split green gram curry and 9g of orange-fleshed melon.",
+      "target": {
+        "kcal": 612,
+        "carbs": 123.4
+      },
+      "pred": {
+        "kcal": 402,
+        "carbs": 71.4,
+        "confidence": "MEDIUM"
+      },
+      "errC": 52,
+      "errK": 210,
+      "carbOk": false,
+      "kcalOk": false
+    },
+    {
+      "i": 63,
+      "model": "gemini-3-flash-preview",
+      "input": "I enjoyed a meal of 213.54g of Chicken with vegetables, 210g of rice, and 79.62g of guava for lunch.",
+      "target": {
+        "kcal": 776,
+        "carbs": 74.96000000000001
+      },
+      "pred": {
+        "kcal": 566,
+        "carbs": 81.2,
+        "confidence": "MEDIUM"
+      },
+      "errC": 6.239999999999995,
+      "errK": 210,
+      "carbOk": true,
+      "kcalOk": false
+    },
+    {
+      "i": 64,
+      "model": "gemini-3-flash-preview",
+      "input": "For lunch, I prepared 155g of maize flour, 7g of boiled onion, and 1g of another boiled onion. I added 28g of boiled rape leaves, 37g of boiled ripe tomato, 14g of boiled dried mintesa fish, and 80g of fried doughnut fritters.",
+      "target": {
+        "kcal": 941,
+        "carbs": 164.9
+      },
+      "pred": {
+        "kcal": 967,
+        "carbs": 158.7,
+        "confidence": "MEDIUM"
+      },
+      "errC": 6.200000000000017,
+      "errK": 26,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 65,
+      "model": "gemini-3-flash-preview",
+      "input": "For lunch, I'm having 127.9 grams of corn porridge with butter and spices, along with 216 grams of boiled whole goat milk.",
+      "target": {
+        "kcal": 331,
+        "carbs": 40.1
+      },
+      "pred": {
+        "kcal": 300,
+        "carbs": 34,
+        "confidence": "MEDIUM"
+      },
+      "errC": 6.100000000000001,
+      "errK": 31,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 66,
+      "model": "gemini-3-flash-preview",
+      "input": "For lunch, I had 24.5 grams of split black gram curry with 120.5 grams of chapatti made from brown rice flour.",
+      "target": {
+        "kcal": 559,
+        "carbs": 112.3
+      },
+      "pred": {
+        "kcal": 328,
+        "carbs": 64.7,
+        "confidence": "MEDIUM"
+      },
+      "errC": 47.599999999999994,
+      "errK": 231,
+      "carbOk": false,
+      "kcalOk": false
+    },
+    {
+      "i": 67,
+      "model": "gemini-3-flash-preview",
+      "input": "I’ve got a breakfast of 7.2g powdered barley and 112.5g tapioca with cheese.",
+      "target": {
+        "kcal": 359,
+        "carbs": 63.19
+      },
+      "pred": {
+        "kcal": 314,
+        "carbs": 51.9,
+        "confidence": "MEDIUM"
+      },
+      "errC": 11.29,
+      "errK": 45,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 68,
+      "model": "gemini-3-flash-preview",
+      "input": "For a snack, I'm having 296g of chayote fruit with broad beans and mature pumpkin in thick cream, along with 17g of sweet orange with sugar, 159.1g of raw sweet orange, 60g of maize-based tortilla, and 85.9g of white rice with crotalaria leaves and shoots.",
+      "target": {
+        "kcal": 631,
+        "carbs": 116.89
+      },
+      "pred": {
+        "kcal": 620,
+        "carbs": 89,
+        "confidence": "MEDIUM"
+      },
+      "errC": 27.89,
+      "errK": 11,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 69,
+      "model": "gemini-3-flash-preview",
+      "input": "I’ve got 55.8 grams of pakorey with a side of 10.4g lemon water for lunch.",
+      "target": {
+        "kcal": 326,
+        "carbs": 19.9
+      },
+      "pred": {
+        "kcal": 160,
+        "carbs": 14,
+        "confidence": "HIGH"
+      },
+      "errC": 5.899999999999999,
+      "errK": 166,
+      "carbOk": true,
+      "kcalOk": false
+    },
+    {
+      "i": 70,
+      "model": "gemini-3-flash-preview",
+      "input": "For lunch, I had 33.1g of boiled eggs, 20.3g of boiled chicken with skin, and some fried chili peppers (0.4g). I also included 1.6g of steamed chives and 1.0g of fried garlic. To add a little more flavor, I tossed in some peanut paste (4.0g), a dollop of palm oil (3.4g), and a generous bowl of porridge (160.0g). I also snuck in 210.7g of roasted pumpkin seeds and a sprinkle of salt (1.6g). For an extra kick, I added some smoked fish (27.6g), a bit of beef stock (0.9g), and some tomato paste (1.2g) along with fried tomatoes (0.4g).",
+      "target": {
+        "kcal": 1361,
+        "carbs": 160.49999999999997
+      },
+      "pred": {
+        "kcal": 1648,
+        "carbs": 54.6,
+        "confidence": "HIGH"
+      },
+      "errC": 105.89999999999998,
+      "errK": 287,
+      "carbOk": false,
+      "kcalOk": false
+    },
+    {
+      "i": 72,
+      "model": "gemini-3-flash-preview",
+      "input": "For a snack, I had 48g of boiled white navy beans, 16g of boiled kidney beans, 16g of boiled groundnut powder, 115g of boiled white maize flour, 13g of boiled large onion, 26g of boiled sweet potato leaves, and 45g of boiled ripe tomato.",
+      "target": {
+        "kcal": 703,
+        "carbs": 127.3
+      },
+      "pred": {
+        "kcal": 307,
+        "carbs": 44.7,
+        "confidence": "HIGH"
+      },
+      "errC": 82.6,
+      "errK": 396,
+      "carbOk": false,
+      "kcalOk": false
+    },
+    {
+      "i": 73,
+      "model": "gemini-3-flash-preview",
+      "input": "For lunch, I'm having 250g of leavened corn and sorghum bread with 108.1g of fried Ethiopian kale with oil, onion, and salt.",
+      "target": {
+        "kcal": 629,
+        "carbs": 107
+      },
+      "pred": {
+        "kcal": 522,
+        "carbs": 88.6,
+        "confidence": "MEDIUM"
+      },
+      "errC": 18.400000000000006,
+      "errK": 107,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 74,
+      "model": "gemini-3-flash-preview",
+      "input": "Tonight’s dinner consists of 22.5g of boiled chicken intestine, 15g of fried chicken meat, and 15g of boiled chicken liver. I’m pairing it with 30g of fried spring roll and 225g of white rice.",
+      "target": {
+        "kcal": 496,
+        "carbs": 75.97999999999999
+      },
+      "pred": {
+        "kcal": 463,
+        "carbs": 70.6,
+        "confidence": "HIGH"
+      },
+      "errC": 5.3799999999999955,
+      "errK": 33,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 75,
+      "model": "gemini-3-flash-preview",
+      "input": "For lunch, I had 82g of boiled white navy beans, 28g of boiled groundnut powder, and 147g of boiled maize flour. I also enjoyed 187g of boiled white maize flour for breakfast, 22g of boiled fresh onion, 47g of boiled sweet potato leaves, 78g of boiled ripe tomato, 48g of ripe banana, 80g of dried groundnuts, and 34g of boiled rat.",
+      "target": {
+        "kcal": 2296,
+        "carbs": 350.29999999999995
+      },
+      "pred": {
+        "kcal": 1170,
+        "carbs": 126,
+        "confidence": "MEDIUM"
+      },
+      "errC": 224.29999999999995,
+      "errK": 1126,
+      "carbOk": false,
+      "kcalOk": false
+    },
+    {
+      "i": 76,
+      "model": "gemini-3-flash-preview",
+      "input": "I prepared 30 grams of cooked beets, 60 grams of dhal curry, 16 grams of broiled fish, and 325 grams of cooked white rice for dinner tonight.",
+      "target": {
+        "kcal": 528,
+        "carbs": 100.5
+      },
+      "pred": {
+        "kcal": 512,
+        "carbs": 103.5,
+        "confidence": "HIGH"
+      },
+      "errC": 3,
+      "errK": 16,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 77,
+      "model": "gemini-3-flash-preview",
+      "input": "For dinner, I have 271g of boiled cassava roots, 3.2g of steamed chives, and 136.8g of boiled French beans. I’m also having 3.4g of boiled onions, 125.7g of red palm oil, and 2.9g of salt. To add flavor, I included 1g of beef stock granules and 26.5g of fried ripe tomatoes along with 7.4g of tomato paste.",
+      "target": {
+        "kcal": 1761,
+        "carbs": 137.4
+      },
+      "pred": {
+        "kcal": 1639,
+        "carbs": 116.9,
+        "confidence": "HIGH"
+      },
+      "errC": 20.5,
+      "errK": 122,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 78,
+      "model": "gemini-3-flash-preview",
+      "input": "I’m having a 91-gram fresh yellow sweet potato without skin for breakfast.",
+      "target": {
+        "kcal": 112,
+        "carbs": 26.3
+      },
+      "pred": {
+        "kcal": 70,
+        "carbs": 16.4,
+        "confidence": "HIGH"
+      },
+      "errC": 9.900000000000002,
+      "errK": 42,
+      "carbOk": false,
+      "kcalOk": false
+    },
+    {
+      "i": 79,
+      "model": "gemini-3-flash-preview",
+      "input": "I'm eating a 55g common banana along with 166g of grilled plantains for lunch.",
+      "target": {
+        "kcal": 279,
+        "carbs": 63.6
+      },
+      "pred": {
+        "kcal": 321,
+        "carbs": 74.8,
+        "confidence": "HIGH"
+      },
+      "errC": 11.199999999999996,
+      "errK": 42,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 80,
+      "model": "gemini-3-flash-preview",
+      "input": "Dinner tonight includes 54g of cooked white rice, 51.5g of red beans, and a grilled pork chop weighing 56.8g.",
+      "target": {
+        "kcal": 268,
+        "carbs": 31.95
+      },
+      "pred": {
+        "kcal": 255,
+        "carbs": 26.9,
+        "confidence": "HIGH"
+      },
+      "errC": 5.050000000000001,
+      "errK": 13,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 81,
+      "model": "gemini-3-flash-preview",
+      "input": "For dinner, I've got 37.1 grams of Cowpea Bhaji, 3 grams of groundnut chutney powder, 20.5 grams of Jowar Roti, and a serving of 32 grams of Red Gram Dhal with 63.9 grams of rice.",
+      "target": {
+        "kcal": 312,
+        "carbs": 44.3
+      },
+      "pred": {
+        "kcal": 236,
+        "carbs": 41.1,
+        "confidence": "HIGH"
+      },
+      "errC": 3.1999999999999957,
+      "errK": 76,
+      "carbOk": true,
+      "kcalOk": false
+    },
+    {
+      "i": 82,
+      "model": "gemini-3-flash-preview",
+      "input": "For lunch, I had 50g of apples, 58.4g of lamb and liver cumin stew cooked with vegetable oil, and 150g of white wheat bread.",
+      "target": {
+        "kcal": 594,
+        "carbs": 87.74
+      },
+      "pred": {
+        "kcal": 558,
+        "carbs": 81.6,
+        "confidence": "MEDIUM"
+      },
+      "errC": 6.140000000000001,
+      "errK": 36,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 83,
+      "model": "gemini-3-flash-preview",
+      "input": "Dinner consisted of 46 grams of Chicken Egg Fried, a 219g McDonald's Big Mac, 114 grams of fries, and 350 grams of Pepsi.",
+      "target": {
+        "kcal": 1213,
+        "carbs": 134.63
+      },
+      "pred": {
+        "kcal": 1136,
+        "carbs": 125.9,
+        "confidence": "HIGH"
+      },
+      "errC": 8.72999999999999,
+      "errK": 77,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 84,
+      "model": "gemini-3-flash-preview",
+      "input": "I prepared a dinner with 14g of goat meat, 22.4g of kale, and 78.1g of maize flour. I seasoned it with 0.7g of Royco, a pinch of salt at 0.1g, and used 4.1g of vegetable oil.",
+      "target": {
+        "kcal": 368,
+        "carbs": 62.1
+      },
+      "pred": {
+        "kcal": 367,
+        "carbs": 62.5,
+        "confidence": "HIGH"
+      },
+      "errC": 0.3999999999999986,
+      "errK": 1,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 85,
+      "model": "gemini-3-flash-preview",
+      "input": "This morning, I ate 118g of banana, 50g of bread, 140g of curds, and 100g of fried fish.",
+      "target": {
+        "kcal": 533,
+        "carbs": 53.7
+      },
+      "pred": {
+        "kcal": 565,
+        "carbs": 68.6,
+        "confidence": "MEDIUM"
+      },
+      "errC": 14.899999999999991,
+      "errK": 32,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 87,
+      "model": "gemini-3-flash-preview",
+      "input": "I have 300 grams of water, a serving of 107.8g spicy rice vermicelli salad, and 15 grams of flavored low-fat yogurt for dinner.",
+      "target": {
+        "kcal": 100,
+        "carbs": 19.160000000000004
+      },
+      "pred": {
+        "kcal": 148,
+        "carbs": 29.2,
+        "confidence": "MEDIUM"
+      },
+      "errC": 10.039999999999996,
+      "errK": 48,
+      "carbOk": false,
+      "kcalOk": false
+    },
+    {
+      "i": 88,
+      "model": "gemini-3-flash-preview",
+      "input": "For dinner, I'm having 79.6g of boiled cassava leaves, 271g of boiled cassava roots, and 1.2g of steamed chives. I also added 38.6g of red palm oil, 365g of hard maize grain porridge, and seasoned it with a little salt (1.2g) and 0.2g of beef stock cube.",
+      "target": {
+        "kcal": 1338,
+        "carbs": 216
+      },
+      "pred": {
+        "kcal": 1136,
+        "carbs": 178,
+        "confidence": "HIGH"
+      },
+      "errC": 38,
+      "errK": 202,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 89,
+      "model": "gemini-3-flash-preview",
+      "input": "I’m enjoying 32.38g of carrots and 542g of instant noodle soup with egg for dinner, along with a coffee that has 2.43g of coffee powder, 10g of sugar, and 7g of non-dairy creamer, plus 200g of tap water.",
+      "target": {
+        "kcal": 579,
+        "carbs": 80.58
+      },
+      "pred": {
+        "kcal": 596,
+        "carbs": 71.7,
+        "confidence": "MEDIUM"
+      },
+      "errC": 8.879999999999995,
+      "errK": 17,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 90,
+      "model": "gemini-3-flash-preview",
+      "input": "I enjoyed a 65g croissant filled with chocolate along with 78g of fresh watermelon for my snack.",
+      "target": {
+        "kcal": 314,
+        "carbs": 40.1
+      },
+      "pred": {
+        "kcal": 304,
+        "carbs": 37.1,
+        "confidence": "HIGH"
+      },
+      "errC": 3,
+      "errK": 10,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 91,
+      "model": "gemini-3-flash-preview",
+      "input": "For my snack, I had some corn chips weighing 13 grams, along with 100 grams of drinking water and 43.4 grams of papayas.",
+      "target": {
+        "kcal": 83,
+        "carbs": 11.6
+      },
+      "pred": {
+        "kcal": 92,
+        "carbs": 12.1,
+        "confidence": "HIGH"
+      },
+      "errC": 0.5,
+      "errK": 9,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 92,
+      "model": "gemini-3-flash-preview",
+      "input": "I'm eating 30g of Cerelac with 190g of water for dinner.",
+      "target": {
+        "kcal": 119,
+        "carbs": 23.26
+      },
+      "pred": {
+        "kcal": 127,
+        "carbs": 20.1,
+        "confidence": "HIGH"
+      },
+      "errC": 3.16,
+      "errK": 8,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 93,
+      "model": "gemini-3-flash-preview",
+      "input": "I’m eating lunch that consists of 3.7 grams of fortified coconut oil, 18.4 grams of dried long jawed anchovy, 150 grams of mung beans, 126 grams of white rice, and 22 grams of fried round scad.",
+      "target": {
+        "kcal": 526,
+        "carbs": 78.07
+      },
+      "pred": {
+        "kcal": 458,
+        "carbs": 63.8,
+        "confidence": "HIGH"
+      },
+      "errC": 14.269999999999996,
+      "errK": 68,
+      "carbOk": false,
+      "kcalOk": true
+    },
+    {
+      "i": 94,
+      "model": "gemini-3-flash-preview",
+      "input": "I’ve got a bowl of 64.6g of Keang Teen Mou, along with 20g of water and 40g of Khao Niew for lunch.",
+      "target": {
+        "kcal": 95,
+        "carbs": 20.86
+      },
+      "pred": {
+        "kcal": 196,
+        "carbs": 17.4,
+        "confidence": "MEDIUM"
+      },
+      "errC": 3.460000000000001,
+      "errK": 101,
+      "carbOk": true,
+      "kcalOk": false
+    },
+    {
+      "i": 95,
+      "model": "gemini-3-flash-preview",
+      "input": "I just grabbed a snack with 57.5g of guava and 29.7g of sugar cane.",
+      "target": {
+        "kcal": 50,
+        "carbs": 12.19
+      },
+      "pred": {
+        "kcal": 61,
+        "carbs": 13.9,
+        "confidence": "HIGH"
+      },
+      "errC": 1.7100000000000009,
+      "errK": 11,
+      "carbOk": true,
+      "kcalOk": false
+    },
+    {
+      "i": 96,
+      "model": "gemini-3-flash-preview",
+      "input": "For my snack, I mixed 46 grams of banana with 224 grams of sour milk and added 18 grams of brown sugar.",
+      "target": {
+        "kcal": 254,
+        "carbs": 38.6
+      },
+      "pred": {
+        "kcal": 253,
+        "carbs": 38.2,
+        "confidence": "HIGH"
+      },
+      "errC": 0.3999999999999986,
+      "errK": 1,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 97,
+      "model": "gemini-3-flash-preview",
+      "input": "Dinner consisted of 53g of corn bread and 40g of Ethiopian kale cooked with some seasoning.",
+      "target": {
+        "kcal": 115,
+        "carbs": 30.5
+      },
+      "pred": {
+        "kcal": 181,
+        "carbs": 26.3,
+        "confidence": "HIGH"
+      },
+      "errC": 4.199999999999999,
+      "errK": 66,
+      "carbOk": true,
+      "kcalOk": false
+    },
+    {
+      "i": 98,
+      "model": "gemini-3-flash-preview",
+      "input": "For breakfast, I had 13.2g of boiled black beans, 13.2g of Borlotti beans, 25.6g of roasted chicken leg seasoned with mixed herbs and spices, 254.6g cola drink, and 39.7g of boiled drinking water. I also added 0.1g of epazote, 0.3g of garlic, 3.5g of white onions, 3.5g of fried white onions, and 0.5g of salt. To complete my meal, I had a 96.0g tortilla made from maize grain and a little 2.6g of vegetable fats and oils for frying.",
+      "target": {
+        "kcal": 450,
+        "carbs": 81.69999999999999
+      },
+      "pred": {
+        "kcal": 431,
+        "carbs": 76.3,
+        "confidence": "HIGH"
+      },
+      "errC": 5.3999999999999915,
+      "errK": 19,
+      "carbOk": true,
+      "kcalOk": true
+    },
+    {
+      "i": 99,
+      "model": "gemini-3-flash-preview",
+      "input": "For dinner, I’m having 33g of canned peeled tomatoes, 0.6g of flour, 175.5g of marrows, and 72g of summer melons. I also have 180g of Belovo mineral water, 5g of sunflower seed oil, and spices like 0.7g of fennel and 0.7g of parsley. I added a pinch of 0.2g of table salt and 30.4g of fresh tomatoes, along with 50g of yogurt with 3.6% fat.",
+      "target": {
+        "kcal": 140,
+        "carbs": 15.8
+      },
+      "pred": {
+        "kcal": 160,
+        "carbs": 17.4,
+        "confidence": "HIGH"
+      },
+      "errC": 1.5999999999999979,
+      "errK": 20,
+      "carbOk": true,
+      "kcalOk": true
+    }
+  ]
+}

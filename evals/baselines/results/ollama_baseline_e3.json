@@ -1,0 +1,130 @@
+{
+  "model": "ollama",
+  "variant": "baseline",
+  "dataset": "e3_consistency",
+  "n_groups": 10,
+  "avg_drift_pct": 0.10991002444673562,
+  "per_base": [
+    {
+      "base": "1 banana",
+      "predKcals": [
+        105,
+        105,
+        116,
+        116
+      ],
+      "mean": 111,
+      "maxDrift": 6,
+      "driftPct": "5.0%"
+    },
+    {
+      "base": "2 eggs scrambled",
+      "predKcals": [
+        178,
+        180,
+        180,
+        199
+      ],
+      "mean": 184,
+      "maxDrift": 15,
+      "driftPct": "8.0%"
+    },
+    {
+      "base": "cup of coffee with milk",
+      "predKcals": [
+        17,
+        40,
+        21,
+        20
+      ],
+      "mean": 25,
+      "maxDrift": 16,
+      "driftPct": "63.3%"
+    },
+    {
+      "base": "oat milk latte",
+      "predKcals": [
+        160,
+        138,
+        162,
+        142
+      ],
+      "mean": 151,
+      "maxDrift": 13,
+      "driftPct": "8.3%"
+    },
+    {
+      "base": "200g chicken breast grilled",
+      "predKcals": [
+        330,
+        330,
+        330,
+        330
+      ],
+      "mean": 330,
+      "maxDrift": 0,
+      "driftPct": "0.0%"
+    },
+    {
+      "base": "medium apple",
+      "predKcals": [
+        95,
+        105,
+        106,
+        95
+      ],
+      "mean": 100,
+      "maxDrift": 6,
+      "driftPct": "5.7%"
+    },
+    {
+      "base": "cheese pizza slice",
+      "predKcals": [
+        293,
+        346,
+        333,
+        346
+      ],
+      "mean": 330,
+      "maxDrift": 37,
+      "driftPct": "11.1%"
+    },
+    {
+      "base": "cup of white rice",
+      "predKcals": [
+        205.4,
+        205,
+        205,
+        205
+      ],
+      "mean": 205,
+      "maxDrift": 0,
+      "driftPct": "0.1%"
+    },
+    {
+      "base": "Big Mac",
+      "predKcals": [
+        550,
+        550,
+        550,
+        550
+      ],
+      "mean": 550,
+      "maxDrift": 0,
+      "driftPct": "0.0%"
+    },
+    {
+      "base": "tall latte",
+      "predKcals": [
+        176,
+        163,
+        150,
+        166
+      ],
+      "mean": 164,
+      "maxDrift": 14,
+      "driftPct": "8.4%"
+    }
+  ],
+  "elapsed_sec": 389
+}
